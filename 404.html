@@ -1,0 +1,25 @@
+---
+---
+
+<article>
+  <h1>Not Found</h1>
+  <p>
+    Oops, that page is not here.
+  </p>
+
+  {% unless site.contents.benchmarks.commit %}
+    <p>
+      Benchmark reviews are currently turned <strong>on</strong>, which means
+      it may take a few moments for new benchmarks to appear on the site after
+      submitting.
+    </p>
+
+    <p>
+      Please try to refresh in a couple of minutes if you have just submitted
+      a benchmark.
+    </p>
+  {% endunless %}
+</article>
+
+<template>
+</template>

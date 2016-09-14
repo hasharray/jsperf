@@ -1,0 +1,12 @@
+---
+---
+
+<ul>
+{% for benchmark in site.benchmarks %}
+  <li>
+    <a href="{{ benchmark.url | prepend: site.baseurl }}">{{ benchmark.title }}</a>
+  </li>
+{% endfor %}
+</ul>
+
+<a href="{{ "/submit" | prepend: site.baseurl }}">Submit</a>

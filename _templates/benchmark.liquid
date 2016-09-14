@@ -1,0 +1,14 @@
+---
+setup: |
+  {{ data.setup | strip | replace:"
+", "
+  " }}
+tests: |{% for test in data.tests %}
+  -
+    name: test.name
+    code: |
+      {{ test.code | strip | replace: "
+", "
+      " }}{% endfor %}
+---
+{{ data.content | strip }}

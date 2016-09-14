@@ -1,0 +1,38 @@
+title: JSPerf
+description: JavaScript Performance Benchmarks
+
+collections:
+  benchmarks:
+    permalink: /:path
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: benchmarks
+    values:
+      layout: benchmark
+
+contents:
+  benchmarks:
+    path: '_benchmarks/:slug.md'
+    template: '_templates/benchmark.liquid'
+    commit: false
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-github-metadata

@@ -1,0 +1,122 @@
+---
+layout: default
+---
+
+<article>
+  <header>
+    <h1>
+      {{ page.title}}
+    </h1>
+    {% if site.github %}
+      <p>
+        <a href="{{ site.github.repository_url }}/tree/master/{{ page.path }}">View on GitHub</a>
+      </p>
+    {% endif %}
+  </header>
+
+  <section>
+    {{ content }}
+  </section>
+
+  <section>
+    <h2 id="setup">Setup</h2>
+    {% highlight javascript %}{{ page.setup }}{% endhighlight %}
+  </section>
+
+  <section>
+    <h2 id="tests">Tests</h2>
+    <ul>
+      {% for test in page.tests %}
+      <li>
+        <h2>{{ test.name }}</h2>
+        {% highlight javascript %}{{ test.code }}{% endhighlight %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</article>
+
+<template id="benchmark">
+  <button onclick="onBenchmark(event)" type="button">Benchmark</button>
+</template>
+
+<template id="report">
+  <section>
+    <h2 id="results">Results</h2>
+    <figure class="plot">
+      <figcaption>
+        <ul></ul>
+      </figcaption>
+
+      <dl></dl>
+      <ol></ol>
+
+      <p>Operations per second (higher is better)</p>
+    </figure>
+  </section>
+</template>
+
+<script type="text/javascript">
+{% include benchmark.js %}
+
+document.querySelector('article').appendChild(
+  document.importNode(document.querySelector('#benchmark').content, true)
+);
+
+function onBenchmark(event) {
+  var button = event.target;
+  var items = Array.from(document.querySelectorAll('#tests + ul li'));
+
+  var setup = document.querySelector('#setup + figure');
+  var tests = items.reduce(function(tests, item) {
+    var compile = new Function([
+      setup.textContent,
+      'return function() {',
+      item.querySelector('figure').textContent,
+      '}',
+    ].join('\n'));
+
+    tests[item.querySelector('h2').textContent] = compile();
+
+    return tests;
+  }, {});
+
+  button.disabled = true;
+  Benchmark.compare(tests, 10, 1000, function(results) {
+    if (document.querySelector('#results')) {
+      document.querySelector('#results').parentElement.parentElement.removeChild(
+        document.querySelector('#results').parentElement
+      );
+    }
+
+    document.querySelector('#tests').parentElement.parentElement.insertBefore(
+      document.importNode(document.querySelector('#report').content, true),
+      document.querySelector('#tests').parentElement.nextSibling
+    );
+
+    button.disabled = false;
+
+    var max = Math.max.apply(null, Object.keys(results).map(function(name) {
+      return results[name].mean;
+    }));
+
+    Object.keys(results).forEach(function(name) {
+      var result = results[name];
+
+      var li = document.createElement('li');
+      li.innerHTML = '<span>' + name + '</span>';
+      document.querySelector('#results + figure ul').appendChild(li);
+
+      var dd = document.createElement('dd');
+      dd.innerHTML = [
+        '<span>',
+        result.mean,
+        '</span>',
+      ].join('\n');
+
+      dd.setAttribute('style', 'width: ' + (result.mean / max) * 100 + '%;');
+      document.querySelector('#results + figure dl').appendChild(dd);
+    });
+  });
+}
+</script>

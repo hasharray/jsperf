@@ -1,0 +1,13 @@
+<head>
+  <style type="text/css">
+    {% capture style %}
+      @import 'base';
+      @import "graph";
+      @import "syntax";
+    {% endcapture %}
+
+    {{ style | scssify | strip_newlines }}
+  </style>
+
+  {{ seo }}
+</head>
