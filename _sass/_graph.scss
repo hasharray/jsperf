@@ -16,7 +16,6 @@
   }
 
   dl {
-    overflow: hidden;
     position: relative;
 
     &:after {
@@ -48,9 +47,27 @@
     position: relative;
     margin: 0;
 
-
     span {
-      color: #fff;
+      position: absolute;
+      width:140px;
+      background: #f8f8f8;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      visibility: hidden;
+      border-radius: 5px;
+      border: 1px solid #e5e5e5;
+    }
+
+    &:hover {
+      span {
+        visibility: visible;
+        opacity: 0.8;
+        bottom: 30px;
+        left: 50%;
+        margin-left: -76px;
+        z-index: 1;
+      }
     }
   }
 
