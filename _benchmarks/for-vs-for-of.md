@@ -2,13 +2,13 @@
 setup: |
   var count = 1000 * 1000
   var data = [];
-  
+
   do {
     data.push(count);
   } while(--count);
-tests: |
+tests:
   -
-    name: test.name
+    name: For
     code: |
       var length = data.length;
       for (var index = 0; index < length; index++) {
@@ -16,10 +16,9 @@ tests: |
         obj == obj;
       }
   -
-    name: test.name
+    name: For Of
     code: |
       for (var obj of data) {
         obj == obj;
       }
 ---
-
