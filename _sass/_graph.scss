@@ -15,9 +15,39 @@
     color: #008080;
   }
 
+  dl {
+    overflow: hidden;
+    position: relative;
+
+    &:after {
+      display: block;
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+
+      background: repeating-linear-gradient(
+        to right,
+        #e5e5e5,
+        #e5e5e5 1px,
+        #fff 1px,
+        #fff 10%
+      );
+
+      border-left: 1px solid #e5e5e5;
+      border-right: 1px solid#e5e5e5;
+    }
+  }
+
   dd {
     height: 30px;
     text-align: center;
+    position: relative;
+    margin: 0;
+
 
     span {
       color: #fff;
