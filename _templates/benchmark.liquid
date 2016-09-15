@@ -3,9 +3,9 @@ setup: |
   {{ data.setup | strip | replace:"
 ", "
   " }}
-tests: |{% for test in data.tests %}
+tests:{% for test in data.tests %}
   -
-    name: test.name
+    name: {{ test.name }}
     code: |
       {{ test.code | strip | replace: "
 ", "
