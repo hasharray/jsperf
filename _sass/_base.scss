@@ -154,3 +154,10 @@ button[disabled] {
   0%    { transform: rotate(0deg); }
   100%  { transform: rotate(360deg); }
 }
+
+aside {
+  margin-top: 2em;
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+}
