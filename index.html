@@ -4,7 +4,7 @@ redirect_from:
 ---
 
 <form method="post" action="http://api.postbot.pw/contents/hasharray/jsperf/benchmarks">
-  <input type="hidden" name="redirect" value="{{ site.url }}" />
+  <input type="hidden" name="redirect_uri" value="{{ site.url | default: site.github.url }}" />
   <section>
     <h2 id="submit">Create Benchmark</h2>
     <p>
