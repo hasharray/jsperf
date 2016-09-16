@@ -131,7 +131,9 @@ if (localStorage.getItem('item-count')) {
 Array.from(
   document.querySelectorAll('input, textarea')
 ).forEach(function(element) {
-  element.value = localStorage.getItem(element.id);
+  if (localStorage.getItem(element.id)) {
+    element.value = localStorage.getItem(element.id);
+  }
 });
 
 function onInput(event) {
