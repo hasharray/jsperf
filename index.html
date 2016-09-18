@@ -30,7 +30,7 @@
           <label>Setup</label>
         </dt>
         <dd>
-          <textarea id="setup" id="code" name="data[setup]" rows="5"></textarea>
+          <textarea oninput="onCodeInput(event)" id="setup" id="code" name="data[setup]" rows="5"></textarea>
         </dd>
       </dl>
     </section>
@@ -54,7 +54,7 @@
                 <label>Code</label>
               </dt>
               <dd>
-                <textarea name="data[tests][{{ number }}][code]" rows="5" required></textarea>
+                <textarea oninput="onCodeInput(event)" name="data[tests][{{ number }}][code]" rows="5" required></textarea>
               </dd>
             </dl>
           </li>
@@ -100,7 +100,7 @@
           <label>Code</label>
         </dt>
         <dd>
-          <textarea name="data[tests][0][code]" rows="5" required></textarea>
+          <textarea oninput="onCodeInput(event)" name="data[tests][0][code]" rows="5" required></textarea>
         </dd>
       </dl>
     </li>
@@ -179,6 +179,23 @@
           element.name = element.name.replace(/\d/, index);
         });
       });
+    }
+
+    function onCodeInput(event) {
+      var element = event.target;
+
+      var code = setup.value;
+      if (element !== setup) {
+        code = setup.value + '\n' + element.value;
+      }
+
+      var validate = new Function(code);
+      try {
+        validate();
+        element.setCustomValidity('');
+      } catch(error) {
+        element.setCustomValidity(error);
+      }
     }
 
     function onInput(event) {
