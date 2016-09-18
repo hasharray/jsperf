@@ -3,8 +3,8 @@
 
 <template>
   <form oninput="onInput(event)" onsubmit="onSubmit(event)" method="post" action="http://api.postbot.pw/contents/hasharray/jsperf/benchmarks">
-    <input type="hidden" name="redirect_uri" value="{{ site.url | default: site.github.url }}" />
-    <input type="hidden" name="data[slug]" required/>
+    <input id="redirect" type="hidden" name="redirect_uri" value="{{ site.url | default: site.github.url }}" />
+    <input id="slug" type="hidden" name="data[slug]" required/>
 
     <section>
       <p>
