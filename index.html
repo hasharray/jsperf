@@ -4,24 +4,20 @@
 <template>
   <form oninput="onInput(event)" onsubmit="onSubmit(event)" method="post" action="http://api.postbot.pw/contents/hasharray/jsperf/benchmarks">
     <input type="hidden" name="redirect_uri" value="{{ site.url | default: site.github.url }}" />
+    <input type="hidden" name="data[slug]" required/>
 
     <section>
-      <h2 id="submit">Create Benchmark</h2>
-      <dl>
-        <dt>
-          <label>Slug</label>
-        </dt>
-        <dd>
-          <input id="slug" name="data[slug]" required readonly/>
-        </dd>
-      </dl>
+      <p>
+        Submit a new benchmark to measure and compare the relative performance
+        difference between different snippets of JavaScript code.
+      </p>
 
       <dl>
         <dt>
-          <label>Content</label>
+          <label>Description</label>
         </dt>
         <dd>
-          <textarea id="content" id="content" name="data[content]" rows="5"></textarea>
+          <textarea id="content" id="content" name="data[content]" rows="5" placeholder="Describe the benchmark with a few words"></textarea>
         </dd>
       </dl>
 
@@ -30,7 +26,7 @@
           <label>Setup</label>
         </dt>
         <dd>
-          <textarea oninput="onCodeInput(event)" id="setup" id="code" name="data[setup]" rows="5"></textarea>
+          <textarea oninput="onCodeInput(event)" id="setup" id="code" name="data[setup]" rows="5" placeholder="Define the variables and functions that need to be available to the code in the test cases below"></textarea>
         </dd>
       </dl>
     </section>
@@ -45,7 +41,7 @@
                 <label>Name</label>
               </dt>
               <dd>
-                <input name="data[tests][{{ number }}][name]" required/>
+                <input name="data[tests][{{ number }}][name]" required placeholder="Write a name for the test case"/>
               </dd>
             </dl>
 
@@ -54,7 +50,7 @@
                 <label>Code</label>
               </dt>
               <dd>
-                <textarea oninput="onCodeInput(event)" name="data[tests][{{ number }}][code]" rows="5" required></textarea>
+                <textarea oninput="onCodeInput(event)" name="data[tests][{{ number }}][code]" rows="5" required placeholder="Write the code for the test case"></textarea>
               </dd>
             </dl>
           </li>
@@ -69,18 +65,6 @@
     <section id="actions">
       <button type="submit">Submit</button>
     </section>
-
-    <footer>
-      {% unless site.contents.benchmarks.commit %}
-      <p>
-        <small>
-            Benchmark reviews are currently turned <strong>on</strong>.
-            It may take a few moments for new benchmarks to appear on the site
-            after submission.
-          </small>
-        </p>
-      {% endunless %}
-    </footer>
   </form>
 
   <template id="item">
@@ -91,7 +75,10 @@
           <label>Name</label>
         </dt>
         <dd>
-          <input name="data[tests][0][name]" required/>
+          <small></small>
+        </dd>
+        <dd>
+          <input name="data[tests][0][name]" required placeholder="Write a name for the test case"/>
         </dd>
       </dl>
 
@@ -100,7 +87,7 @@
           <label>Code</label>
         </dt>
         <dd>
-          <textarea oninput="onCodeInput(event)" name="data[tests][0][code]" rows="5" required></textarea>
+          <textarea oninput="onCodeInput(event)" name="data[tests][0][code]" rows="5" required placeholder="Write the code for the test case"></textarea>
         </dd>
       </dl>
     </li>
