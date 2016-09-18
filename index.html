@@ -2,7 +2,7 @@
 ---
 
 <template>
-  <form method="post" action="http://api.postbot.pw/contents/hasharray/jsperf/benchmarks">
+  <form oninput="onInput(event)" onsubmit="onSubmit(event)" method="post" action="http://api.postbot.pw/contents/hasharray/jsperf/benchmarks">
     <input type="hidden" name="redirect_uri" value="{{ site.url | default: site.github.url }}" />
 
     <section>
@@ -12,7 +12,7 @@
           <label>Slug</label>
         </dt>
         <dd>
-          <input oninput="onInput(event)" id="slug" name="data[slug]" required readonly/>
+          <input id="slug" name="data[slug]" required readonly/>
         </dd>
       </dl>
 
@@ -21,7 +21,7 @@
           <label>Content</label>
         </dt>
         <dd>
-          <textarea oninput="onInput(event)" id="content" id="content" name="data[content]" rows="5"></textarea>
+          <textarea id="content" id="content" name="data[content]" rows="5"></textarea>
         </dd>
       </dl>
 
@@ -30,7 +30,7 @@
           <label>Setup</label>
         </dt>
         <dd>
-          <textarea oninput="onInput(event)" id="setup" id="code" name="data[setup]" rows="5"></textarea>
+          <textarea id="setup" id="code" name="data[setup]" rows="5"></textarea>
         </dd>
       </dl>
     </section>
@@ -38,28 +38,30 @@
     <section>
       <h2 id="tests">Tests</h2>
       <ol>
-        <li id="1">
-          <dl>
-            <dt>
-              <label>Name</label>
-            </dt>
-            <dd>
-              <input oninput="onInput(event)" id="test-name" name="data[tests][][name]"/>
-            </dd>
-          </dl>
+        {% for number in (0...1) %}
+          <li>
+            <dl>
+              <dt>
+                <label>Name</label>
+              </dt>
+              <dd>
+                <input name="data[tests][{{ number }}][name]"/>
+              </dd>
+            </dl>
 
-          <dl>
-            <dt>
-              <label>Code</label>
-            </dt>
-            <dd>
-              <textarea oninput="onInput(event)" id="test-code" name="data[tests][][code]" rows="5"></textarea>
-            </dd>
-          </dl>
-        </li>
+            <dl>
+              <dt>
+                <label>Code</label>
+              </dt>
+              <dd>
+                <textarea name="data[tests][{{ number }}][code]" rows="5"></textarea>
+              </dd>
+            </dl>
+          </li>
+        {% endfor %}
 
         <li>
-          <button onclick="onInsert(event)" type="button">Insert</button>
+          <button onclick="onInsertClick(event)" type="button">Insert</button>
         </li>
       </ol>
     </section>
@@ -83,13 +85,13 @@
 
   <template id="item">
     <li>
-      <button onclick="onRemove(event)" type="button">Remove</button>
+      <button onclick="onRemoveClick(event)" type="button">Remove</button>
       <dl>
         <dt>
           <label>Name</label>
         </dt>
         <dd>
-          <input oninput="onInputName(event)" name="data[tests][][name]" required/>
+          <input name="data[tests][0][name]" required/>
         </dd>
       </dl>
 
@@ -98,105 +100,124 @@
           <label>Code</label>
         </dt>
         <dd>
-          <textarea oninput="onInputCode(event)" name="data[tests][][code]" required rows="5"></textarea>
+          <textarea name="data[tests][0][code]" required rows="5"></textarea>
         </dd>
       </dl>
     </li>
   </template>
 
   <script type="text/javascript">
-    if (localStorage.getItem('item-count')) {
-      var count = localStorage.getItem('item-count');
-      for (var index = 1; index < count; index++) {
-        onInsert(null);
-      }
+    var data = {};
+    if (localStorage.getItem('form')) {
+      data = JSON.parse(localStorage.getItem('form'));
     }
 
-    Array.from(
-      document.querySelectorAll('input, textarea')
-    ).forEach(function(element) {
-      if (localStorage.getItem(element.id)) {
-        element.value = localStorage.getItem(element.id);
+    Object.keys(data).forEach(function(name) {
+      var element = document.querySelector('[name="' + name + '"]');
+      if (element == null) {
+        var template = document.querySelector('#item');
+        var container = document.querySelector('#tests + ol');
+
+        var clone = document.importNode(template.content, true);
+        container.insertBefore(clone, container.lastElementChild);
+
+        var children = Array.from(container.children);
+        children.forEach(function(child, index) {
+          var elements = child.querySelectorAll('[name]');
+
+          elements.forEach(function(element) {
+            element.name = element.name.replace(/\d/, index);
+          });
+        });
+
+        element = document.querySelector('[name="' + name + '"]');
       }
+
+      element.value = data[name];
     });
 
-    function onInput(event) {
-      var element = event.target;
-      localStorage.setItem(element.id, element.value);
-    }
+    function onInsertClick(event) {
+      var template = document.querySelector('#item');
+      var element = event.target.parentElement;
+      var container = element.parentElement;
 
-    function onInputName(event) {
-      var element = event.target;
-      element.value = element.value.replace('.prototype', '#');
+      var clone = document.importNode(template.content, true);
+      container.insertBefore(clone, container.lastElementChild);
 
-      var slug = Array.from(
-        document.querySelectorAll('li input[name*=name]')
-      ).map(function(element) {
-        return element.value;
-      }).join('-vs-');
+      var children = Array.from(container.children);
+      children.forEach(function(child, index) {
+        var elements = child.querySelectorAll('[name]');
 
-      document.querySelector('input[name*=slug]').value = slug.toLowerCase()
-        .replace(/\s+/g, '-')
-        .replace(/[^\w\-]+/g, '')
-        .replace(/\-\-+/g, '-')
-        .replace(/^-+/, '')
-        .replace(/-+$/, '');;
-
-      onInput(event);
-    }
-
-    function onInputCode(event) {
-      onInput(event);
-    }
-
-    function onUpdate(event) {
-      var count = Array.from(
-        document.querySelectorAll('li')
-      ).filter(function(item) {
-        return item.querySelector('input');
-      }).length;
-
-      localStorage.setItem('item-count', count);
-
-      Array.from(
-        document.querySelectorAll('li')
-      ).forEach(function(item, index) {
-        item.id = (index + 1);
-
-        var input = item.querySelector('input');
-        if (input) {
-          input.id = 'item-name-' + (index + 1);
-          if (input.value) {
-            localStorage.setItem(input.id, input.value);
-          }
-        }
-
-        var textarea = item.querySelector('textarea');
-        if (textarea) {
-          textarea.id = 'item-code-' + (index + 1);
-          if (textarea.value) {
-            localStorage.setItem(textarea.id, textarea.value);
-          }
-        }
+        elements.forEach(function(element) {
+          element.name = element.name.replace(/\d/, index);
+        });
       });
     }
 
-    function onInsert(event) {
-      document.querySelector('#tests + ol').insertBefore(
-        document.importNode(document.querySelector('#item').content, true),
-        document.querySelector('#tests + ol').lastElementChild
-      );
+    function onRemoveClick(event) {
+      var element = event.target.parentElement;
+      var container = element.parentElement;
 
-      onUpdate(event);
+      container.removeChild(element);
+
+      if (localStorage.getItem('form')) {
+        var data = JSON.parse(localStorage.getItem('form'));
+        var elements = Array.from(element.querySelectorAll('[name]'));
+
+        elements.forEach(function(element) {
+          delete data[element.name];
+        });
+
+        localStorage.setItem('form', JSON.stringify(data));
+      }
+
+      var children = Array.from(container.children);
+      children.forEach(function(child, index) {
+        var elements = child.querySelectorAll('[name]');
+
+        elements.forEach(function(element) {
+          element.name = element.name.replace(/\d/, index);
+        });
+      });
     }
 
-    function onRemove(event) {
-      var item = event.target.parentElement;
-      var list = item.parentElement;
+    function onInput(event) {
+      var element = event.target;
 
-      list.removeChild(item);
+      var data = {};
+      if (localStorage.getItem('form')) {
+        data = JSON.parse(localStorage.getItem('form'));
+      }
 
-      onUpdate(event);
+      if (/name/.test(element.name)) {
+        var elements = Array.from(document.querySelectorAll('[name*=name]'));
+        slug.value = elements.map(function(element) {
+          return element.value;
+        }).join('-vs-')
+          .toLowerCase()
+          .replace(/\s+/g, '-')
+          .replace(/[^\w\-]+/g, '')
+          .replace(/\-\-+/g, '-')
+          .replace(/^-+/, '')
+          .replace(/-+$/, '');
+
+          data[slug.name] = slug.value;
+      }
+
+      data[element.name] = element.value;
+      localStorage.setItem('form', JSON.stringify(data));
+    }
+
+    function onSubmit(event) {
+      localStorage.removeItem('form');
+
+      var redirect = document.querySelector('[name="redirect_uri"]');
+      redirect.value = location.href + slug.value;
+
+      var elements = Array.from(document.querySelectorAll('[name]'));
+      elements.forEach(function(element) {
+        element.name = element.name.replace(/\d/, '');
+      });
     }
   </script>
 
