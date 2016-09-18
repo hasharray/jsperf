@@ -218,6 +218,21 @@
       elements.forEach(function(element) {
         element.name = element.name.replace(/\d/, '');
       });
+
+      var tests = Array.from(document.querySelectorAll('ol li')).filter(function(element) {
+        return element.querySelector('textarea');
+      });
+
+      localStorage.setItem(slug.value, JSON.stringify({
+        setup: setup.value,
+        content: content.value,
+        tests: tests.map(function(element) {
+          return {
+            name: element.querySelector('input').value,
+            code: element.querySelector('textarea').value,
+          };
+        }).filter(Boolean),
+      }));
     }
   </script>
 
