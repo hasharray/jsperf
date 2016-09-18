@@ -45,7 +45,7 @@
                 <label>Name</label>
               </dt>
               <dd>
-                <input name="data[tests][{{ number }}][name]"/>
+                <input name="data[tests][{{ number }}][name]" required/>
               </dd>
             </dl>
 
@@ -54,7 +54,7 @@
                 <label>Code</label>
               </dt>
               <dd>
-                <textarea name="data[tests][{{ number }}][code]" rows="5"></textarea>
+                <textarea name="data[tests][{{ number }}][code]" rows="5" required></textarea>
               </dd>
             </dl>
           </li>
@@ -100,7 +100,7 @@
           <label>Code</label>
         </dt>
         <dd>
-          <textarea name="data[tests][0][code]" required rows="5"></textarea>
+          <textarea name="data[tests][0][code]" rows="5" required></textarea>
         </dd>
       </dl>
     </li>
