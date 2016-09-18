@@ -16,7 +16,7 @@ tests:
         obj == obj;
       }
   -
-    name: For Of
+    name: For-Of
     code: |
       for (var obj of data) {
         obj == obj;
