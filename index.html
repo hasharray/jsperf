@@ -5,35 +5,55 @@
   <input type="hidden" name="redirect_uri" value="{{ site.url | default: site.github.url }}" />
   <section>
     <h2 id="submit">Create Benchmark</h2>
-    <p>
-      <label>Slug</label>
-      <input oninput="onInput(event)" id="slug" name="data[slug]" required/>
-    </p>
+    <dl>
+      <dt>
+        <label>Slug</label>
+      </dt>
+      <dd>
+        <input oninput="onInput(event)" id="slug" name="data[slug]" required/>
+      </dd>
+    </dl>
 
-    <p>
-      <label>Content</label>
-      <textarea oninput="onInput(event)" id="content" id="content" name="data[content]" rows="5"></textarea>
-    </p>
+    <dl>
+      <dt>
+        <label>Content</label>
+      </dt>
+      <dd>
+        <textarea oninput="onInput(event)" id="content" id="content" name="data[content]" rows="5"></textarea>
+      </dd>
+    </dl>
 
-    <p>
-      <label>Setup</label>
-      <textarea oninput="onInput(event)" id="setup" id="code" name="data[setup]" rows="5"></textarea>
-    </p>
+    <dl>
+      <dt>
+        <label>Setup</label>
+      </dt>
+      <dd>
+        <textarea oninput="onInput(event)" id="setup" id="code" name="data[setup]" rows="5"></textarea>
+      </dd>
+    </dl>
   </section>
 
   <section>
     <h2 id="tests">Tests</h2>
     <ol>
       <li id="1">
-        <p>
-          <label>Name</label>
-          <input oninput="onInput(event)" id="test-name" name="data[tests][][name]"/>
-        </p>
+        <dl>
+          <dt>
+            <label>Name</label>
+          </dt>
+          <dd>
+            <input oninput="onInput(event)" id="test-name" name="data[tests][][name]"/>
+          </dd>
+        </dl>
 
-        <p>
-          <label>Code</label>
-          <textarea oninput="onInput(event)" id="test-code" name="data[tests][][code]" rows="5"></textarea>
-        </p>
+        <dl>
+          <dt>
+            <label>Code</label>
+          </dt>
+          <dd>
+            <textarea oninput="onInput(event)" id="test-code" name="data[tests][][code]" rows="5"></textarea>
+          </dd>
+        </dl>
       </li>
     </ol>
   </section>
@@ -69,15 +89,23 @@
 <template id="item">
   <li>
     <button onclick="onRemove(event)" type="button">Remove</button>
-    <p>
-      <label>Name</label>
-      <input oninput="onInputName(event)" name="data[tests][][name]" required/>
-    </p>
+    <dl>
+      <dt>
+        <label>Name</label>
+      </dt>
+      <dd>
+        <input oninput="onInputName(event)" name="data[tests][][name]" required/>
+      </dd>
+    </dl>
 
-    <p>
-      <label>Code</label>
-      <textarea oninput="onInputCode(event)" name="data[tests][][code]" required rows="5"></textarea>
-    </p>
+    <dl>
+      <dt>
+        <label>Code</label>
+      </dt>
+      <dd>
+        <textarea oninput="onInputCode(event)" name="data[tests][][code]" required rows="5"></textarea>
+      </dd>
+    </dl>
   </li>
 </template>
 
