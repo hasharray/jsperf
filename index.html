@@ -278,6 +278,7 @@
         }).join(' vs ')
           .replace(/[^[:alnum:]._~!$&'()+,;=@]+/, '-')
           .replace(/%r!^\-|\-$!i/, '')
+          .replace(/\s/, '-')
           .toLowerCase();
 
           data[slug.name] = slug.value;
