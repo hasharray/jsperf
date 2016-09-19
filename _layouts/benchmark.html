@@ -65,24 +65,25 @@ document.querySelector('article').appendChild(
 
 function onBenchmark(event) {
   var button = event.target;
-  var items = Array.from(document.querySelectorAll('#tests + ul li'));
 
-  var setup = document.querySelector('#setup + figure');
-  var tests = items.reduce(function(tests, item) {
+  var setup = {{ page.setup | jsonify }};
+  var tests = {{ page.tests | jsonify }};
+
+  var benchmarks = tests.reduce(function(tests, test) {
     var compile = new Function([
-      setup.textContent,
+      setup,
       'return function() {',
-      item.querySelector('figure').textContent,
+      test.code,
       '}',
     ].join('\n'));
 
-    tests[item.querySelector('h2').textContent] = compile();
+    tests[test.name] = compile();
 
     return tests;
   }, {});
 
   button.disabled = true;
-  Benchmark.compare(tests, 10, 1000, function(results) {
+  Benchmark.compare(benchmarks, 10, 1000, function(results) {
     if (document.querySelector('#results')) {
       document.querySelector('#results').parentElement.parentElement.removeChild(
         document.querySelector('#results').parentElement
