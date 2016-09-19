@@ -1,6 +1,84 @@
 ---
 ---
 
+<form method="post" action="http://api.postbot.pw/contents/hasharray/jsperf/benchmarks">
+  <section>
+    <p>
+      Submit a new benchmark to measure and compare the relative performance
+      difference between different snippets of JavaScript code.
+    </p>
+
+    <dl>
+      <dt>
+        <label>Slug</label>
+      </dt>
+      <dd>
+        <input name="data[slug]" required/>
+      </dd>
+    </dl>
+
+    <dl>
+      <dt>
+        <label>Description</label>
+      </dt>
+      <dd>
+        <textarea name="data[content]" rows="5" placeholder="Describe the benchmark with a few words"></textarea>
+      </dd>
+    </dl>
+
+    <dl>
+      <dt>
+        <label>Setup</label>
+      </dt>
+      <dd>
+        <textarea name="data[setup]" rows="5" placeholder="Define the variables and functions that need to be available to the code in the test cases below"></textarea>
+      </dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2 id="tests">Tests</h2>
+    <ol>
+      {% for number in (0...1) %}
+        <li>
+          <dl>
+            <dt>
+              <label>Name</label>
+            </dt>
+            <dd>
+              <input name="data[tests][][name]" required placeholder="Write a name for the test case"/>
+            </dd>
+          </dl>
+
+          <dl>
+            <dt>
+              <label>Code</label>
+            </dt>
+            <dd>
+              <textarea name="data[tests][][code]" rows="5" required placeholder="Write the code for the test case"></textarea>
+            </dd>
+          </dl>
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <section id="actions">
+    <button type="submit">Submit</button>
+  </section>
+</form>
+
+<section>
+  <h2>Recent Submissions</h2>
+  <ul>
+    {% for benchmark in site.benchmarks %}
+      <li>
+        <a href="{{ benchmark.url | prepend: site.baseurl }}">{{ benchmark.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
 <template>
   <form oninput="onInput(event)" onsubmit="onSubmit(event)" method="post" action="http://api.postbot.pw/contents/hasharray/jsperf/benchmarks">
     <input id="redirect" type="hidden" name="redirect_uri" value="{{ site.url | default: site.github.url }}" />
@@ -239,21 +317,11 @@
       }));
     }
   </script>
-
-  <section>
-    <h2>Recent Submissions</h2>
-    <ul>
-      {% for benchmark in site.benchmarks %}
-        <li>
-          <a href="{{ benchmark.url | prepend: site.baseurl }}">{{ benchmark.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
 </template>
 
 <script type="text/javascript">
-document.querySelector('main').appendChild(
-  document.importNode(document.querySelector('template').content, true)
-);
+  document.querySelector('form').parentElement.replaceChild(
+    document.importNode(document.querySelector('template').content, true),
+    document.querySelector('form')
+  );
 </script>
