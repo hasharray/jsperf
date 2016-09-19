@@ -45,7 +45,11 @@ layout: default
     <h2 id="results">Results</h2>
     <figure class="plot">
       <figcaption>
-        <ul></ul>
+        <ul>
+          {% for test in page.tests %}
+            <li>{{ test.name }}</li>
+          {% endfor %}
+        </ul>
       </figcaption>
 
       <dl></dl>
@@ -103,10 +107,6 @@ function onBenchmark(event) {
 
     Object.keys(results).forEach(function(name) {
       var result = results[name];
-
-      var li = document.createElement('li');
-      li.innerHTML = '<span>' + name + '</span>';
-      document.querySelector('#results + figure ul').appendChild(li);
 
       var dd = document.createElement('dd');
       dd.innerHTML = [
