@@ -1,6 +1,7 @@
 ---
+title: RegExp.prototype.exec vs RegExp.prototype.test
 setup: |
-  
+
 tests:
   -
     name: RegExp.prototype.exec
