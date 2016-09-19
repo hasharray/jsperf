@@ -12,4 +12,3 @@ tests:
     code: |
       /o/.test('Hello World')
 ---
-

@@ -1,4 +1,5 @@
 ---
+title: Array.prototype.map vs Array.prototype.forEach
 setup: |
   var count = 1000 * 1000
   var data = [];
