@@ -31,7 +31,7 @@ contents:
   benchmarks:
     path: '_benchmarks/:slug.md'
     template: '_templates/benchmark.liquid'
-    commit: false
+    commit: true
 
 gems:
   - jekyll-seo-tag
