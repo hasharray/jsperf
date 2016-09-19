@@ -6,157 +6,36 @@
   <p>
     Oops, that page is not here.
   </p>
-
-  {% unless site.contents.benchmarks.commit %}
-    <p>
-      Benchmark reviews are currently turned <strong>on</strong>, which means
-      it may take a few moments for new benchmarks to appear on the site after
-      submitting.
-    </p>
-
-    <p>
-      Please try to refresh in a couple of minutes if you have just submitted
-      a benchmark.
-    </p>
-  {% endunless %}
 </article>
 
 <template>
   <article>
-    <section>
-      <h2 id="setup">Setup</h2>
-      <figure>
-        <pre><code></code></pre>
-      </figure>
-    </section>
-
-    <section>
-      <h2 id="tests">Tests</h2>
-      <ul>
-      </ul>
-
-      <button onclick="onBenchmarkClick(event)" type="button">Benchmark</button>
-    </section>
-
-    <section>
-      <h2 id="note">Note</h2>
-      <blockquote>
-        This benchmark is currently under <a href="https://github.com/hasharray/jsperf/pulls">review</a>
-        and can only be seen by you until the time comes that it has been approved.
-      </blockquote>
-    </section>
-
-    <section>
-    </section>
+    <h1>Please Wait</h1>
+    <p>Your benchmark is being processed and will be available soon.</p>
   </article>
 
-  <template id="report">
-    <section>
-      <h2 id="results">Results</h2>
-      <figure class="plot">
-        <figcaption>
-          <ul></ul>
-        </figcaption>
-
-        <dl></dl>
-        <ol></ol>
-
-        <p>Operations per second (higher is better)</p>
-      </figure>
-    </section>
-  </template>
-
   <script type="text/javascript">
-    {% include benchmark.js %}
+    setTimeout(function check() {
+      var xhr = new XMLHttpRequest();
 
-    var page = JSON.parse(localStorage.getItem(key));
-
-    var setup = document.querySelector('#setup + figure pre code');
-    setup.textContent = page.setup;
-
-    page.tests.forEach(function(test) {
-      var container = document.querySelector('#tests + ul');
-      var element = document.createElement('li');
-
-      container.appendChild(element);
-
-      var heading = document.createElement('h3');
-      heading.textContent = test.name;
-      element.appendChild(heading);
-
-      var figure = document.createElement('figure');
-      element.appendChild(figure);
-
-      var pre = document.createElement('pre');
-      figure.appendChild(pre);
-
-      var code = document.createElement('code');
-      code.textContent = test.code;
-      pre.appendChild(code);
-    });
-
-    function onBenchmarkClick(event) {
-      var button = event.target;
-      var items = Array.from(document.querySelectorAll('#tests + ul li'));
-
-      var setup = document.querySelector('#setup + figure');
-      var tests = items.reduce(function(tests, item) {
-        var compile = new Function([
-          setup.textContent,
-          'return function() {',
-          item.querySelector('figure').textContent,
-          '}',
-        ].join('\n'));
-
-        tests[item.querySelector('h2, h3').textContent] = compile();
-
-        return tests;
-      }, {});
-
-      button.disabled = true;
-      Benchmark.compare(tests, 10, 1000, function(results) {
-        if (document.querySelector('#results')) {
-          document.querySelector('#results').parentElement.parentElement.removeChild(
-            document.querySelector('#results').parentElement
-          );
+      xhr.open('GET', location.href);
+      xhr.onload = function() {
+        if (xhr.status == 200) {
+          return location.reload();
         }
 
-        document.querySelector('#tests').parentElement.parentElement.insertBefore(
-          document.importNode(document.querySelector('#report').content, true),
-          document.querySelector('#tests').parentElement.nextSibling
-        );
+        setTimeout(check, 2500);
+      };
 
-        button.disabled = false;
-
-        var max = Math.max.apply(null, Object.keys(results).map(function(name) {
-          return results[name].mean;
-        }));
-
-        Object.keys(results).forEach(function(name) {
-          var result = results[name];
-
-          var li = document.createElement('li');
-          li.innerHTML = '<span>' + name + '</span>';
-          document.querySelector('#results + figure ul').appendChild(li);
-
-          var dd = document.createElement('dd');
-          dd.innerHTML = [
-            '<span>',
-            result.mean,
-            '</span>',
-          ].join('\n');
-
-          dd.setAttribute('style', 'width: ' + (result.mean / max) * 100 + '%;');
-          document.querySelector('#results + figure dl').appendChild(dd);
-        });
-      });
-    }
+      xhr.send();
+    }, 1000);
   </script>
 </template>
 
 <script type="text/javascript">
-  var key = location.pathname.slice(1);
-  if (localStorage.getItem(key)) {
+  var slug = location.pathname.slice(1);
+  var submission = localStorage.getItem(slug);
+  if (submission) {
     document.querySelector('main').replaceChild(
       document.importNode(document.querySelector('template').content, true),
       document.querySelector('article')
