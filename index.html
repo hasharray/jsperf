@@ -275,13 +275,10 @@
         var elements = Array.from(document.querySelectorAll('[name*=name]'));
         slug.value = elements.map(function(element) {
           return element.value;
-        }).join('-vs-')
-          .toLowerCase()
-          .replace(/\s+/g, '-')
-          .replace(/[^\w\-]+/g, '')
-          .replace(/\-\-+/g, '-')
-          .replace(/^-+/, '')
-          .replace(/-+$/, '');
+        }).join(' vs ')
+          .replace(/[^[:alnum:]._~!$&'()+,;=@]+/, '-')
+          .replace(/%r!^\-|\-$!i/, '')
+          .toLowerCase();
 
           data[slug.name] = slug.value;
       }
