@@ -1,0 +1,10 @@
+name: Chrome 53
+results:
+  -
+    name: String.prototype.match
+    mean: 4172913.704222479
+
+  -
+    name: String.prototype.indexOf
+    mean: 6627583.548638766
+
