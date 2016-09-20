@@ -1,0 +1,10 @@
+name: Firefox 47
+results:
+  -
+    name: Binary
+    mean: 171217507.01569492
+
+  -
+    name: Ternary
+    mean: 193309723.3357951
+
