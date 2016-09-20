@@ -1,0 +1,10 @@
+name: Firefox 47
+results:
+  -
+    name: For
+    mean: 1337.768393690334
+
+  -
+    name: For-Of
+    mean: 64.89294857985956
+
