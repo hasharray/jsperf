@@ -1,0 +1,10 @@
+name: Safari 9.1.1
+results:
+  -
+    name: For
+    mean: 423.96295112897525
+
+  -
+    name: For-Of
+    mean: 29.299226773301893
+
