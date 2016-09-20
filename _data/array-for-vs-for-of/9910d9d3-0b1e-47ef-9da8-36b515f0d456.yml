@@ -1,0 +1,10 @@
+name: Chrome 53
+results:
+  -
+    name: For
+    mean: 277.80550465666704
+
+  -
+    name: For-Of
+    mean: 24.188665101097776
+
