@@ -1,3 +1,7 @@
+script:
+  - bundle exec jekyll build
+  - bundle exec jekyll doctor
+
 deploy:
   provider: script
   script: rake benchmark BENCHMARK=$(git diff-tree --no-commit-id --name-only HEAD -- _benchmarks)
