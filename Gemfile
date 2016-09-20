@@ -7,6 +7,7 @@ gem 'jekyll-sitemap'
 gem 'jekyll-github-metadata'
 
 group :test do
+  gem 'rake'
   gem 'parallel'
   gem 'selenium-webdriver'
 end
