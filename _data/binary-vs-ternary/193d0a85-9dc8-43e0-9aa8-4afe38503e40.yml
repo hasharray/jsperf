@@ -1,0 +1,10 @@
+name: Chrome 51
+results:
+  -
+    name: Binary
+    mean: 48858664.05485483
+
+  -
+    name: Ternary
+    mean: 10424783.642417494
+
