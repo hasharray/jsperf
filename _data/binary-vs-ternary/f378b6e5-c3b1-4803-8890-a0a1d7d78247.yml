@@ -1,0 +1,10 @@
+name: Chrome 53
+results:
+  -
+    name: Binary
+    mean: 40641168.52892371
+
+  -
+    name: Ternary
+    mean: 8359512.088555684
+
