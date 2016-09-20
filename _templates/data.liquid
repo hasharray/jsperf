@@ -1,5 +1,5 @@
 name: {{ data.name }}
-tests:{% for result in data.results %}
+results:{% for result in data.results %}
   -
     name: {{ result.name }}
     mean: {{ result.mean }}
