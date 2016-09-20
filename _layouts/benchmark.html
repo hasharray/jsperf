@@ -14,7 +14,7 @@ layout: default
 
     {% for item in group.items %}
       {% for result in item.results %}
-        {% unless test.name != result.name %}
+        {% unless test.name == result.name %}
           {% continue %}
         {% endunless %}
 
@@ -90,7 +90,7 @@ layout: default
 
             {% for item in group.items %}
               {% for result in item.results %}
-                {% unless test.name != result.name %}
+                {% unless test.name == result.name %}
                   {% continue %}
                 {% endunless %}
 
