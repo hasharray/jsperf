@@ -10,10 +10,19 @@
 
     <dl>
       <dt>
-        <label>Slug</label>
+        <label>Title</label>
       </dt>
       <dd>
-        <input name="data[slug]" required/>
+        <input name="data[title]" required/>
+      </dd>
+    </dl>
+
+    <dl>
+      <dt>
+        <label>Title</label>
+      </dt>
+      <dd>
+        <input name="data[slug]" required placeholder="Define the test names below to define the title"/>
       </dd>
     </dl>
 
@@ -89,6 +98,15 @@
         Submit a new benchmark to measure and compare the relative performance
         difference between different snippets of JavaScript code.
       </p>
+
+      <dl>
+        <dt>
+          <label>Title</label>
+        </dt>
+        <dd>
+          <input id="title" name="data[title]" rows="5" readonly data-automatic/>
+        </dd>
+      </dl>
 
       <dl>
         <dt>
@@ -230,6 +248,7 @@
         var elements = Array.from(element.querySelectorAll('[name]'));
 
         elements.forEach(function(element) {
+          element.value = '';
           delete data[element.name];
         });
 
@@ -273,13 +292,14 @@
 
       if (/name/.test(element.name)) {
         var elements = Array.from(document.querySelectorAll('[name*=name]'));
-        slug.value = elements.map(function(element) {
-          return element.value;
-        }).join(' vs ')
-          .replace(/\W+/g, '-')
-          .toLowerCase();
 
-          data[slug.name] = slug.value;
+        title.value = elements.map(function(element) {
+          return element.value;
+        }).filter(function(value) {
+          return value.length > 0;
+        }).join(' vs ');
+
+        data[title.name] = title.value;
       }
 
       data[element.name] = element.value;
@@ -288,6 +308,9 @@
 
     function onSubmit(event) {
       localStorage.removeItem('form');
+
+      var slug = document.querySelector('[name="data[slug]"]');
+      slug.value = title.value.replace(/\W+/g, '-').toLowerCase();
 
       var redirect = document.querySelector('[name="redirect_uri"]');
       redirect.value = location.href + slug.value;
