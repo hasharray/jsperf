@@ -5,13 +5,8 @@ task :benchmark do
   browsers = [
     { platform: "OS X 10.11", browserName: "Chrome", version: "53" },
     { platform: "OS X 10.11", browserName: "Chrome", version: "52" },
-    { platform: "OS X 10.11", browserName: "Chrome", version: "51" },
     { platform: "OS X 10.11", browserName: "Firefox", version: "48" },
     { platform: "OS X 10.11", browserName: "Firefox", version: "47" },
-    { platform: "OS X 10.11", browserName: "Firefox", version: "46" },
-    { platform: "OS X 10.11", browserName: "Safari", version: "9.0" },
-    { platform: "OS X 10.10", browserName: "Safari", version: "8.0" },
-    { platform: "OS X 10.9", browserName: "Safari", version: "7.0" },
   ]
 
   url = "http://#{ENV['SAUCE_USERNAME']}:#{ENV['SAUCE_ACCESS_KEY']}@ondemand.saucelabs.com:80/wd/hub"
