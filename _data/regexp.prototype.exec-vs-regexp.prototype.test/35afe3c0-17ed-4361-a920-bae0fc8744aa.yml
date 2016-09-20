@@ -1,0 +1,10 @@
+name: Firefox 48
+results:
+  -
+    name: RegExp.prototype.exec
+    mean: 1392306.4225830513
+
+  -
+    name: RegExp.prototype.test
+    mean: 1462087.24139346
+
