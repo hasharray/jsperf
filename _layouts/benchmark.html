@@ -200,7 +200,6 @@ function onBenchmark(event) {
     var ua = detect.parse(navigator.userAgent);
 
     var data = [
-      'redirect_uri=' + location.href,
       'data[slug]=' + encodeURIComponent('{{ page.slug }}'),
       'data[name]=' + encodeURIComponent(ua.browser.name),
     ];
