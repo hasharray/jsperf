@@ -14,7 +14,7 @@ task :benchmark do
     { platform: "OS X 10.9", browserName: "Safari", version: "7.0" },
   ]
 
-  url = "http://#{ENV['SAUCE_USER']}:#{ENV['SAUCE_KEY']}@ondemand.saucelabs.com:80/wd/hub"
+  url = "http://#{ENV['SAUCE_USERNAME']}:#{ENV['SAUCE_ACCESS_KEY']}@ondemand.saucelabs.com:80/wd/hub"
   cname = IO.read('CNAME')
 
   benchmark = ENV['BENCHMARK'] || '_benchmarks/*.md'
