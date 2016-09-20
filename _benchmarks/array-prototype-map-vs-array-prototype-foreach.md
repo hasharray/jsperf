@@ -11,13 +11,13 @@ tests:
   -
     name: Array#map
     code: |
-      data.map(function(element, index){
+      data.map(function(element, index) {
         element === data[index]
       });
   -
     name: Array#forEach
     code: |
-      data.forEach(function(element, index){
+      data.forEach(function(element, index) {
         element === data[index]
       });
 ---
