@@ -10,7 +10,7 @@ task :benchmark do
   ]
 
   url = "http://#{ENV['SAUCE_USERNAME']}:#{ENV['SAUCE_ACCESS_KEY']}@ondemand.saucelabs.com:80/wd/hub"
-  cname = IO.read('CNAME')
+  cname = File.open('CNAME').read
 
   benchmark = (ENV['BENCHMARK'] || '_benchmarks/*.md').split(',')
   Dir.glob(benchmark).each do |filename|
@@ -19,7 +19,7 @@ task :benchmark do
     Parallel.each(browsers, in_threads: 5) do |caps|
       driver = Selenium::WebDriver.for(:remote, url: url, desired_capabilities: caps)
 
-      driver.get('http://' + cname + '/' + File.basename(filename, ".md"))
+      driver.get('http://' + cname.strip + '/' + File.basename(filename, ".md"))
       wait = Selenium::WebDriver::Wait.new(:timeout => 60)
 
       wait.until do
