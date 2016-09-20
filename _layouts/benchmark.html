@@ -2,8 +2,12 @@
 layout: default
 ---
 
-{% assign data = site.data[page.slug] | where_exp: "item", "item.name" %}
-{% assign groups = data | group_by: "name" | order_by: "name" %}
+{% assign data = "" | split: "|" %}
+{% for entry in site.data[page.slug] %}
+  {% assign data = data | push: entry[1] %}
+{% endfor %}
+
+{% assign groups = data | group_by: "name" | sort: "name" %}
 
 {% assign max = 0.0 %}
 
