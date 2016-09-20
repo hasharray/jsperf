@@ -17,6 +17,12 @@
 
   dl {
     position: relative;
+    margin-left: 100px;
+
+    dt {
+      float: left;
+      margin-left: -100px;
+    }
 
     &:after {
       display: block;

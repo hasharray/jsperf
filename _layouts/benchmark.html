@@ -2,6 +2,34 @@
 layout: default
 ---
 
+{% assign data = site.data[page.slug] | where_exp: "item", "item.name" %}
+{% assign groups = data | group_by: "name" | order_by: "name" %}
+
+{% assign max = 0.0 %}
+
+{% for group in groups %}
+  {% for test in page.tests %}
+    {% assign sum = 0.0 %}
+    {% assign count = 0 %}
+
+    {% for item in group.items %}
+      {% for result in item.results %}
+        {% unless test.name != result.name %}
+          {% continue %}
+        {% endunless %}
+
+        {% assign sum = sum | plus: result.mean %}
+        {% assign count = count | plus: 1 %}
+      {% endfor %}
+    {% endfor %}
+
+    {% assign mean = sum | divided_by: count %}
+    {% if max < mean %}
+      {% assign max = mean %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
 <article>
   <header>
     <h1>
@@ -52,8 +80,34 @@ layout: default
         </ul>
       </figcaption>
 
-      <dl></dl>
-      <ol></ol>
+      <dl data-min="0" data-max="{{ max }}">
+        {% for group in groups %}
+          <dt>{{ group.name}}</dt>
+
+          {% for test in page.tests %}
+            {% assign sum = 0.0 %}
+            {% assign count = 0 %}
+
+            {% for item in group.items %}
+              {% for result in item.results %}
+                {% unless test.name != result.name %}
+                  {% continue %}
+                {% endunless %}
+
+                {% assign sum = sum | plus: result.mean %}
+                {% assign count = count | plus: 1 %}
+              {% endfor %}
+            {% endfor %}
+
+            {% assign mean = sum | divided_by: count %}
+            {% assign width = mean | divided_by: max | times: 100 %}
+
+            <dd data-width="{{ width }}" data-mean="{{ mean }}" style="width: {{ width }}%">
+              <span>{{ mean }}</span>
+            </dd>
+          {% endfor %}
+        {% endfor %}
+      </dl>
 
       <p>Operations per second (higher is better)</p>
     </figure>
@@ -65,6 +119,11 @@ layout: default
 
 document.querySelector('article').appendChild(
   document.importNode(document.querySelector('#benchmark').content, true)
+);
+
+document.querySelector('#tests').parentElement.parentElement.insertBefore(
+  document.importNode(document.querySelector('#report').content, true),
+  document.querySelector('#tests').parentElement.nextSibling
 );
 
 function onBenchmark(event) {
@@ -101,22 +160,32 @@ function onBenchmark(event) {
 
     button.disabled = false;
 
-    var max = Math.max.apply(null, Object.keys(results).map(function(name) {
+    var container = document.querySelector('#results + figure dl');
+    container.dataset.max = Math.max.apply(null, Object.keys(results).map(function(name) {
       return results[name].mean;
-    }));
+    }).concat(Number(container.dataset.max)));
+
+    var dt = document.createElement('dt');
+    dt.textContent = 'Your Results';
+    container.appendChild(dt);
 
     Object.keys(results).forEach(function(name) {
-      var result = results[name];
+      var element = document.createElement('dd');
 
-      var dd = document.createElement('dd');
-      dd.innerHTML = [
+      element.dataset.mean = results[name].mean;
+      element.innerHTML = [
         '<span>',
-        result.mean,
+        element.dataset.mean,
         '</span>',
       ].join('\n');
 
-      dd.setAttribute('style', 'width: ' + (result.mean / max) * 100 + '%;');
-      document.querySelector('#results + figure dl').appendChild(dd);
+      container.appendChild(element);
+    });
+
+    var elements = container.querySelectorAll('[data-mean]');
+    elements.forEach(function(element) {
+      var width = (Number(element.dataset.mean) / Number(container.dataset.max));
+      element.setAttribute('style', 'width: ' + width * 100 + '%;');
     });
   });
 }
