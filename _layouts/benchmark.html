@@ -191,22 +191,24 @@ function onBenchmark(event) {
 
     var xhr = new XMLHttpRequest();
     xhr.open('POST', 'http://api.postbot.pw/contents/hasharray/jsperf/data');
+    xhr.setRequestHeader("Content-Type", 'application/x-www-form-urlencoded');
 
     var ua = detect.parse(navigator.userAgent);
 
     var data = [
-      'data[slug]={{ page.slug }}',
-      'data[name]=' + ua.browser.name,
+      'redirect_uri=' + location.href,
+      'data[slug]=' + encodeURIComponent('{{ page.slug }}'),
+      'data[name]=' + encodeURIComponent(ua.browser.name),
     ];
 
     for (var name in results) {
       var result = results[name];
 
-      data.push('data[results][][name]=' + name);
+      data.push('data[results][][name]=' + encodeURIComponent(name));
       data.push('data[results][][mean]=' + result.mean);
     }
 
-    xhr.send(data);
+    xhr.send(data.join('&'));
   });
 }
 </script>
