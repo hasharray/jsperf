@@ -8,6 +8,7 @@ script:
 
 deploy:
   provider: script
-  script: bundle exec rake benchmark BENCHMARK=$(git diff-tree --no-commit-id --name-only HEAD -- _benchmarks)
+  script:
+    - rvm $TRAVIS_RUBY_VERSION do bundle exec rake benchmark BENCHMARK=$(git diff-tree --no-commit-id --name-only HEAD -- _benchmarks)
 on:
   branch: master
