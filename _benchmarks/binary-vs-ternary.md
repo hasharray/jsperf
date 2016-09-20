@@ -1,17 +1,16 @@
 ---
+title: Binary vs Ternary
 setup: |
 
 tests:
   -
     name: Binary
     code: |
-      for(var i = 0; i < 100000; i++) {
-        var x = Math.max(i, Math.max(i + 1, i + 2));
-      }
+      var value = Math.random() * 100;
+      Math.max(value, Math.max(value + 1, value + 2));
   -
     name: Ternary
     code: |
-      for(var i = 0; i < 100000; i++) {
-        var x = Math.max(i, i + 1, i + 2);
-      }
+      var value = Math.random() * 100;
+      Math.max(value, value + 1, value + 2);
 ---
