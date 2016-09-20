@@ -1,7 +1,7 @@
 require 'parallel'
 require 'selenium/webdriver'
 
-task :benchmark do
+task :benchmark, [:glob] do |task, args|
   browsers = [
     { platform: "OS X 10.11", browserName: "Chrome", version: "53" },
     { platform: "OS X 10.11", browserName: "Chrome", version: "52" },
@@ -17,7 +17,7 @@ task :benchmark do
   url = "http://#{ENV['SAUCE_USER']}:#{ENV['SAUCE_KEY']}@ondemand.saucelabs.com:80/wd/hub"
   cname = IO.read('CNAME')
 
-  Dir.glob("_benchmarks/*.md").each do |filename|
+  Dir.glob(args.glob).each do |filename|
     Parallel.each(browsers, in_threads: 5) do |caps|
       driver = Selenium::WebDriver.for(:remote, url: url, desired_capabilities: caps)
 
