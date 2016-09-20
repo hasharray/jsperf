@@ -1,0 +1,10 @@
+name: Firefox 47
+results:
+  -
+    name: Array#map
+    mean: 71.93006640115169
+
+  -
+    name: Array#forEach
+    mean: 876.3650266625284
+
