@@ -114,6 +114,7 @@ layout: default
   </section>
 </template>
 
+<script src="//cdnjs.cloudflare.com/ajax/libs/Detect.js/2.2.2/detect.js" charset="utf-8"></script>
 <script type="text/javascript">
 {% include benchmark.js %}
 
@@ -187,6 +188,25 @@ function onBenchmark(event) {
       var width = (Number(element.dataset.mean) / Number(container.dataset.max));
       element.setAttribute('style', 'width: ' + width * 100 + '%;');
     });
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'http://api.postbot.pw/contents/hasharray/jsperf/data');
+
+    var ua = detect.parse(navigator.userAgent);
+
+    var data = [
+      'data[slug]={{ page.slug }}',
+      'data[name]=' + ua.browser.name,
+    ];
+
+    for (var name in results) {
+      var result = results[name];
+
+      data.push('data[results][][name]=' + name);
+      data.push('data[results][][mean]=' + result.mean);
+    }
+
+    xhr.send(data);
   });
 }
 </script>

@@ -33,6 +33,11 @@ contents:
     template: '_templates/benchmark.liquid'
     commit: true
 
+  data:
+    path: '_data/:slug/:uuid.yml'
+    template: '_templates/data.liquid'
+    commit: true
+
 gems:
   - jekyll-seo-tag
   - jekyll-redirect-from
