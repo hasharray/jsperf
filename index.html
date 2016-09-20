@@ -1,6 +1,21 @@
 ---
 ---
 
+{% assign names = "" | split: "|" %}
+{% for benchmark in site.benchmarks %}
+  {% for test in benchmark.tests %}
+    {% assign names = names | push: test.name %}
+  {% endfor %}
+{% endfor %}
+
+{% assign names = names | uniq %}
+
+<datalist id="names">
+  {% for name in names %}
+    <option value="{{ name }}" />
+  {% endfor %}
+</datalist>
+
 <form method="post" action="http://api.postbot.pw/contents/hasharray/jsperf/benchmarks">
   <section>
     <p>
@@ -137,7 +152,7 @@
                 <label>Name</label>
               </dt>
               <dd>
-                <input name="data[tests][{{ number }}][name]" required placeholder="Define a name for the test case"/>
+                <input list="names" name="data[tests][{{ number }}][name]" required placeholder="Define a name for the test case"/>
               </dd>
             </dl>
 
@@ -174,7 +189,7 @@
           <small></small>
         </dd>
         <dd>
-          <input name="data[tests][0][name]" required placeholder="Define a name for the test case"/>
+          <input list="names" name="data[tests][0][name]" required placeholder="Define a name for the test case"/>
         </dd>
       </dl>
 
