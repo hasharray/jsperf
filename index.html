@@ -276,9 +276,7 @@
         slug.value = elements.map(function(element) {
           return element.value;
         }).join(' vs ')
-          .replace(/[^[:alnum:]._~!$&'()+,;=@]+/, '-')
-          .replace(/%r!^\-|\-$!i/, '')
-          .replace(/\s/g, '-')
+          .replace(/\W+/g, '-')
           .toLowerCase();
 
           data[slug.name] = slug.value;
