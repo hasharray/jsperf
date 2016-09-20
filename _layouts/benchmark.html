@@ -183,7 +183,7 @@ function onBenchmark(event) {
       container.appendChild(element);
     });
 
-    var elements = container.querySelectorAll('[data-mean]');
+    var elements = Array.from(container.querySelectorAll('[data-mean]'));
     elements.forEach(function(element) {
       var width = (Number(element.dataset.mean) / Number(container.dataset.max));
       element.setAttribute('style', 'width: ' + width * 100 + '%;');
