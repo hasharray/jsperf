@@ -1,0 +1,10 @@
+name: Firefox 48
+results:
+  -
+    name: String.prototype.match
+    mean: 1433527.8791638731
+
+  -
+    name: String.prototype.indexOf
+    mean: 11956442.448224235
+
