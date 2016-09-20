@@ -1,0 +1,10 @@
+name: Safari 9.1.2
+results:
+  -
+    name: RegExp.prototype.exec
+    mean: 8270390.226552678
+
+  -
+    name: RegExp.prototype.test
+    mean: 17680650.2536102
+
