@@ -1,0 +1,14 @@
+name: Chrome 52
+results:
+  -
+    name: for
+    mean: 170.00961532812713
+
+  -
+    name: foreach
+    mean: 15.598737309173975
+
+  -
+    name: yolo
+    mean: 22.370629466838672
+
