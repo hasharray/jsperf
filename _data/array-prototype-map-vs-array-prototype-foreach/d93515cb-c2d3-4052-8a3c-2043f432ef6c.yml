@@ -1,0 +1,10 @@
+name: Chrome 51
+results:
+  -
+    name: Array#map
+    mean: 1.3665824978882248
+
+  -
+    name: Array#forEach
+    mean: 33.753055825734414
+
