@@ -1,0 +1,10 @@
+name: Firefox 46
+results:
+  -
+    name: String.prototype.indexOf
+    mean: 21585989.06692652
+
+  -
+    name: String.prototype.includes
+    mean: 17622691.206693478
+
