@@ -1,0 +1,14 @@
+name: Firefox 48
+results:
+  -
+    name: for
+    mean: 382.75880688213323
+
+  -
+    name: foreach
+    mean: 420.33061883128966
+
+  -
+    name: yolo
+    mean: 376.9210530993979
+
