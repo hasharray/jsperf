@@ -1,0 +1,10 @@
+name: Firefox 46
+results:
+  -
+    name: For
+    mean: 2226.362451697132
+
+  -
+    name: For (With Cached Length)
+    mean: 2273.0922605666083
+
