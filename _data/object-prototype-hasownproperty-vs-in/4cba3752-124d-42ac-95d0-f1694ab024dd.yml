@@ -1,0 +1,10 @@
+name: Chrome Mobile 52
+results:
+  -
+    name: Object.prototype.hasOwnProperty
+    mean: 14860590.97910655
+
+  -
+    name: In
+    mean: 13687543.47548453
+
