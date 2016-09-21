@@ -1,0 +1,10 @@
+name: Chrome 52
+results:
+  -
+    name: For
+    mean: 270.8247720094309
+
+  -
+    name: For (With Cached Length)
+    mean: 329.25633200061077
+
