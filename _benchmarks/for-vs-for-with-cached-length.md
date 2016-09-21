@@ -16,7 +16,7 @@ tests:
         obj == obj;
       }
   -
-    name: For (With Cached Length)
+    name: For With Cached Length
     code: |
       var length = data.length;
       for (var index = 0; index < length; index++) {
@@ -24,4 +24,3 @@ tests:
         obj == obj;
       }
 ---
-
