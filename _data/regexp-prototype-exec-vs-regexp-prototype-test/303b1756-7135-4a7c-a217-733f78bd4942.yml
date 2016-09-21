@@ -1,0 +1,10 @@
+name: Chrome 52
+results:
+  -
+    name: RegExp.prototype.exec
+    mean: 4062358.244393694
+
+  -
+    name: RegExp.prototype.test
+    mean: 3332995.2259352882
+
