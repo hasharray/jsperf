@@ -1,0 +1,10 @@
+name: Firefox 46
+results:
+  -
+    name: RegExp.prototype.exec
+    mean: 1041720.3720455306
+
+  -
+    name: String.prototype.match
+    mean: 2119226.0693575107
+
