@@ -1,0 +1,10 @@
+name: Chrome 51
+results:
+  -
+    name: String.prototype.indexOf
+    mean: 7082830.2630510675
+
+  -
+    name: String.prototype.includes
+    mean: 8055188.065723084
+
