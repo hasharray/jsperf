@@ -1,9 +1,9 @@
 ---
-title: For vs For (With Cached Length)
+title: For vs For With Cached Length
 setup: |
   var count = 1000 * 1000
   var data = [];
-  
+
   do {
     data.push(count);
   } while(--count);
