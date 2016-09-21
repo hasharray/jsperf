@@ -1,0 +1,10 @@
+name: Firefox 48
+results:
+  -
+    name: Binary
+    mean: 79153775.29095156
+
+  -
+    name: Ternary
+    mean: 83482730.44076507
+
