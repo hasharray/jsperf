@@ -1,0 +1,10 @@
+name: Firefox 47
+results:
+  -
+    name: Object.prototype.hasOwnProperty
+    mean: 24781878.691246606
+
+  -
+    name: In
+    mean: 25413525.169916265
+
