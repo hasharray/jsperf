@@ -1,4 +1,5 @@
 ---
+title: Object.prototype.hasOwnProperty vs In
 setup: |
   var object = {
     value: 5
