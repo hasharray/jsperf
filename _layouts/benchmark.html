@@ -7,7 +7,7 @@ layout: default
   {% assign data = data | push: entry[1] %}
 {% endfor %}
 
-{% assign groups = data | group_by: "name" | sort: "name" %}
+{% assign groups = data | group_by: "name" | sort: "name" | reverse %}
 
 {% assign max = 0.0 %}
 
