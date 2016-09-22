@@ -1,0 +1,10 @@
+name: Mobile Safari
+results:
+  -
+    name: Array#map
+    mean: 13.071491464201761
+
+  -
+    name: Array#forEach
+    mean: 25.34761420570737
+
