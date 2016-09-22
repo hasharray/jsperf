@@ -1,0 +1,10 @@
+name: Firefox 47
+results:
+  -
+    name: atan2
+    mean: 220917.69046823517
+
+  -
+    name: arithmetic
+    mean: 867275.9279678803
+
