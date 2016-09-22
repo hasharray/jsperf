@@ -1,0 +1,10 @@
+name: Chrome 53
+results:
+  -
+    name: atan2
+    mean: 9533.58942517482
+
+  -
+    name: mult
+    mean: 67202.5050613588
+
