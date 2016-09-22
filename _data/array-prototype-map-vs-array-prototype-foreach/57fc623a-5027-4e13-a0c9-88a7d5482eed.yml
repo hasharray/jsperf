@@ -1,0 +1,10 @@
+name: Chrome Mobile 53
+results:
+  -
+    name: Array#map
+    mean: 1.4362453274130582
+
+  -
+    name: Array#forEach
+    mean: 9.57539429170404
+
