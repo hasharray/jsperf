@@ -1,0 +1,10 @@
+name: Chrome 53
+results:
+  -
+    name: atan2
+    mean: 45120.13242676886
+
+  -
+    name: arithmetic
+    mean: 252994.2459724808
+
