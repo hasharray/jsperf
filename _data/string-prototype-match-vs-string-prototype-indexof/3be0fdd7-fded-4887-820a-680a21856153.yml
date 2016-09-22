@@ -1,0 +1,10 @@
+name: Mobile Safari 9
+results:
+  -
+    name: String.prototype.match
+    mean: 1042017.0338025708
+
+  -
+    name: String.prototype.indexOf
+    mean: 4422236.613536046
+
