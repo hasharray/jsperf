@@ -1,0 +1,10 @@
+name: Firefox 48
+results:
+  -
+    name: atan2
+    mean: 13265.483778263588
+
+  -
+    name: mult
+    mean: 65373.03477281483
+
