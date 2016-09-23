@@ -1,0 +1,10 @@
+name: Chromium 52
+results:
+  -
+    name: Array#map
+    mean: 7.302891028458845
+
+  -
+    name: Array#forEach
+    mean: 40.143335171905086
+
