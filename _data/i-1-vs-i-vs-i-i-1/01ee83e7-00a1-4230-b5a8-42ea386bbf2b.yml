@@ -1,0 +1,14 @@
+name: Firefox 48
+results:
+  -
+    name: i += 1
+    mean: 203029234.89846027
+
+  -
+    name: i ++
+    mean: 176018862.47007564
+
+  -
+    name: i = i + 1
+    mean: 174076989.15093872
+
