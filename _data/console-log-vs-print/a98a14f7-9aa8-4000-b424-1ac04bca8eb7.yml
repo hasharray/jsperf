@@ -1,0 +1,10 @@
+name: Firefox 48
+results:
+  -
+    name: console.log
+    mean: 5483.4383791452665
+
+  -
+    name: print
+    mean: 989.2024678170899
+
