@@ -1,0 +1,14 @@
+name: Chrome Mobile 52
+results:
+  -
+    name: for
+    mean: 248.33624172577248
+
+  -
+    name: foreach
+    mean: 21.35827588184605
+
+  -
+    name: yolo
+    mean: 24.14922840134657
+
