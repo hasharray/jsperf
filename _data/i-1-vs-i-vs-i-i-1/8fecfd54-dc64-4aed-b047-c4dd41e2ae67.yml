@@ -1,0 +1,14 @@
+name: Chrome 53
+results:
+  -
+    name: i += 1
+    mean: 151151818.23859003
+
+  -
+    name: i ++
+    mean: 48444195.44421108
+
+  -
+    name: i = i + 1
+    mean: 17812344.606651146
+
