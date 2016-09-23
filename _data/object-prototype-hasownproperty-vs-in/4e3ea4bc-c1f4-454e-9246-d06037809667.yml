@@ -1,0 +1,10 @@
+name: Chrome 53
+results:
+  -
+    name: Object.prototype.hasOwnProperty
+    mean: 80264169.84803644
+
+  -
+    name: In
+    mean: 61912674.9791155
+
