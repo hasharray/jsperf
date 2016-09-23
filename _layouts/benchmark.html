@@ -112,8 +112,94 @@ layout: default
       <p>Operations per second (higher is better)</p>
     </figure>
 
-    <button onclick="onBenchmark(event)" name"benchmark" type="button">Benchmark</button>
+    <button id="benchmark" name"benchmark" type="button">Benchmark</button>
   </section>
+
+  <script type="text/javascript">
+  benchmark.addEventListener('click', function (event) {
+    var button = event.target;
+
+    var setup = {{ page.setup | jsonify }};
+    var tests = {{ page.tests | jsonify }};
+
+    var benchmarks = tests.reduce(function(tests, test) {
+      var compile = new Function([
+        setup,
+        'return function() {',
+        test.code,
+        '}',
+      ].join('\n'));
+
+      tests[test.name] = compile();
+
+      return tests;
+    }, {});
+
+    button.disabled = true;
+    Benchmark.compare(benchmarks, 10, 1000, function(results) {
+      if (document.querySelector('#results')) {
+        document.querySelector('#results').parentElement.parentElement.removeChild(
+          document.querySelector('#results').parentElement
+        );
+      }
+
+      document.querySelector('#tests').parentElement.parentElement.insertBefore(
+        document.importNode(document.querySelector('#report').content, true),
+        document.querySelector('#tests').parentElement.nextSibling
+      );
+
+      button.disabled = false;
+
+      var container = document.querySelector('#results + figure dl');
+      container.dataset.max = Math.max.apply(null, Object.keys(results).map(function(name) {
+        return results[name].mean;
+      }).concat(Number(container.dataset.max)));
+
+      var dt = document.createElement('dt');
+      dt.textContent = 'Your Results';
+      container.appendChild(dt);
+
+      Object.keys(results).forEach(function(name) {
+        var element = document.createElement('dd');
+
+        element.dataset.mean = results[name].mean;
+        element.innerHTML = [
+          '<span>',
+          element.dataset.mean,
+          '</span>',
+        ].join('\n');
+
+        container.appendChild(element);
+      });
+
+      var elements = Array.from(container.querySelectorAll('[data-mean]'));
+      elements.forEach(function(element) {
+        var width = (Number(element.dataset.mean) / Number(container.dataset.max));
+        element.setAttribute('style', 'width: ' + width * 100 + '%;');
+      });
+
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST', 'http://api.postbot.pw/contents/hasharray/jsperf/data');
+      xhr.setRequestHeader("Content-Type", 'application/x-www-form-urlencoded');
+
+      var ua = detect.parse(navigator.userAgent);
+
+      var data = [
+        'data[slug]=' + encodeURIComponent('{{ page.slug }}'),
+        'data[name]=' + encodeURIComponent(ua.browser.name),
+      ];
+
+      for (var name in results) {
+        var result = results[name];
+
+        data.push('data[results][][name]=' + encodeURIComponent(name));
+        data.push('data[results][][mean]=' + result.mean);
+      }
+
+      xhr.send(data.join('&'));
+    });
+  });
+  </script>
 </template>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/Detect.js/2.2.2/detect.js" charset="utf-8"></script>
@@ -124,88 +210,4 @@ document.querySelector('#tests').parentElement.parentElement.insertBefore(
   document.importNode(document.querySelector('#report').content, true),
   document.querySelector('#tests').parentElement.nextSibling
 );
-
-function onBenchmark(event) {
-  var button = event.target;
-
-  var setup = {{ page.setup | jsonify }};
-  var tests = {{ page.tests | jsonify }};
-
-  var benchmarks = tests.reduce(function(tests, test) {
-    var compile = new Function([
-      setup,
-      'return function() {',
-      test.code,
-      '}',
-    ].join('\n'));
-
-    tests[test.name] = compile();
-
-    return tests;
-  }, {});
-
-  button.disabled = true;
-  Benchmark.compare(benchmarks, 10, 1000, function(results) {
-    if (document.querySelector('#results')) {
-      document.querySelector('#results').parentElement.parentElement.removeChild(
-        document.querySelector('#results').parentElement
-      );
-    }
-
-    document.querySelector('#tests').parentElement.parentElement.insertBefore(
-      document.importNode(document.querySelector('#report').content, true),
-      document.querySelector('#tests').parentElement.nextSibling
-    );
-
-    button.disabled = false;
-
-    var container = document.querySelector('#results + figure dl');
-    container.dataset.max = Math.max.apply(null, Object.keys(results).map(function(name) {
-      return results[name].mean;
-    }).concat(Number(container.dataset.max)));
-
-    var dt = document.createElement('dt');
-    dt.textContent = 'Your Results';
-    container.appendChild(dt);
-
-    Object.keys(results).forEach(function(name) {
-      var element = document.createElement('dd');
-
-      element.dataset.mean = results[name].mean;
-      element.innerHTML = [
-        '<span>',
-        element.dataset.mean,
-        '</span>',
-      ].join('\n');
-
-      container.appendChild(element);
-    });
-
-    var elements = Array.from(container.querySelectorAll('[data-mean]'));
-    elements.forEach(function(element) {
-      var width = (Number(element.dataset.mean) / Number(container.dataset.max));
-      element.setAttribute('style', 'width: ' + width * 100 + '%;');
-    });
-
-    var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'http://api.postbot.pw/contents/hasharray/jsperf/data');
-    xhr.setRequestHeader("Content-Type", 'application/x-www-form-urlencoded');
-
-    var ua = detect.parse(navigator.userAgent);
-
-    var data = [
-      'data[slug]=' + encodeURIComponent('{{ page.slug }}'),
-      'data[name]=' + encodeURIComponent(ua.browser.name),
-    ];
-
-    for (var name in results) {
-      var result = results[name];
-
-      data.push('data[results][][name]=' + encodeURIComponent(name));
-      data.push('data[results][][mean]=' + result.mean);
-    }
-
-    xhr.send(data.join('&'));
-  });
-}
 </script>
