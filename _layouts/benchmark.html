@@ -68,10 +68,6 @@ layout: default
   </section>
 </article>
 
-<template id="benchmark">
-  <button onclick="onBenchmark(event)" name"benchmark" type="button">Benchmark</button>
-</template>
-
 <template id="report">
   <section>
     <h2 id="results">Results</h2>
@@ -115,16 +111,14 @@ layout: default
 
       <p>Operations per second (higher is better)</p>
     </figure>
+
+    <button onclick="onBenchmark(event)" name"benchmark" type="button">Benchmark</button>
   </section>
 </template>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/Detect.js/2.2.2/detect.js" charset="utf-8"></script>
 <script type="text/javascript">
 {% include benchmark.js %}
-
-document.querySelector('article').appendChild(
-  document.importNode(document.querySelector('#benchmark').content, true)
-);
 
 document.querySelector('#tests').parentElement.parentElement.insertBefore(
   document.importNode(document.querySelector('#report').content, true),
