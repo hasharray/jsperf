@@ -1,0 +1,10 @@
+name: Firefox 47
+results:
+  -
+    name: console.log
+    mean: 12698.033136472068
+
+  -
+    name: print
+    mean: 3598.8367195422334
+
