@@ -1,0 +1,10 @@
+name: Firefox 48
+results:
+  -
+    name: clearTimeouts
+    mean: 59578.00557602678
+
+  -
+    name: check if null first
+    mean: 60783.64459783229
+
