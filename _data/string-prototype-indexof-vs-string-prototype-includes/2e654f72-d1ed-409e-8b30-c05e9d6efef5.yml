@@ -1,0 +1,10 @@
+name: Chrome Mobile 53
+results:
+  -
+    name: String.prototype.indexOf
+    mean: 2040143.1077635617
+
+  -
+    name: String.prototype.includes
+    mean: 1626788.955088807
+
