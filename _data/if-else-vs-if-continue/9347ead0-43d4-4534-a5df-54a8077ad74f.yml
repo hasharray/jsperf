@@ -1,0 +1,10 @@
+name: Firefox 47
+results:
+  -
+    name: if else
+    mean: 43262.67832338209
+
+  -
+    name: if continue
+    mean: 44516.54653278998
+
