@@ -1,0 +1,10 @@
+name: Firefox 48
+results:
+  -
+    name: Concat
+    mean: 5706.08741288079
+
+  -
+    name: Literal
+    mean: 6306.085577240254
+
