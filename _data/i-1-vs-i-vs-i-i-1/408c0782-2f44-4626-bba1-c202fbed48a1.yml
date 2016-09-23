@@ -1,0 +1,14 @@
+name: Chrome 52
+results:
+  -
+    name: i += 1
+    mean: 143951065.29755476
+
+  -
+    name: i ++
+    mean: 51514875.609347776
+
+  -
+    name: i = i + 1
+    mean: 20430869.970869653
+
