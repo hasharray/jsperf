@@ -1,0 +1,10 @@
+name: Chrome 53
+results:
+  -
+    name: for
+    mean: 15764873.829209168
+
+  -
+    name: map
+    mean: 259077.99794088193
+
