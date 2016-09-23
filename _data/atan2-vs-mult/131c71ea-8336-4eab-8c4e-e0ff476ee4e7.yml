@@ -1,0 +1,10 @@
+name: Mobile Safari
+results:
+  -
+    name: atan2
+    mean: 5165.258595985813
+
+  -
+    name: mult
+    mean: 8106.4268275280865
+
