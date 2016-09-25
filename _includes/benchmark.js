@@ -1,6 +1,5 @@
-
-class Benchmark {
-  static compare(tests, count, period, callback) {
+var Benchmark = {
+  compare: function(tests, count, period, callback) {
     var names = Object.keys(tests);
 
     setTimeout(function next(results) {
@@ -22,9 +21,9 @@ class Benchmark {
         setTimeout(next, 0, results);
       });
     }, 0, {});
-  }
+  },
 
-  static collect(count, period, fn, callback) {
+  collect: function(count, period, fn, callback) {
     setTimeout(function next(samples) {
       if (samples.length == count) {
         return setTimeout(callback, 0, samples);
@@ -35,9 +34,9 @@ class Benchmark {
         setTimeout(next, 0, samples);
       });
     }, 0, []);
-  }
+  },
 
-  static sample(period, fn, callback) {
+  sample: function(period, fn, callback) {
     setTimeout(function next(calls, time, count) {
       if (time > period) {
         return setTimeout(callback, 0, {
@@ -57,9 +56,9 @@ class Benchmark {
         setTimeout(next, 0, calls, time, count);
       });
     }, 0, 0, 0, 2);
-  }
+  },
 
-  static time(count, fn, callback) {
+  time: function(count, fn, callback) {
     var start = performance.now();
     do {
       fn();
@@ -67,5 +66,5 @@ class Benchmark {
     var end = performance.now();
 
     setTimeout(callback, 0, end - start);
-  }
-}
+  },
+};
