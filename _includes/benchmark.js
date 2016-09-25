@@ -45,12 +45,16 @@ var Benchmark = {
   },
 
   time: function(count, fn, callback) {
-    var start = performance.now();
-    do {
-      fn();
-    } while(--count);
-    var end = performance.now();
+    var time = 0;
 
-    setTimeout(callback, 0, end - start);
+    do {
+      var start = performance.now();
+      fn.call();
+      var end = performance.now();
+
+      time += end - start;
+    } while(--count);
+
+    setTimeout(callback, 0, time);
   },
 };
