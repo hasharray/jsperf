@@ -1,0 +1,14 @@
+name: Chrome Mobile 53
+results:
+  -
+    name: trim1
+    mean: 30506.10016061425
+
+  -
+    name: trim2
+    mean: 29389.50527707569
+
+  -
+    name: trim3
+    mean: 29019.920997068275
+
