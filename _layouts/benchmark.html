@@ -2,38 +2,6 @@
 layout: default
 ---
 
-{% assign data = "" | split: "|" %}
-{% for entry in site.data[page.slug] %}
-  {% assign data = data | push: entry[1] %}
-{% endfor %}
-
-{% assign groups = data | group_by: "name" | sort: "name" | reverse %}
-
-{% assign max = 0.0 %}
-
-{% for group in groups %}
-  {% for test in page.tests %}
-    {% assign sum = 0.0 %}
-    {% assign count = 0 %}
-
-    {% for item in group.items %}
-      {% for result in item.results %}
-        {% unless test.name == result.name %}
-          {% continue %}
-        {% endunless %}
-
-        {% assign sum = sum | plus: result.mean %}
-        {% assign count = count | plus: 1 %}
-      {% endfor %}
-    {% endfor %}
-
-    {% assign mean = sum | divided_by: count %}
-    {% if max < mean %}
-      {% assign max = mean %}
-    {% endif %}
-  {% endfor %}
-{% endfor %}
-
 <article>
   <header>
     <h1>
@@ -80,31 +48,87 @@ layout: default
         </ul>
       </figcaption>
 
-      <dl data-min="0" data-max="{{ max }}">
-        {% for group in groups %}
-          <dt>{{ group.name}}</dt>
+      {% assign items = site.data[page.slug] | where_exp: "item", "item.name" %}
+      {% assign browsers = items | group_by: "name" %}
 
+      {% assign max = 0 %}
+
+      {% for browser in browsers %}
+        {% assign browser_name = browser.name %}
+        {% assign browser_versions = "" | split: "|" %}
+
+        {% for item in browser.items %}
+          {% assign version = item.version | split: "." | first %}
+          {% assign browser_versions = browser_versions | push: version %}
+        {% endfor %}
+
+        {% assign browser_versions = browser_versions | uniq | sort | reverse %}
+
+        {% for browser_version in browser_versions limit: 2 %}
           {% for test in page.tests %}
-            {% assign sum = 0.0 %}
-            {% assign count = 0 %}
+            {% for item in browser.items %}
+              {% assign version = item.version | split: "." | first %}
+              {% unless version == browser_version %}
+                {% continue %}
+              {% endunless %}
 
-            {% for item in group.items %}
+              {% assign value = 0 %}
               {% for result in item.results %}
-                {% unless test.name == result.name %}
+                {% unless result.name == test.name %}
                   {% continue %}
                 {% endunless %}
 
-                {% assign sum = sum | plus: result.mean %}
-                {% assign count = count | plus: 1 %}
+                {% if result.mean > max %}
+                  {% assign max = result.mean %}
+                {% endif %}
               {% endfor %}
             {% endfor %}
+          {% endfor %}
+        {% endfor %}
+      {% endfor %}
 
-            {% assign mean = sum | divided_by: count %}
-            {% assign width = mean | divided_by: max | times: 100 %}
+      <dl data-min="0" data-max="{{ max }}">
+        {% for browser in browsers %}
+          {% assign browser_name = browser.name %}
+          {% assign browser_versions = "" | split: "|" %}
 
-            <dd data-width="{{ width }}" data-mean="{{ mean }}" style="width: {{ width }}%">
-              <span>{{ mean }}</span>
-            </dd>
+          {% for item in browser.items %}
+            {% assign version = item.version | split: "." | first %}
+            {% assign browser_versions = browser_versions | push: version %}
+          {% endfor %}
+
+          {% assign browser_versions = browser_versions | uniq | sort | reverse %}
+          {% for browser_version in browser_versions limit: 2 %}
+            <dt>{{ browser_name }} - {{ browser_version }}</dt>
+
+            {% for test in page.tests %}
+              {% assign value = 0 %}
+
+              {% for item in browser.items %}
+                {% assign version = item.version | split: "." | first %}
+                {% unless version == browser_version %}
+                  {% continue %}
+                {% endunless %}
+
+                  {% for result in item.results %}
+                  {% unless result.name == test.name %}
+                    {% continue %}
+                  {% endunless %}
+
+                  {% if result.mean > value %}
+                    {% assign value = result.mean %}
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+
+              {% assign width = value | divided_by: max | times: 100 %}
+
+              <dd data-width="{{ width }}" data-value="{{ mean }}" style="width: {{ width }}%;">
+                <span>
+                  {{ value }}
+                </span>
+              </dd>
+            {% endfor %}
           {% endfor %}
         {% endfor %}
       </dl>
