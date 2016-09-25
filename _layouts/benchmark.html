@@ -122,7 +122,7 @@ layout: default
     var setup = {{ page.setup | jsonify }};
     var tests = {{ page.tests | jsonify }};
 
-    var benchmarks = tests.reduce(function(tests, test) {
+    var benchmarks = tests.map(function(test) {
       var compile = new Function([
         setup,
         'return function() {',
@@ -130,9 +130,7 @@ layout: default
         '}',
       ].join('\n'));
 
-      tests[test.name] = compile();
-
-      return tests;
+      return compile();
     }, {});
 
     button.disabled = true;
@@ -151,21 +149,21 @@ layout: default
       button.disabled = false;
 
       var container = document.querySelector('#results + figure dl');
-      container.dataset.max = Math.max.apply(null, Object.keys(results).map(function(name) {
-        return results[name].mean;
+      container.dataset.max = Math.max.apply(null, results.map(function(result) {
+        return result.mean;
       }).concat(Number(container.dataset.max)));
 
       var dt = document.createElement('dt');
       dt.textContent = 'Your Results';
       container.appendChild(dt);
 
-      Object.keys(results).forEach(function(name) {
+      results.forEach(function(result) {
         var element = document.createElement('dd');
 
-        element.dataset.mean = results[name].mean;
+        element.dataset.mean = result.mean;
         element.innerHTML = [
           '<span>',
-          element.dataset.mean,
+          result.mean,
           '</span>',
         ].join('\n');
 

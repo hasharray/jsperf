@@ -1,28 +1,24 @@
 var Benchmark = {
   compare: function(tests, size, callback) {
-    var names = Object.keys(tests);
-
-    setTimeout(function next(results) {
-      var name = names.shift();
-      if (name == null) {
+    setTimeout(function next(results, index) {
+      var test = tests[index];
+      if (test == null) {
         return setTimeout(callback, 0, results);
       }
-
-      var test = tests[name];
 
       Benchmark.collect(test, size, function(sample) {
         var mean = sample.reduce(function(sum, value) {
           return sum + value;
         }, 0) / sample.length;
 
-        results[name] = {
+        results[index] = {
           mean: mean,
           sample: sample,
         };
 
-        setTimeout(next, 0, results);
+        setTimeout(next, 0, results, ++index);
       });
-    }, 0, {});
+    }, 0, [], 0);
   },
 
   collect: function(fn, size, callback) {
