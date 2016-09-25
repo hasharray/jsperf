@@ -182,11 +182,10 @@ layout: default
       xhr.open('POST', 'http://api.postbot.pw/contents/hasharray/jsperf/data');
       xhr.setRequestHeader("Content-Type", 'application/x-www-form-urlencoded');
 
-      var ua = detect.parse(navigator.userAgent);
-
       var data = [
         'data[slug]=' + encodeURIComponent('{{ page.slug }}'),
-        'data[name]=' + encodeURIComponent(ua.browser.name),
+        'data[name]=' + encodeURIComponent(platform.name),
+        'data[version]=' + encodeURIComponent(platform.version),
       ];
 
       for (var name in results) {
@@ -202,7 +201,7 @@ layout: default
   </script>
 </template>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/Detect.js/2.2.2/detect.js" charset="utf-8"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/platform/1.3.1/platform.min.js" charset="utf-8"></script>
 <script type="text/javascript">
 {% include benchmark.js %}
 
