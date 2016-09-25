@@ -1,0 +1,10 @@
+name: Chrome Mobile 53
+results:
+  -
+    name: clearTimeouts
+    mean: 32578.883959413884
+
+  -
+    name: check if null first
+    mean: 32797.71603771781
+
