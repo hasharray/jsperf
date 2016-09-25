@@ -1,5 +1,8 @@
 ---
 title: For vs For-Of
+redirect_from:
+  - /array-for-vs-for-of
+
 setup: |
   var count = 1000 * 1000
   var data = [];

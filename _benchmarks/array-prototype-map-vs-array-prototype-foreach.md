@@ -1,5 +1,8 @@
 ---
 title: Array.prototype.map vs Array.prototype.forEach
+redirect_from:
+  - /map-vs-foreach
+
 setup: |
   var count = 1000 * 1000
   var data = [];
