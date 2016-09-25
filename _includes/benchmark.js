@@ -1,5 +1,5 @@
 var Benchmark = {
-  compare: function(tests, count, period, callback) {
+  compare: function(tests, size, callback) {
     var names = Object.keys(tests);
 
     setTimeout(function next(results) {
@@ -8,14 +8,16 @@ var Benchmark = {
         return setTimeout(callback, 0, results);
       }
 
-      Benchmark.collect(count, period, tests[name], function(samples) {
-        var mean = samples.reduce(function(sum, sample) {
-          return sum + ((sample.calls * 1000) / sample.time);
-        }, 0) / samples.length;
+      var test = tests[name];
+
+      Benchmark.collect(test, size, function(sample) {
+        var mean = sample.reduce(function(sum, value) {
+          return sum + value;
+        }, 0) / sample.length;
 
         results[name] = {
           mean: mean,
-          samples: samples,
+          sample: sample,
         };
 
         setTimeout(next, 0, results);
@@ -23,39 +25,23 @@ var Benchmark = {
     }, 0, {});
   },
 
-  collect: function(count, period, fn, callback) {
-    setTimeout(function next(samples) {
-      if (samples.length == count) {
-        return setTimeout(callback, 0, samples);
+  collect: function(fn, size, callback) {
+    setTimeout(function next(sample, count) {
+      if (sample.length >= size) {
+        return setTimeout(callback, 0, sample, count);
       }
 
-      Benchmark.sample(period, fn, function(sample) {
-        samples.push(sample);
-        setTimeout(next, 0, samples);
-      });
-    }, 0, []);
-  },
-
-  sample: function(period, fn, callback) {
-    setTimeout(function next(calls, time, count) {
-      if (time > period) {
-        return setTimeout(callback, 0, {
-          calls: calls,
-          time: time,
-        });
-      }
-
-      Benchmark.time(count, fn, function(delta) {
-        if (delta < (period / 100)) {
-          count *= 2;
-        } else {
-          calls += count;
-          time += delta;
+      Benchmark.time(count, fn, function(time) {
+        if (time < 1) {
+          return setTimeout(next, 0, sample, count * 2);
         }
 
-        setTimeout(next, 0, calls, time, count);
+        var value = count / (time / 1000);
+        sample.push(value);
+
+        setTimeout(next, 0, sample, count);
       });
-    }, 0, 0, 0, 2);
+    }, 0, [], 1);
   },
 
   time: function(count, fn, callback) {
