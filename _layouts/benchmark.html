@@ -210,12 +210,12 @@ layout: default
         'data[version]=' + encodeURIComponent(platform.version),
       ];
 
-      for (var name in results) {
-        var result = results[name];
+      results.forEach(function(result, index) {
+        var test = tests[index];
 
-        data.push('data[results][][name]=' + encodeURIComponent(name));
+        data.push('data[results][][name]=' + encodeURIComponent(test.name));
         data.push('data[results][][mean]=' + result.mean);
-      }
+      });
 
       xhr.send(data.join('&'));
     });
