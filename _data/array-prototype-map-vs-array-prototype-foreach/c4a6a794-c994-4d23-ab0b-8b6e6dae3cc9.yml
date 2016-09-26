@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: Array#map
+    mean: 5.054417475138578
+
+  -
+    name: Array#forEach
+    mean: 23.939247609470918
+
