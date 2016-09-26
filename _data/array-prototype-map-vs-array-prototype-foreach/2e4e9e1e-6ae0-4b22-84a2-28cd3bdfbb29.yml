@@ -1,0 +1,11 @@
+name: Opera
+version: 39.0.2256.71
+results:
+  -
+    name: Array#map
+    mean: 7.9263487522115845
+
+  -
+    name: Array#forEach
+    mean: 54.28438093383449
+
