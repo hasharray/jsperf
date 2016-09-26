@@ -1,0 +1,11 @@
+name: Safari
+version: 9.1.1
+results:
+  -
+    name: Array#map
+    mean: 20.87556446122788
+
+  -
+    name: Array#forEach
+    mean: 45.652555388920604
+
