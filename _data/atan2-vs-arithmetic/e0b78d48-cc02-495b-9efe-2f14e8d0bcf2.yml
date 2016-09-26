@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: atan2
+    mean: 119513.42441291531
+
+  -
+    name: arithmetic
+    mean: 742919.9653852439
+
