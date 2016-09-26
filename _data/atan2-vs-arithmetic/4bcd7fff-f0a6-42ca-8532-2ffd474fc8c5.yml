@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: atan2
+    mean: 187755.27811162043
+
+  -
+    name: arithmetic
+    mean: 834259.8610688689
+
