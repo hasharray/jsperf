@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 13.10586
+results:
+  -
+    name: Array#map
+    mean: 15.515096003018614
+
+  -
+    name: Array#forEach
+    mean: 24.41731274738718
+
