@@ -1,0 +1,15 @@
+name: Chrome
+version: 53.0.2785.116
+results:
+  -
+    name: trim1
+    mean: 97897.93030695504
+
+  -
+    name: trim2
+    mean: 109150.96292853198
+
+  -
+    name: trim3
+    mean: 84718.29205921624
+
