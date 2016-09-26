@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: atan2
+    mean: 175536.57023814454
+
+  -
+    name: arithmetic
+    mean: 677658.9712578331
+
