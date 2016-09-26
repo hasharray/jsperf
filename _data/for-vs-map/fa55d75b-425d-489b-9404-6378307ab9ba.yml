@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.116
+results:
+  -
+    name: for
+    mean: 1280644.6999195218
+
+  -
+    name: map
+    mean: 150140.05748512727
+
