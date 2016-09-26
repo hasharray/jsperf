@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: For
+    mean: 2179.6906393024474
+
+  -
+    name: For-Of
+    mean: 243.20075751239605
+
