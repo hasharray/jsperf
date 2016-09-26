@@ -1,0 +1,11 @@
+name: Android Browser
+version: null
+results:
+  -
+    name: console.log
+    mean: 1303.5920942919524
+
+  -
+    name: print
+    mean: 345.2486028645394
+
