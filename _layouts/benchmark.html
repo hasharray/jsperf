@@ -158,7 +158,7 @@ layout: default
     }, {});
 
     button.disabled = true;
-    Benchmark.compare(benchmarks, 100, 1000, function(results) {
+    Benchmark.compare(benchmarks, 100, function(results) {
       if (document.querySelector('#results')) {
         document.querySelector('#results').parentElement.parentElement.removeChild(
           document.querySelector('#results').parentElement
