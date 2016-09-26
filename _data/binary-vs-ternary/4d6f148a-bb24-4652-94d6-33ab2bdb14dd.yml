@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Binary
+    mean: 2108966.0211987034
+
+  -
+    name: Ternary
+    mean: 1967775.9680254194
+
