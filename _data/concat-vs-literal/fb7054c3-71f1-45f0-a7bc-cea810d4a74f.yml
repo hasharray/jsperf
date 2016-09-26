@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: Concat
+    mean: 15011.47996134737
+
+  -
+    name: Literal
+    mean: 13387.606111964962
+
