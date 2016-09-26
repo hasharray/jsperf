@@ -1,0 +1,15 @@
+name: Android Browser
+version: null
+results:
+  -
+    name: i += 1
+    mean: 55918.77980265031
+
+  -
+    name: i ++
+    mean: 53932.6658251372
+
+  -
+    name: i = i + 1
+    mean: 48522.54725088195
+
