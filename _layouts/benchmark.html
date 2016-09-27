@@ -99,7 +99,7 @@ layout: default
 
           {% assign browser_versions = browser_versions | uniq | sort | reverse %}
           {% for browser_version in browser_versions limit: 2 %}
-            <dt>{{ browser_name }} - {{ browser_version }}</dt>
+            <dt>{{ browser_name }} {{ browser_version }}</dt>
 
             {% for test in page.tests %}
               {% assign value = 0 %}
