@@ -136,7 +136,7 @@ layout: default
       <p>Operations per second (higher is better)</p>
     </figure>
 
-    <button id="benchmark" name"benchmark" type="button">Benchmark</button>
+    <button id="benchmark" name="benchmark" type="button">Benchmark</button>
   </section>
 
   <script type="text/javascript">
@@ -158,6 +158,8 @@ layout: default
     }, {});
 
     button.disabled = true;
+    button.setAttribute('class', 'spinner');
+
     Benchmark.compare(benchmarks, 100, function(results) {
       if (document.querySelector('#results')) {
         document.querySelector('#results').parentElement.parentElement.removeChild(
@@ -171,6 +173,7 @@ layout: default
       );
 
       button.disabled = false;
+      button.setAttribute('class', '');
 
       var container = document.querySelector('#results + figure dl');
       container.dataset.max = Math.max.apply(null, results.map(function(result) {

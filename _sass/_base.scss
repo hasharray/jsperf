@@ -134,29 +134,6 @@ main {
   margin: 0 auto;
 }
 
-button[disabled] {
-  position: relative;
-
-  &:after {
-    display: block;
-    content: '.';
-    float: right;
-    height: 0.8em;
-    width: 0.8em;
-    margin-left: 1em;
-
-    animation: rotate 0.8s infinite linear;
-    border: 2px solid #333;
-    border-right-color: transparent;
-    border-radius: 50%;
-  }
-}
-
-@keyframes rotate {
-  0%    { transform: rotate(0deg); }
-  100%  { transform: rotate(360deg); }
-}
-
 aside {
   margin-top: 2em;
   padding: 1em;
