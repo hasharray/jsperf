@@ -16,7 +16,7 @@
   {% endfor %}
 </datalist>
 
-<form method="post" action="http://api.postbot.pw/contents/hasharray/jsperf/benchmarks">
+<form method="post" action="https://api.postbot.pw/contents/hasharray/jsperf/benchmarks">
   <section>
     <p>
       Submit a new benchmark to measure and compare the relative performance
@@ -104,7 +104,7 @@
 </section>
 
 <template>
-  <form oninput="onInput(event)" onsubmit="onSubmit(event)" method="post" action="http://api.postbot.pw/contents/hasharray/jsperf/benchmarks">
+  <form oninput="onInput(event)" onsubmit="onSubmit(event)" method="post" action="https://api.postbot.pw/contents/hasharray/jsperf/benchmarks">
     <input id="redirect" type="hidden" name="redirect_uri" value="{{ site.url | default: site.github.url }}" />
     <input id="slug" type="hidden" name="data[slug]" required/>
 
