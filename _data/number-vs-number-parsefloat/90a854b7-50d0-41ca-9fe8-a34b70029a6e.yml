@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Number
+    mean: 8387641.567075466
+
+  -
+    name: Number.parseFloat
+    mean: 9352018.73839955
+
