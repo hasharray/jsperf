@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.116
+results:
+  -
+    name: If True
+    mean: 3078076.2339053326
+
+  -
+    name: If Not False
+    mean: 3006221.567283615
+
