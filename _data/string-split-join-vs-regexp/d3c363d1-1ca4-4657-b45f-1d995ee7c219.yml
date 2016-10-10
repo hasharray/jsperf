@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: String split/join
+    mean: 395239.10848454287
+
+  -
+    name: Regexp
+    mean: 1366584.9397302666
+
