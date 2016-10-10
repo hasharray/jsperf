@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.116
+results:
+  -
+    name: and
+    mean: 111200.3312828219
+
+  -
+    name: or
+    mean: 156883.73761540695
+
