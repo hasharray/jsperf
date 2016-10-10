@@ -96,6 +96,10 @@
   <h2>Recent Submissions</h2>
   <ul>
     {% for benchmark in site.benchmarks %}
+      {% unless benchmark.title %}
+        {% continue %}
+      {% endif %}
+
       <li>
         <a href="{{ benchmark.url | prepend: site.baseurl }}">{{ benchmark.title }}</a>
       </li>
