@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: th
+    mean: 12979058.521308675
+
+  -
+    name: Out
+    mean: 12443269.827778842
+
