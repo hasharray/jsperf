@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: and
+    mean: 1187843.3138980686
+
+  -
+    name: or
+    mean: 1115068.7362420866
+
