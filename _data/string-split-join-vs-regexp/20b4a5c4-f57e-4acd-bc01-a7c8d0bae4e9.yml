@@ -1,0 +1,11 @@
+name: Safari
+version: 9.1.2
+results:
+  -
+    name: String split/join
+    mean: 1342291.8400238594
+
+  -
+    name: Regexp
+    mean: 3770164.649296412
+
