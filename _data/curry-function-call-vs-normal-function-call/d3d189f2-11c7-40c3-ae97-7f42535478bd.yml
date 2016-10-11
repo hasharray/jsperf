@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Curry Function Call
+    mean: 13167.09289903996
+
+  -
+    name: Normal Function Call
+    mean: 16774.94204845609
+
