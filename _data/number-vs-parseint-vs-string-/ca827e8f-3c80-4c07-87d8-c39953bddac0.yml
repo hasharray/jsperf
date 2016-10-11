@@ -1,0 +1,15 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: Number
+    mean: 12164404.262582598
+
+  -
+    name: parseInt
+    mean: 8877817.801984427
+
+  -
+    name: String +
+    mean: 14442403.506944494
+
