@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: simple test
+    mean: 2213881.486957178
+
+  -
+    name: voidtest
+    mean: 2390597.612171432
+
