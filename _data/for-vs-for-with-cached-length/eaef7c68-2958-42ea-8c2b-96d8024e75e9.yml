@@ -1,0 +1,11 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: For
+    mean: 902.6002542864154
+
+  -
+    name: For With Cached Length
+    mean: 804.1387103113935
+
