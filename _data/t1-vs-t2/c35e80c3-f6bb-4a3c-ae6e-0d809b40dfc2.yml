@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.50
+results:
+  -
+    name: t1
+    mean: 1040602.1246433505
+
+  -
+    name: t2
+    mean: 1557723.579214535
+
