@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: Array#filter()
+    mean: 145671.91934882582
+
+  -
+    name: Array#splice(Array#indexOf())#slice()
+    mean: 723877.8280809287
+
