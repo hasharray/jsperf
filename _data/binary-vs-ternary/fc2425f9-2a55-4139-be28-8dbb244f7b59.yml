@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: Binary
+    mean: 138102.8484593074
+
+  -
+    name: Ternary
+    mean: 161236.9952485956
+
