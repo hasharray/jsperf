@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: object
+    mean: 8029454.36130068
+
+  -
+    name: array push
+    mean: 9643983.80878774
+
