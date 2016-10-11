@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: For
+    mean: 1182.303652169679
+
+  -
+    name: For With Cached Length
+    mean: 1128.491436776858
+
