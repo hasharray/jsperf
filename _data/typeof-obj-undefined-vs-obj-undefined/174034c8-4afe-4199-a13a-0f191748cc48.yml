@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 53.0.2785.124
+results:
+  -
+    name: typeof obj === 'undefined'
+    mean: 126132.71595654098
+
+  -
+    name: obj === undefined
+    mean: 154577.34530677786
+
