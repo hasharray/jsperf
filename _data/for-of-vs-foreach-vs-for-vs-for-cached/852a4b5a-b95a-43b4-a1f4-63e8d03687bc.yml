@@ -1,0 +1,19 @@
+name: Safari
+version: 10.0
+results:
+  -
+    name: for of
+    mean: 956218.513742112
+
+  -
+    name: forEach
+    mean: 80256.07267618286
+
+  -
+    name: for
+    mean: 3107299.9500659574
+
+  -
+    name: for cached
+    mean: 2449573.4009592356
+
