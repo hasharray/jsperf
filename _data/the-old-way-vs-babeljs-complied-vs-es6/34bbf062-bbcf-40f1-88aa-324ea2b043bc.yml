@@ -1,0 +1,15 @@
+name: Firefox
+version: 44.0
+results:
+  -
+    name: The old way
+    mean: 10518357.29539217
+
+  -
+    name: BabelJS complied
+    mean: 9609482.02553862
+
+  -
+    name: ES6
+    mean: 6118308.744125024
+
