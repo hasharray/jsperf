@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: Proxy Pattern
+    mean: 63651.869517432904
+
+  -
+    name: Object Initialization
+    mean: 149072.30888619483
+
