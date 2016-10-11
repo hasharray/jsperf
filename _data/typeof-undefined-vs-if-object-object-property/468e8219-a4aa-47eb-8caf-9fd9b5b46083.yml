@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.116
+results:
+  -
+    name: typeof undefined
+    mean: 32742.005266342872
+
+  -
+    name: if object && object.property
+    mean: 33103.60952170063
+
