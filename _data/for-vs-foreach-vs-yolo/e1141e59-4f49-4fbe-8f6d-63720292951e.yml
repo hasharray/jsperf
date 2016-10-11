@@ -1,0 +1,15 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: for
+    mean: 507.65505826615015
+
+  -
+    name: foreach
+    mean: 506.1263317085858
+
+  -
+    name: yolo
+    mean: 492.64509879517675
+
