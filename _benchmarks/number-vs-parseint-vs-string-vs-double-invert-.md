@@ -1,5 +1,5 @@
 ---
-title: Number vs parseInt vs String +
+title: Number vs parseInt vs String + vs Double Invert
 setup: |
   
 tests:
@@ -15,5 +15,9 @@ tests:
     name: String +
     code: |
       "123"+0
+  -
+    name: Double Invert
+    code: |
+      ~~"123"
 ---
 
