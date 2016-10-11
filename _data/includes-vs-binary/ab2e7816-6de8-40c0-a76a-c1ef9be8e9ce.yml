@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 53.0.2785.124
+results:
+  -
+    name: includes
+    mean: 2651.120934397967
+
+  -
+    name: binary
+    mean: 231776.76803100068
+
