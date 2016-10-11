@@ -1,0 +1,19 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: for of
+    mean: 4556.776653640218
+
+  -
+    name: forEach
+    mean: 5675.613121237711
+
+  -
+    name: for
+    mean: 6624.117972612256
+
+  -
+    name: for cached
+    mean: 8166.224241923864
+
