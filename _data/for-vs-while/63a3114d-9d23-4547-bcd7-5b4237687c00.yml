@@ -1,0 +1,11 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: For
+    mean: 249.6756685222008
+
+  -
+    name: While
+    mean: 255.85643400016824
+
