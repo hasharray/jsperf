@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: Boolean
+    mean: 3256416.877239741
+
+  -
+    name: String
+    mean: 2907148.7337418674
+
