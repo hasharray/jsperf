@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: for(key in obj)
+    mean: 85655.31858532986
+
+  -
+    name: for with Object.keys
+    mean: 44618.11377326322
+
