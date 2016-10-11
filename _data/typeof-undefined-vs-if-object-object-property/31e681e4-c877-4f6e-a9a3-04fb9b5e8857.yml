@@ -1,0 +1,11 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: typeof undefined
+    mean: 13983.86574769098
+
+  -
+    name: if object && object.property
+    mean: 14567.093556718986
+
