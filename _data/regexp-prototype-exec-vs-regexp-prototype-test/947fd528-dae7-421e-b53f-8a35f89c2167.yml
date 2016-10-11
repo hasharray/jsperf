@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: RegExp.prototype.exec
+    mean: 1711081.8140397146
+
+  -
+    name: RegExp.prototype.test
+    mean: 1589873.820750949
+
