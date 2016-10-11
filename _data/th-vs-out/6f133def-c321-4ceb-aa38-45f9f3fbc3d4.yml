@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: th
+    mean: 2748483.777734304
+
+  -
+    name: Out
+    mean: 1724157.7755662436
+
