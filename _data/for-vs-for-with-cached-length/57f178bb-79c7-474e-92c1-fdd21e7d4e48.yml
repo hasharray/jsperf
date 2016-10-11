@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0
+results:
+  -
+    name: For
+    mean: 499.757488418689
+
+  -
+    name: For With Cached Length
+    mean: 485.3620343283972
+
