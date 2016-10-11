@@ -1,0 +1,19 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: for of
+    mean: 384306.12829264766
+
+  -
+    name: forEach
+    mean: 5134052.314351793
+
+  -
+    name: for
+    mean: 7249176.790334311
+
+  -
+    name: for cached
+    mean: 7268002.346775498
+
