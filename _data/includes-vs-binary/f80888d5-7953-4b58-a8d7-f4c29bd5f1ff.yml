@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: includes
+    mean: 18841.366465332198
+
+  -
+    name: binary
+    mean: 1878526.7703544153
+
