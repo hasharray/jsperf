@@ -1,0 +1,11 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: typeof obj === 'undefined'
+    mean: 12879262.768975291
+
+  -
+    name: obj === undefined
+    mean: 12809309.267551541
+
