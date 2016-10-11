@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 53.0.2785.124
+results:
+  -
+    name: Array.prototype.includes
+    mean: 110517.83462342365
+
+  -
+    name: Array.prototype.indexOf
+    mean: 101646.85862245895
+
