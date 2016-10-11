@@ -1,0 +1,11 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: Boolean
+    mean: 17265188.916447747
+
+  -
+    name: String
+    mean: 12183285.311203724
+
