@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.116
+results:
+  -
+    name: a
+    mean: 2928489.896076652
+
+  -
+    name: b
+    mean: 2936340.9500031527
+
