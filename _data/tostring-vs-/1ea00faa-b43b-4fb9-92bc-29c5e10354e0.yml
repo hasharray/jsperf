@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: toString
+    mean: 9396617.447788313
+
+  -
+    name: + ''
+    mean: 10704506.250137337
+
