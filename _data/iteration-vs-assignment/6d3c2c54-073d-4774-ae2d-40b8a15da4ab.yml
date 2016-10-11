@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: Iteration
+    mean: 3618383.8458967567
+
+  -
+    name: Assignment
+    mean: 11118044.539363395
+
