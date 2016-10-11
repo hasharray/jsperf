@@ -1,0 +1,11 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: i + 1
+    mean: 7297345.687165458
+
+  -
+    name: ++i
+    mean: 7068331.052438126
+
