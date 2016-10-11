@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Iteration
+    mean: 1546089.2555724636
+
+  -
+    name: Assignment
+    mean: 3359664.5009744074
+
