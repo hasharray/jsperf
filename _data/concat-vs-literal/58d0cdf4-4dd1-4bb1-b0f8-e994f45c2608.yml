@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.116
+results:
+  -
+    name: Concat
+    mean: 45857.31934886879
+
+  -
+    name: Literal
+    mean: 48669.66101187111
+
