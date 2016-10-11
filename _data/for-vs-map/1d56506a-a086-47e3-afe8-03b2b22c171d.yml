@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0
+results:
+  -
+    name: for
+    mean: 8553440.652187757
+
+  -
+    name: map
+    mean: 1201750.3852405353
+
