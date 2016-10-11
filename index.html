@@ -98,7 +98,7 @@
     {% for benchmark in site.benchmarks %}
       {% unless benchmark.title %}
         {% continue %}
-      {% endif %}
+      {% endunless %}
 
       <li>
         <a href="{{ benchmark.url | prepend: site.baseurl }}">{{ benchmark.title }}</a>
