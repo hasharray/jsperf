@@ -1,0 +1,11 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: Array
+    mean: 491.39923656055066
+
+  -
+    name: Float64 Typed Array
+    mean: 978.4623655913981
+
