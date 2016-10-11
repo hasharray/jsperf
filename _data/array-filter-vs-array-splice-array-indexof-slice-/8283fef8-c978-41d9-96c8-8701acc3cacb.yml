@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: Array#filter()
+    mean: 56078.538034257304
+
+  -
+    name: Array#splice(Array#indexOf())#slice()
+    mean: 108251.65311827005
+
