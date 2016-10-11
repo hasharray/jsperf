@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: Object.prototype.hasOwnProperty
+    mean: 185263.9217599657
+
+  -
+    name: In
+    mean: 152583.19665596692
+
