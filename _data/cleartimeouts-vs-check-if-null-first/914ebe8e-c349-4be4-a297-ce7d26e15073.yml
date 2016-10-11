@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: clearTimeouts
+    mean: 227448.62008127314
+
+  -
+    name: check if null first
+    mean: 224130.17570951305
+
