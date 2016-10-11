@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: Binary
+    mean: 3584596.188978328
+
+  -
+    name: Ternary
+    mean: 3105825.2423603917
+
