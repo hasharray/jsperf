@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: Prueba1
+    mean: 1103086.965651822
+
+  -
+    name: Prueba 2
+    mean: 4880.750318818064
+
