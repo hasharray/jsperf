@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: Proxy Pattern
+    mean: 32170.82930995516
+
+  -
+    name: Object Initialization
+    mean: 58661.968207134094
+
