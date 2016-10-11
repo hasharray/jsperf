@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: add
+    mean: 3627865.7706588344
+
+  -
+    name: add
+    mean: 3506653.650001985
+
