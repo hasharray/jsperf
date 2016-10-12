@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: console.log
+    mean: 10297.910988016803
+
+  -
+    name: console.error
+    mean: 6410.168206159917
+
