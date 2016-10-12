@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: Many Math ops on Date object units
+    mean: 1018.769129863555
+
+  -
+    name: Fewer ops on Date object value
+    mean: 1897.746953432785
+
