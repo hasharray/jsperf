@@ -1,0 +1,11 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: atan2
+    mean: 14864.243364380392
+
+  -
+    name: mult
+    mean: 117547.11227209702
+
