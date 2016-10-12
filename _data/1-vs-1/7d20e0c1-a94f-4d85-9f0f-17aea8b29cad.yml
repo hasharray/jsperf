@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: 1
+    mean: 14264884.185258005
+
+  -
+    name: 1
+    mean: 13601278.23210438
+
