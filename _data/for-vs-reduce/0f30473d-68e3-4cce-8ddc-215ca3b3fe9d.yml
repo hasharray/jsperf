@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 4.0
+results:
+  -
+    name: for
+    mean: 188922.87796876737
+
+  -
+    name: reduce
+    mean: 102093.0241382498
+
