@@ -1,0 +1,11 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: for
+    mean: 8998935.36887845
+
+  -
+    name: map
+    mean: 5423219.597263731
+
