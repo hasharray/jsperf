@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.116
+results:
+  -
+    name: includes
+    mean: 4341.785280702341
+
+  -
+    name: binary
+    mean: 1524152.3235408165
+
