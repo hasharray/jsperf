@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: Bottom up
+    mean: 7400352.988493906
+
+  -
+    name: Top Down
+    mean: 6692679.61789931
+
