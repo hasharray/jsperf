@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 53.0.2785.124
+results:
+  -
+    name: RegExp.prototype.exec
+    mean: 166939.88436680177
+
+  -
+    name: String.prototype.match
+    mean: 103585.02267098548
+
