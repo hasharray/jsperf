@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: using if
+    mean: 2730224.635448854
+
+  -
+    name: using ||
+    mean: 3018649.6999531523
+
