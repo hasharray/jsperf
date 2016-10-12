@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: console.log
+    mean: 547.7061696574366
+
+  -
+    name: console.error
+    mean: 609.8428196799345
+
