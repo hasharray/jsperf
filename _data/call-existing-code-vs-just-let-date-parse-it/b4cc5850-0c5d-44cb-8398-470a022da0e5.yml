@@ -1,0 +1,11 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: call existing code
+    mean: 42000.59460194066
+
+  -
+    name: just let date parse it
+    mean: 435371.76286806795
+
