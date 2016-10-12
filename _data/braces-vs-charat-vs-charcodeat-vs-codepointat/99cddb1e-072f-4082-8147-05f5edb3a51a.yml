@@ -1,0 +1,19 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: braces
+    mean: 1340561.1431931537
+
+  -
+    name: charAt
+    mean: 1503880.4838893297
+
+  -
+    name: charCodeAt
+    mean: 2051383.932747872
+
+  -
+    name: codePointAt
+    mean: 883612.9530503455
+
