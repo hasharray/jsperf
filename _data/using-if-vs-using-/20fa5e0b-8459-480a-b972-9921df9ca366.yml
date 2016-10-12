@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 53.0.2785.124
+results:
+  -
+    name: using if
+    mean: 300378.3131931968
+
+  -
+    name: using ||
+    mean: 176350.31799708316
+
