@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: call existing code
+    mean: 16487.797444386564
+
+  -
+    name: just let date parse it
+    mean: 278653.19332570536
+
