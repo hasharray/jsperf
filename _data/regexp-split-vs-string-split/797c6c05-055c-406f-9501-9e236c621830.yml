@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 53.0.2785.124
+results:
+  -
+    name: RegExp split
+    mean: 82980.71313599325
+
+  -
+    name: String split
+    mean: 134086.6209667807
+
