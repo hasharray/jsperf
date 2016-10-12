@@ -1,0 +1,19 @@
+name: Safari
+version: 8+
+results:
+  -
+    name: Minus sign
+    mean: 105.36041423705763
+
+  -
+    name: Multiply
+    mean: 104.83204431480551
+
+  -
+    name: Divide
+    mean: 83.47966860924271
+
+  -
+    name: sub itsefl twice
+    mean: 98.4305231332194
+
