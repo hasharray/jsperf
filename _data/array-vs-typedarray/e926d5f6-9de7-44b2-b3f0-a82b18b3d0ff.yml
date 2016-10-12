@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: Array
+    mean: 99048.67209672101
+
+  -
+    name: TypedArray
+    mean: 174778.68258852104
+
