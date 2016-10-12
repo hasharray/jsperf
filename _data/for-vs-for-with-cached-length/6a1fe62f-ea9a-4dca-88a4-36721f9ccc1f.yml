@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 13.10586
+results:
+  -
+    name: For
+    mean: 560.4873294219333
+
+  -
+    name: For With Cached Length
+    mean: 1122.054425078923
+
