@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 13.10586
+results:
+  -
+    name: For
+    mean: 1733.5100073815444
+
+  -
+    name: For-Of
+    mean: 16.113463818458964
+
