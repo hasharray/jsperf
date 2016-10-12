@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: test
+    mean: 119929.56767389094
+
+  -
+    name: asfasf
+    mean: 2483.184760546301
+
