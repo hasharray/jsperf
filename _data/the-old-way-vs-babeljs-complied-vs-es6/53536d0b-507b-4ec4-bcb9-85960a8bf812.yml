@@ -1,0 +1,15 @@
+name: Chrome Mobile
+version: 53.0.2785.124
+results:
+  -
+    name: The old way
+    mean: 221075.0198226477
+
+  -
+    name: BabelJS complied
+    mean: 237324.23841768876
+
+  -
+    name: ES6
+    mean: 233010.97939362287
+
