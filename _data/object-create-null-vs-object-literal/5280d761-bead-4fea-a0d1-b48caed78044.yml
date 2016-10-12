@@ -1,0 +1,11 @@
+name: Safari
+version: 9.1.2
+results:
+  -
+    name: Object.create(null)
+    mean: 6628663.217354501
+
+  -
+    name: Object Literal
+    mean: 4826671.718546104
+
