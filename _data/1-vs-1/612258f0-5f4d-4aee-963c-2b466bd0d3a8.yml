@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 53.0.2785.109
+results:
+  -
+    name: 1
+    mean: 2690467.261506263
+
+  -
+    name: 1
+    mean: 2699868.9403448044
+
