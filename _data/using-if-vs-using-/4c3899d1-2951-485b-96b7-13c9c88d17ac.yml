@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: using if
+    mean: 12484069.780697148
+
+  -
+    name: using ||
+    mean: 14858495.841759877
+
