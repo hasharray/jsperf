@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Many Math ops on Date object units
+    mean: 487.1602197608917
+
+  -
+    name: Fewer ops on Date object value
+    mean: 1959.3630054414216
+
