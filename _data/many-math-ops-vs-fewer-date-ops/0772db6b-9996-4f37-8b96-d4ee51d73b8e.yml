@@ -1,0 +1,11 @@
+name: Chrome
+version: 49.0.2623.112
+results:
+  -
+    name: Many Math ops
+    mean: 6442.956065030663
+
+  -
+    name: Fewer Date ops
+    mean: 1722.338970400101
+
