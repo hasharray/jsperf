@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Includes indexOf
+    mean: 1208208.4339713303
+
+  -
+    name: Includes Match
+    mean: 1266532.3491900624
+
