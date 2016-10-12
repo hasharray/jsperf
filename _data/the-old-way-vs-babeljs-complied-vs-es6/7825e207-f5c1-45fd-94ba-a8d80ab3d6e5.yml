@@ -1,0 +1,15 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: The old way
+    mean: 2486962.017322877
+
+  -
+    name: BabelJS complied
+    mean: 2477279.6008297564
+
+  -
+    name: ES6
+    mean: 2436541.707396647
+
