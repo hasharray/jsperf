@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: 1
+    mean: 3280345.82002412
+
+  -
+    name: 1
+    mean: 3398308.360705291
+
