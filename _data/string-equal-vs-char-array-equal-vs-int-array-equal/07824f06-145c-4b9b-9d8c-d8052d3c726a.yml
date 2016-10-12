@@ -1,0 +1,15 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: string equal
+    mean: 2671756.09937283
+
+  -
+    name: char array equal
+    mean: 967683.4907782385
+
+  -
+    name: int array equal
+    mean: 941250.5128742829
+
