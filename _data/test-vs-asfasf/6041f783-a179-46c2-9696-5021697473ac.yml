@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: test
+    mean: 259435.28861555952
+
+  -
+    name: asfasf
+    mean: 6027.677988626502
+
