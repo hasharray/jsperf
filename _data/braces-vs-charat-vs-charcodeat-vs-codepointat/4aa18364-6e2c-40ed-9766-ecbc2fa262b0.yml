@@ -1,0 +1,19 @@
+name: Opera
+version: 40.0.2308.81
+results:
+  -
+    name: braces
+    mean: 410798.31117961317
+
+  -
+    name: charAt
+    mean: 298404.72255695896
+
+  -
+    name: charCodeAt
+    mean: 617474.4868946791
+
+  -
+    name: codePointAt
+    mean: 183662.04904294814
+
