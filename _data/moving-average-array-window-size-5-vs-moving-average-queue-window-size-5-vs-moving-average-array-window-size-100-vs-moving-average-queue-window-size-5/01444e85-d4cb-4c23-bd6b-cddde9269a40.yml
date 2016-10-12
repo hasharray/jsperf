@@ -1,0 +1,19 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: Moving Average Array window size 5
+    mean: 44.54322819239265
+
+  -
+    name: Moving Average Queue window size 5
+    mean: 38.51960119291705
+
+  -
+    name: Moving Average Array window size 100
+    mean: 46.3102547230255
+
+  -
+    name: Moving Average Queue window size 5
+    mean: 10.106088331904662
+
