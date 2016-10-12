@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 53.0.2785.124
+results:
+  -
+    name: For
+    mean: 185.99495769903461
+
+  -
+    name: For-Of
+    mean: 24.1187885029575
+
