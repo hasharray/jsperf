@@ -1,0 +1,11 @@
+name: Safari
+version: 8+
+results:
+  -
+    name: Array
+    mean: 59.748606969693235
+
+  -
+    name: Float64 Typed Array
+    mean: 62.48086896221873
+
