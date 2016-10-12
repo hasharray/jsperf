@@ -1,0 +1,11 @@
+name: Firefox
+version: 46.0
+results:
+  -
+    name: Many Math ops
+    mean: 15237.675791956179
+
+  -
+    name: Fewer Date ops
+    mean: 1531.076176703928
+
