@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: for
+    mean: 12601454.351809852
+
+  -
+    name: reduce
+    mean: 9169944.16884752
+
