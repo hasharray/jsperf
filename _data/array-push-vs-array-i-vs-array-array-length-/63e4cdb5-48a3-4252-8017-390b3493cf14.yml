@@ -1,0 +1,15 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Array#push
+    mean: 8935.610906959339
+
+  -
+    name: Array[i++]
+    mean: 47050.99821617258
+
+  -
+    name: Array[array.length]
+    mean: 7653.3930370553835
+
