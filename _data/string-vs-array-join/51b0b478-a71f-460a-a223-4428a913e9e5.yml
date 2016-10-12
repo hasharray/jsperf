@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: String +
+    mean: 3090080.015399948
+
+  -
+    name: Array join
+    mean: 1392057.8596183634
+
