@@ -1,0 +1,15 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: string equal
+    mean: 12242244.201401351
+
+  -
+    name: char array equal
+    mean: 3284510.1020662216
+
+  -
+    name: int array equal
+    mean: 3436360.8092757487
+
