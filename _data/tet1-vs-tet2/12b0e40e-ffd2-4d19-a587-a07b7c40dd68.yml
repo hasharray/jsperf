@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: tet1
+    mean: 3670.7612537211417
+
+  -
+    name: tet2
+    mean: 57882.50980390352
+
