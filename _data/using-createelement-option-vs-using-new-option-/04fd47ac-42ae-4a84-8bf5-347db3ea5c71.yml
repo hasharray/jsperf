@@ -1,0 +1,11 @@
+name: Opera
+version: 40.0.2308.81
+results:
+  -
+    name: Using createElement('option')
+    mean: 15.503828568676145
+
+  -
+    name: Using new Option()
+    mean: 15.97563622450304
+
