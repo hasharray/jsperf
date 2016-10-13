@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.59
+results:
+  -
+    name: console.log
+    mean: 56794.1475566718
+
+  -
+    name: print
+    mean: 8551.708869268208
+
