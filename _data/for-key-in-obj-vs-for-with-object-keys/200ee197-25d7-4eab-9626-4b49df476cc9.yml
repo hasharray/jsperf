@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 53.0.2785.124
+results:
+  -
+    name: for(key in obj)
+    mean: 40627.96709003552
+
+  -
+    name: for with Object.keys
+    mean: 42830.78321011906
+
