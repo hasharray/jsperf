@@ -1,0 +1,15 @@
+name: Chrome
+version: 54.0.2840.59
+results:
+  -
+    name: for
+    mean: 545.1419455044526
+
+  -
+    name: foreach
+    mean: 58.74395998914265
+
+  -
+    name: yolo
+    mean: 67.83758250412336
+
