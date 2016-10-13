@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: Unique merge A
+    mean: 196482.84302235357
+
+  -
+    name: Unique merge B
+    mean: 209081.92657594846
+
