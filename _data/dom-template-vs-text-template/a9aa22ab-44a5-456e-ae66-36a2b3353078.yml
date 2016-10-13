@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: DOM Template
+    mean: 18359.278850532304
+
+  -
+    name: Text Template
+    mean: 7992.58970545928
+
