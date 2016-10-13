@@ -1,0 +1,11 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: Using createElement('option')
+    mean: 28.660744991994676
+
+  -
+    name: Using new Option()
+    mean: 42.94365600983491
+
