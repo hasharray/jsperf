@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0
+results:
+  -
+    name: Using createElement('option')
+    mean: 61.835090257625616
+
+  -
+    name: Using new Option()
+    mean: 57.50016622935888
+
