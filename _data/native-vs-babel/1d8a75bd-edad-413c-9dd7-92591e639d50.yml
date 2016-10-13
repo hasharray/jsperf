@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: Native
+    mean: 1961.6425934090994
+
+  -
+    name: Babel
+    mean: 73.35949822849962
+
