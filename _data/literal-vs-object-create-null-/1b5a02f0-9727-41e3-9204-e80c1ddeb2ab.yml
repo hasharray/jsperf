@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 53.0.2785.124
+results:
+  -
+    name: Literal
+    mean: 123224.2589565239
+
+  -
+    name: Object.create(null)
+    mean: 108262.08445514468
+
