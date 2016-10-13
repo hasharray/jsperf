@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: module
+    mean: 6383598.044355137
+
+  -
+    name: std
+    mean: 5890130.584287137
+
