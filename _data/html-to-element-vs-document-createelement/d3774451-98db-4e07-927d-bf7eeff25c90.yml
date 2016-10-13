@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 53.0.2785.124
+results:
+  -
+    name: html-to-element
+    mean: 6107.645982574195
+
+  -
+    name: document.createElement
+    mean: 8121.962190975087
+
