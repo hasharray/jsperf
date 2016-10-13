@@ -1,0 +1,15 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: test M
+    mean: 101755.65593500271
+
+  -
+    name: test R
+    mean: 370474.2414974277
+
+  -
+    name: test S
+    mean: 75924.011908757
+
