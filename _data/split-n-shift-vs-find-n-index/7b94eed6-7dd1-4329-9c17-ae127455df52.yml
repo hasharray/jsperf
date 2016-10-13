@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: split'n'shift
+    mean: 1247789.8402208595
+
+  -
+    name: find'n'index
+    mean: 8468565.66971547
+
