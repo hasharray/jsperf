@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: functional approach
+    mean: 1056553.946630904
+
+  -
+    name: IE6
+    mean: 1198188.6851955643
+
