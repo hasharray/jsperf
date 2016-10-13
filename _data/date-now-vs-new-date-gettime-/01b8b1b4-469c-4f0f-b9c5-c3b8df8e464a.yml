@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Date.now()
+    mean: 1811444.002695111
+
+  -
+    name: (new Date).getTime()
+    mean: 1714937.2331650439
+
