@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 53.0.2785.124
+results:
+  -
+    name: Array
+    mean: 11220.251591585546
+
+  -
+    name: TypedArray
+    mean: 16068.9270824214
+
