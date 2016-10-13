@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.59
+results:
+  -
+    name: for
+    mean: 1056101.6650216344
+
+  -
+    name: map
+    mean: 109308.11484522533
+
