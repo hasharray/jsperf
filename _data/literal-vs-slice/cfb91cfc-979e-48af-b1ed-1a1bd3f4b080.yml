@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.59
+results:
+  -
+    name: Literal
+    mean: 1966687.6747085645
+
+  -
+    name: Slice
+    mean: 1253324.4956995426
+
