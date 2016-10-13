@@ -1,0 +1,19 @@
+name: Chrome
+version: 55.0.2882.0
+results:
+  -
+    name: Number
+    mean: 744805.5681751337
+
+  -
+    name: parseInt
+    mean: 666373.470644255
+
+  -
+    name: String +
+    mean: 786212.2479981232
+
+  -
+    name: Double Invert
+    mean: 860977.31570985
+
