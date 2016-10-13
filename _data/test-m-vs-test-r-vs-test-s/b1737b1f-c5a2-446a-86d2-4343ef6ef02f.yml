@@ -1,0 +1,15 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: test M
+    mean: 141237.11856088112
+
+  -
+    name: test R
+    mean: 343167.6586754743
+
+  -
+    name: test S
+    mean: 71571.9910108527
+
