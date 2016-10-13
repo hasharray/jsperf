@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: Literal
+    mean: 11977643.421351653
+
+  -
+    name: Slice
+    mean: 5120926.969903497
+
