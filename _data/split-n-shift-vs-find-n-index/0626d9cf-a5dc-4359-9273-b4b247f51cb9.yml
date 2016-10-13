@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: split'n'shift
+    mean: 1638051.8064118675
+
+  -
+    name: find'n'index
+    mean: 2524687.859046403
+
