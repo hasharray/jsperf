@@ -1,0 +1,11 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: array.length
+    mean: 467618.61010427
+
+  -
+    name: length
+    mean: 35987.464386131476
+
