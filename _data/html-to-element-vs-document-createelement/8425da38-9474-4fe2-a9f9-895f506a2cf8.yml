@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: html-to-element
+    mean: 83496.46330364738
+
+  -
+    name: document.createElement
+    mean: 272803.7347348932
+
