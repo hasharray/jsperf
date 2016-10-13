@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: html-to-element
+    mean: 50663.40147950128
+
+  -
+    name: document.createElement
+    mean: 68755.82397295443
+
