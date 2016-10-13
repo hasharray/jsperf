@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 53.0.2785.124
+results:
+  -
+    name: functional approach
+    mean: 23479.467625138164
+
+  -
+    name: IE6
+    mean: 23544.505950219318
+
