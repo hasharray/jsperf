@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.59
+results:
+  -
+    name: for
+    mean: 1242819.9614686156
+
+  -
+    name: reduce
+    mean: 385022.52579310536
+
