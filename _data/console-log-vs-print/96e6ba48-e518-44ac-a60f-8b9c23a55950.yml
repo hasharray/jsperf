@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 53.0.2785.124
+results:
+  -
+    name: console.log
+    mean: 2319.1362416892084
+
+  -
+    name: print
+    mean: 560.7956856862767
+
