@@ -1,0 +1,11 @@
+name: Firefox
+version: 45.0
+results:
+  -
+    name: Literal
+    mean: 12330907.08782759
+
+  -
+    name: Object.create(null)
+    mean: 6456642.163180077
+
