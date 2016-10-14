@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: functional
+    mean: 332277.69802241126
+
+  -
+    name: procedural
+    mean: 2483470.807153216
+
