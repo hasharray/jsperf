@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.59
+results:
+  -
+    name: functional approach
+    mean: 232603.44818536314
+
+  -
+    name: IE6
+    mean: 230180.6785155048
+
