@@ -1,0 +1,19 @@
+name: Microsoft Edge
+version: 13.10586
+results:
+  -
+    name: Number
+    mean: 1858671.6917877551
+
+  -
+    name: parseInt
+    mean: 1835977.9219486455
+
+  -
+    name: String +
+    mean: 2049246.1223562064
+
+  -
+    name: Double Invert
+    mean: 1477301.1834806781
+
