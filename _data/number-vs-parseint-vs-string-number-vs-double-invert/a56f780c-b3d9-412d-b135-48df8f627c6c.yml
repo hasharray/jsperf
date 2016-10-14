@@ -1,0 +1,19 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: Number
+    mean: 4897887.829974589
+
+  -
+    name: parseInt
+    mean: 3321674.4433852825
+
+  -
+    name: String * Number
+    mean: 5891915.661815436
+
+  -
+    name: Double invert
+    mean: 4386492.43765277
+
