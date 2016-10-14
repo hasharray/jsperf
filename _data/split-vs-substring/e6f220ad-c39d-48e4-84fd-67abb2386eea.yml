@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: Split
+    mean: 1208919.9422961008
+
+  -
+    name: SubString
+    mean: 13279562.893494999
+
