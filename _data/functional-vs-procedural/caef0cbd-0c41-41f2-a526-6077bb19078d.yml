@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.116
+results:
+  -
+    name: functional
+    mean: 218793.01565663746
+
+  -
+    name: procedural
+    mean: 2149085.8961226065
+
