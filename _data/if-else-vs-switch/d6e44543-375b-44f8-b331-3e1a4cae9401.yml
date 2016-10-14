@@ -1,0 +1,11 @@
+name: Firefox
+version: 51.0
+results:
+  -
+    name: if else
+    mean: 6876.781277370144
+
+  -
+    name: switch
+    mean: 7035.049455424526
+
