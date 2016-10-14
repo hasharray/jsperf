@@ -1,0 +1,15 @@
+name: Chrome
+version: 54.0.2840.59
+results:
+  -
+    name: i += 1
+    mean: 2582293.145579072
+
+  -
+    name: i ++
+    mean: 2178219.9479137445
+
+  -
+    name: i = i + 1
+    mean: 2153533.639225399
+
