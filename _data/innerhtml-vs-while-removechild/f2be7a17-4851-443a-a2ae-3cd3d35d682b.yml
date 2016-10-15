@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: innerHTML = ""
+    mean: 948398.8911575202
+
+  -
+    name: while removeChild
+    mean: 1252945.699385176
+
