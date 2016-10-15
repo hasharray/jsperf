@@ -1,0 +1,11 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: Binary
+    mean: 5077288.410907609
+
+  -
+    name: Ternary
+    mean: 7593119.018179017
+
