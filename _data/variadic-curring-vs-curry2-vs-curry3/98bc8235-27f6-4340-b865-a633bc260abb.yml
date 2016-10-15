@@ -1,0 +1,15 @@
+name: Chrome
+version: 56.0.2891.0
+results:
+  -
+    name: variadic curring
+    mean: 123818.72724421276
+
+  -
+    name: curry2
+    mean: 707298.3097165802
+
+  -
+    name: curry3
+    mean: 365154.2883805234
+
