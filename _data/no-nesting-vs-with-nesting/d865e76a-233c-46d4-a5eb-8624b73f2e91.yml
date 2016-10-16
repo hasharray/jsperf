@@ -1,0 +1,15 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: no nesting
+    mean: 1086978.0962446323
+
+  -
+    name: with nesting
+    mean: 358515.21683988743
+
+  -
+    name: assign
+    mean: 2505324.268689006
+
