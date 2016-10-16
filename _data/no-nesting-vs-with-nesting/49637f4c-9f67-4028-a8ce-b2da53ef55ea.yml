@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: no nesting
+    mean: 1614979.4480193101
+
+  -
+    name: with nesting
+    mean: 779722.5965741598
+
