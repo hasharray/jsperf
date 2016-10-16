@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: no nesting
+    mean: 2008031.0381012664
+
+  -
+    name: with nesting
+    mean: 264851.9061949949
+
