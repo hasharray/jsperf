@@ -1,0 +1,11 @@
+name: Android Browser
+version: 47.0
+results:
+  -
+    name: Array
+    mean: 53535.44116425337
+
+  -
+    name: Uint16Array
+    mean: 145489.00849996318
+
