@@ -1,9 +1,9 @@
 ---
-title: no nesting vs with nesting
+title: no nesting vs with nesting vs assign
 setup: |
   window.withNesting = function () {
     return function* () {
-      yield 2
+      yield true
   }
   }
   
@@ -19,5 +19,9 @@ tests:
     name: with nesting
     code: |
       var foo = withNesting()()
+  -
+    name: assign
+    code: |
+      var foo = true
 ---
 GFN creation speed
