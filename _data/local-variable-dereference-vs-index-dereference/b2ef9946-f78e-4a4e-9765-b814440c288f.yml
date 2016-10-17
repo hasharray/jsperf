@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: local variable dereference
+    mean: 2756891.5116666425
+
+  -
+    name: index dereference
+    mean: 2429296.0730789266
+
