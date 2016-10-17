@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: DOM Template
+    mean: 9255.32036386112
+
+  -
+    name: Text Template
+    mean: 12189.820747382953
+
