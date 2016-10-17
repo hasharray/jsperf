@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0
+results:
+  -
+    name: i + 1
+    mean: 3680432.0717188763
+
+  -
+    name: ++i
+    mean: 1235484.2134905972
+
