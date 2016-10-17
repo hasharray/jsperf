@@ -1,0 +1,11 @@
+name: Android Browser
+version: 49.0
+results:
+  -
+    name: Object.create(null)
+    mean: 763223.4633804705
+
+  -
+    name: Object Literal
+    mean: 508139.6906559108
+
