@@ -47,6 +47,4 @@ tests:
           return tmp.firstChild;
       }(data));
 ---
-Test create new nodes from either a DOM template (using document.createElement) or a Text Template (using plain text string and inserting into a temporary node with innerHTML).
-
-
+Test the performance of creating new DOM nodes by either solely using document methods (createElement, createTextNode), or by concatenating strings.
