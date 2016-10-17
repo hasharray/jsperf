@@ -1,0 +1,15 @@
+name: Safari
+version: 10.0
+results:
+  -
+    name: no nesting
+    mean: 1058647.1670909636
+
+  -
+    name: with nesting
+    mean: 33053.66117683221
+
+  -
+    name: assign
+    mean: 1784474.1122669268
+
