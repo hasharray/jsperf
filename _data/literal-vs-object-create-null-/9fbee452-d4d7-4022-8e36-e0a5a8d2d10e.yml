@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: Literal
+    mean: 3549112.810135132
+
+  -
+    name: Object.create(null)
+    mean: 2428113.23924945
+
