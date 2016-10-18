@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: asdf
+    mean: 2133429.984564877
+
+  -
+    name: dfg
+    mean: 13848481.0687005
+
