@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: Map
+    mean: 1831669.9841306394
+
+  -
+    name: Literal
+    mean: 13529592.305833546
+
