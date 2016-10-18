@@ -1,0 +1,15 @@
+name: Microsoft Edge
+version: 13.10586
+results:
+  -
+    name: slice
+    mean: 2834103.057963887
+
+  -
+    name: substring
+    mean: 3304864.9141693534
+
+  -
+    name: substr
+    mean: 3295001.363013556
+
