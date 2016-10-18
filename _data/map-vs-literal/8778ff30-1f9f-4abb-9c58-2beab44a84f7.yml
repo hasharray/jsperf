@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: Map
+    mean: 1426463.3918060756
+
+  -
+    name: Literal
+    mean: 2189498.3475234527
+
