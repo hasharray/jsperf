@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: keep width and height in memory
+    mean: 2866.051706833709
+
+  -
+    name: fetch width and height every time
+    mean: 3121.360925605969
+
