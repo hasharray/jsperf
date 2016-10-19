@@ -1,0 +1,11 @@
+name: Chrome
+version: 51.0.2704.84
+results:
+  -
+    name: Array
+    mean: 269991.56627636723
+
+  -
+    name: Uint16Array
+    mean: 231452.79253669054
+
