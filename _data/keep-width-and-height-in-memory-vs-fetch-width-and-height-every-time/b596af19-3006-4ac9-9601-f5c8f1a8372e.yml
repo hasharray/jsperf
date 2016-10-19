@@ -1,0 +1,11 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: keep width and height in memory
+    mean: 6032.878861624212
+
+  -
+    name: fetch width and height every time
+    mean: 6155.412925801597
+
