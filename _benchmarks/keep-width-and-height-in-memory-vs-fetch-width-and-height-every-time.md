@@ -16,6 +16,7 @@ tests:
             that._width = this.width
             that._height = this.height
             that._loaded = true
+            console.log("test1 image loaded")
             test()
           }
       
@@ -50,6 +51,7 @@ tests:
           this._img = new Image()
       
           this._img.onload = function () {
+            console.log("test2 image loaded")
             test()
           }
       
