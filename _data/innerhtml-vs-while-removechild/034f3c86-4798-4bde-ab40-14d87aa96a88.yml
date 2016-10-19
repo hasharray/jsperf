@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: innerHTML = ""
+    mean: 296017.9585113582
+
+  -
+    name: while removeChild
+    mean: 1127960.372961713
+
