@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Greater Than
+    mean: 16637531.707663424
+
+  -
+    name: Not Equal
+    mean: 13975101.777828444
+
