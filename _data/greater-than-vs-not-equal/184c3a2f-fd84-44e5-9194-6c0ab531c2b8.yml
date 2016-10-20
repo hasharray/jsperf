@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Greater Than
+    mean: 3337454.6042382503
+
+  -
+    name: Not Equal
+    mean: 3334991.3624050785
+
