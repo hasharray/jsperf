@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Temp var Assignment
+    mean: 3512274.6304597575
+
+  -
+    name: Property Assigment
+    mean: 3621271.3247819883
+
