@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Array#from
+    mean: 775.0743590381487
+
+  -
+    name: Spread array
+    mean: 1684.749862065505
+
