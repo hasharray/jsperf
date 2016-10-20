@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: Temp var Assignment
+    mean: 13702075.696753837
+
+  -
+    name: Property Assigment
+    mean: 15731314.377545066
+
