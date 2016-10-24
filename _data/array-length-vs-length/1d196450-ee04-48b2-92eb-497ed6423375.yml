@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.71
+results:
+  -
+    name: array.length
+    mean: 403386.4566877702
+
+  -
+    name: length
+    mean: 289237.2363300767
+
