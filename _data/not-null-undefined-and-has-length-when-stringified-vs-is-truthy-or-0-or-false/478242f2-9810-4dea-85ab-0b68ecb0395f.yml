@@ -1,0 +1,11 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: Not null/undefined and has length when stringified
+    mean: 7470596.21884189
+
+  -
+    name: Is truthy or 0 or false
+    mean: 10736671.20745337
+
