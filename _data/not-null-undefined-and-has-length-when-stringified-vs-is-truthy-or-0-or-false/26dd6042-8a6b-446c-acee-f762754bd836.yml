@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0.1
+results:
+  -
+    name: Not null/undefined and has length when stringified
+    mean: 5712148.037319269
+
+  -
+    name: Is truthy or 0 or false
+    mean: 6459659.075983894
+
