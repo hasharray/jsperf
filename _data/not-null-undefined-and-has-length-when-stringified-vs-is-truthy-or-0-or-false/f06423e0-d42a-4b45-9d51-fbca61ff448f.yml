@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.59
+results:
+  -
+    name: Not null/undefined and has length when stringified
+    mean: 2846081.9254352003
+
+  -
+    name: Is truthy or 0 or false
+    mean: 2885928.8067324627
+
