@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: test for
+    mean: 464.8708149233974
+
+  -
+    name: test for each
+    mean: 369.33913953028167
+
