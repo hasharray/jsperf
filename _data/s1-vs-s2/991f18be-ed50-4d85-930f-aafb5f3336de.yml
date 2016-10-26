@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: S1
+    mean: 9297017.304447494
+
+  -
+    name: S2
+    mean: 8903192.364328776
+
