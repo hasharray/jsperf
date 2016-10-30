@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Bitwise
+    mean: 15080224.87591843
+
+  -
+    name: Math API
+    mean: 15258083.575856492
+
