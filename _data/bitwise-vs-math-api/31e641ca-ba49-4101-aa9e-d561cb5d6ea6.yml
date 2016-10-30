@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Bitwise
+    mean: 2890381.4175819117
+
+  -
+    name: Math API
+    mean: 3505022.9186724704
+
