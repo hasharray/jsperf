@@ -1,0 +1,19 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: toString
+    mean: 17672.444679613436
+
+  -
+    name: String()
+    mean: 26270.97303495794
+
+  -
+    name: left implicit
+    mean: 1118713.1435283867
+
+  -
+    name: right implicit
+    mean: 1397228.3652525747
+
