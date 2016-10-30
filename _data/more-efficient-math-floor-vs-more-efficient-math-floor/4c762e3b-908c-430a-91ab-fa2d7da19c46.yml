@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: More efficient Math.floor
+    mean: 14333244.263681116
+
+  -
+    name: More efficient Math.floor
+    mean: 13766726.482170116
+
