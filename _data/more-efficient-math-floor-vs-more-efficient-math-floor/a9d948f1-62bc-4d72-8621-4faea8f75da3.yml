@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.71
+results:
+  -
+    name: More efficient Math.floor
+    mean: 2761726.711925475
+
+  -
+    name: More efficient Math.floor
+    mean: 2800211.637911231
+
