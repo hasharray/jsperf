@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.71
+results:
+  -
+    name: array.length
+    mean: 2705323.828806139
+
+  -
+    name: let array.length
+    mean: 2733768.837742907
+
