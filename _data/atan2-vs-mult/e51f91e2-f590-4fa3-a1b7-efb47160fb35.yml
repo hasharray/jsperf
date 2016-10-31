@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.71
+results:
+  -
+    name: atan2
+    mean: 10270.157700595244
+
+  -
+    name: mult
+    mean: 29676.924195083306
+
