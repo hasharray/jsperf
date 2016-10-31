@@ -1,0 +1,11 @@
+name: Firefox
+version: 52.0
+results:
+  -
+    name: String +
+    mean: 11298740.12487334
+
+  -
+    name: Array join
+    mean: 943071.5272243652
+
