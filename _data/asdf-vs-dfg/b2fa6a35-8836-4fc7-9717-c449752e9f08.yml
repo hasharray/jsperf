@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.71
+results:
+  -
+    name: asdf
+    mean: 1525987.0477431105
+
+  -
+    name: dfg
+    mean: 5159547.609312638
+
