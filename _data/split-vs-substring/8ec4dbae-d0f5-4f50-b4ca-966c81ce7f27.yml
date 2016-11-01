@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.71
+results:
+  -
+    name: Split
+    mean: 1982617.9604439547
+
+  -
+    name: SubString
+    mean: 2396379.083499588
+
