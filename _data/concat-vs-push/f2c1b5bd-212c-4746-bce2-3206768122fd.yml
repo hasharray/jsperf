@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: concat
+    mean: 18.451713818072978
+
+  -
+    name: push
+    mean: 7423.275185900944
+
