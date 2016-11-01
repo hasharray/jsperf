@@ -1,0 +1,11 @@
+name: Chrome
+version: 50.0.2661.102
+results:
+  -
+    name: i++
+    mean: 65.9108064830581
+
+  -
+    name: ++i
+    mean: 65.51569256459018
+
