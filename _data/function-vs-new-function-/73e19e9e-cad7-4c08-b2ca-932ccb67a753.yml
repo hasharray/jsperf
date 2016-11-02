@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: Function()
+    mean: 766334.4649625339
+
+  -
+    name: new Function()
+    mean: 838088.5688334266
+
