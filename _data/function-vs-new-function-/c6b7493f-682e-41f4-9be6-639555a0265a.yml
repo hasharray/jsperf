@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: Function()
+    mean: 363036.9521270376
+
+  -
+    name: new Function()
+    mean: 331371.79972306115
+
