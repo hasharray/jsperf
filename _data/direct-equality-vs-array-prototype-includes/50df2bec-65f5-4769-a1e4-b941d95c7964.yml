@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.71
+results:
+  -
+    name: direct equality
+    mean: 1978854.1278230008
+
+  -
+    name: Array.prototype.includes
+    mean: 2002649.1142165589
+
