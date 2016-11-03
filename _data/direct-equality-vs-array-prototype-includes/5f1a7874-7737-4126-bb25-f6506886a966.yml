@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: direct equality
+    mean: 14050627.326681165
+
+  -
+    name: Array.prototype.includes
+    mean: 13351661.421655584
+
