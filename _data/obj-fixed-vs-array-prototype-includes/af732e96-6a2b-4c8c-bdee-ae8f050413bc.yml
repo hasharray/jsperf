@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: obj === fixed
+    mean: 3252239.9803888886
+
+  -
+    name: Array.prototype.includes
+    mean: 1733009.6461173487
+
