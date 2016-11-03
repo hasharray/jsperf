@@ -1,0 +1,15 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Math
+    mean: 3914962.487104984
+
+  -
+    name: Bits
+    mean: 5692677.971624976
+
+  -
+    name: Array
+    mean: 96136.95929842135
+
