@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: obj === fixed
+    mean: 14454409.583093148
+
+  -
+    name: Array.prototype.includes
+    mean: 10639606.860406162
+
