@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: Date now
+    mean: 2423170.353867525
+
+  -
+    name: Incrementing object lookup
+    mean: 3188693.5458164383
+
