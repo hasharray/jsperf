@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.71
+results:
+  -
+    name: Date.now
+    mean: 45232.14462352401
+
+  -
+    name: obj increment
+    mean: 43672.41486499609
+
