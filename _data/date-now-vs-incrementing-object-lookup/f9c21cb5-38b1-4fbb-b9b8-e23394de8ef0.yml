@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.71
+results:
+  -
+    name: Date now
+    mean: 2389491.268649253
+
+  -
+    name: Incrementing object lookup
+    mean: 4188017.4836586844
+
