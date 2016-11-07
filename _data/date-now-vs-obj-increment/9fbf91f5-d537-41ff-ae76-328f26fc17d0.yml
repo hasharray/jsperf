@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Date.now
+    mean: 18335.655487645538
+
+  -
+    name: obj increment
+    mean: 16656.562317758406
+
