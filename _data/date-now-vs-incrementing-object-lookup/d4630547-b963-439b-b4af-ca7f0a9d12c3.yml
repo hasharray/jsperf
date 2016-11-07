@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Date now
+    mean: 7376264.121311128
+
+  -
+    name: Incrementing object lookup
+    mean: 14066704.60820066
+
