@@ -1,0 +1,15 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: Plain
+    mean: 1144.8237380133248
+
+  -
+    name: http://packer.50x.eu/
+    mean: 47657.19720326491
+
+  -
+    name: https://javascriptobfuscator.com/
+    mean: 1181.617962791309
+
