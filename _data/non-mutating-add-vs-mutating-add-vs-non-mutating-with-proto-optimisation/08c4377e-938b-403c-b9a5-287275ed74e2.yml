@@ -1,0 +1,15 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: non mutating add
+    mean: 11479324.350859046
+
+  -
+    name: mutating add
+    mean: 13772455.446368279
+
+  -
+    name: non mutating with proto optimisation
+    mean: 7903640.568270523
+
