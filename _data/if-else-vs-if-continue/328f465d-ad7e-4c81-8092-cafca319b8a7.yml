@@ -1,0 +1,11 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: if else
+    mean: 53764.31352945423
+
+  -
+    name: if continue
+    mean: 46547.41609322822
+
