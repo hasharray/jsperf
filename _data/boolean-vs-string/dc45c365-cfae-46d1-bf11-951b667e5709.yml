@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.87
+results:
+  -
+    name: Boolean
+    mean: 3300494.2284453935
+
+  -
+    name: String
+    mean: 2331151.935742479
+
