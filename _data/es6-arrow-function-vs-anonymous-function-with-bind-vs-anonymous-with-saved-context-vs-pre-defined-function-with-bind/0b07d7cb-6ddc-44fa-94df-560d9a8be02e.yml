@@ -1,0 +1,19 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: ES6 Arrow function
+    mean: 2553.822768905219
+
+  -
+    name: Anonymous function with bind
+    mean: 424.32790614410277
+
+  -
+    name: Anonymous with saved context
+    mean: 4883.471206015009
+
+  -
+    name: pre-defined function with bind
+    mean: 2000.8624575492038
+
