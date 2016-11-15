@@ -1,0 +1,15 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Arrow function
+    mean: 8976.834235212182
+
+  -
+    name: Anonymous function with bind
+    mean: 2088.7153573924966
+
+  -
+    name: Anonymous with saved context
+    mean: 4587.829514766572
+
