@@ -33,11 +33,11 @@ tests:
     name: pre-defined function with bind
     code: |
       var test = function(){
-      let result = i * this.value
+        let result = i * this.value;
       }
       
       for(let i=0; i<1000; i++) {
-        test.bind(this)
+        test.bind(this);
       }
 ---
 ES6 Arrow function vs Anonymous function with bind vs Anonymous with saved context vs pre-defined function with bind
