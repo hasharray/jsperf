@@ -1,0 +1,23 @@
+name: Chrome
+version: 54.0.2840.98
+results:
+  -
+    name: Iterator
+    mean: 345.60475280885674
+
+  -
+    name: forEach
+    mean: 345.37487937749995
+
+  -
+    name: for..of
+    mean: 292.1156438279306
+
+  -
+    name: spread
+    mean: 177.22660659273348
+
+  -
+    name: Array.from
+    mean: 119.66458574685586
+
