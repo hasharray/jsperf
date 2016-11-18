@@ -1,0 +1,15 @@
+name: Chrome Mobile
+version: 55.0.2883.53
+results:
+  -
+    name: Math
+    mean: 67180.98518960013
+
+  -
+    name: Bits
+    mean: 123310.20874752651
+
+  -
+    name: Array
+    mean: 25699.963448590766
+
