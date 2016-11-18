@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 55.0.2883.53
+results:
+  -
+    name: Greater Than
+    mean: 162706.45189231524
+
+  -
+    name: Not Equal
+    mean: 192477.34951628462
+
