@@ -1,0 +1,15 @@
+name: Chrome
+version: 54.0.2840.98
+results:
+  -
+    name: for i
+    mean: 215.24196886492757
+
+  -
+    name: map join
+    mean: 131.1489339744115
+
+  -
+    name: reduce substring
+    mean: 194.9883876734414
+
