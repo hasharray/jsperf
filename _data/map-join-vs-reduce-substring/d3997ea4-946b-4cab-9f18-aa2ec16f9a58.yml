@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: map join
+    mean: 199.12894235429147
+
+  -
+    name: reduce substring
+    mean: 289.57808503133367
+
