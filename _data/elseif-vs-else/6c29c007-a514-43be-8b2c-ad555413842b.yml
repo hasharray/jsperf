@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.90
+results:
+  -
+    name: elseif
+    mean: 2636121.4839200103
+
+  -
+    name: else
+    mean: 2479562.573504989
+
