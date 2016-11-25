@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: elseif
+    mean: 16238042.624534814
+
+  -
+    name: else
+    mean: 15438612.676949764
+
