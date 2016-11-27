@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: hoisted function
+    mean: 2471699.691484632
+
+  -
+    name: function
+    mean: 2218282.969358252
+
