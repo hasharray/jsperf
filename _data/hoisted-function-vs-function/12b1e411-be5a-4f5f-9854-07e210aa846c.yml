@@ -1,0 +1,11 @@
+name: Firefox
+version: 41.0
+results:
+  -
+    name: hoisted function
+    mean: 11286546.68045972
+
+  -
+    name: function
+    mean: 12819695.231989646
+
