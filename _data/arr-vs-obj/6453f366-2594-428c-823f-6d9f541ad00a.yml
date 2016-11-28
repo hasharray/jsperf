@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: arr
+    mean: 10365.365846313884
+
+  -
+    name: obj
+    mean: 9342.560358771125
+
