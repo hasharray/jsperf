@@ -1,0 +1,19 @@
+name: Microsoft Edge
+version: 15.14971
+results:
+  -
+    name: braces
+    mean: 891504.7560954399
+
+  -
+    name: charAt
+    mean: 443644.40328434686
+
+  -
+    name: charCodeAt
+    mean: 471442.3646564207
+
+  -
+    name: codePointAt
+    mean: 294699.5653518444
+
