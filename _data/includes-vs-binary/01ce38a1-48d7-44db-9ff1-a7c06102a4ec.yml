@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2936.0
+results:
+  -
+    name: includes
+    mean: 399531.02157297474
+
+  -
+    name: binary
+    mean: 3743841.5235867966
+
