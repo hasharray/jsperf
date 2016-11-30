@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0.1
+results:
+  -
+    name: String Template
+    mean: 8348714.439898486
+
+  -
+    name: Dom Template
+    mean: 7831376.277229092
+
