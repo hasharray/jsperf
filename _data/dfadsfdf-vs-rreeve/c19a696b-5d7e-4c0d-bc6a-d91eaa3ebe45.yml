@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: dfadsfdf
+    mean: 15413829.516166875
+
+  -
+    name: rreeve
+    mean: 16783955.16180206
+
