@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: es5 if not array array
+    mean: 13224601.704306237
+
+  -
+    name: es6 if not array array
+    mean: 719249.6655973642
+
