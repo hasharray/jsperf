@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Return
+    mean: 9966.270714372551
+
+  -
+    name: Not return
+    mean: 10224.626226167102
+
