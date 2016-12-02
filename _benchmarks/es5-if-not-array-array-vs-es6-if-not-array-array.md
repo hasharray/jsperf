@@ -16,7 +16,7 @@ tests:
   -
     name: es6 if not array array
     code: |
-      result0 = [...input0];
-      result1 = [...input1];
+      input0 = [...input0];
+      input1 = [...input1];
 ---
 
