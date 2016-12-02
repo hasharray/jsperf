@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.99
+results:
+  -
+    name: Return
+    mean: 48450.0680194868
+
+  -
+    name: Not return
+    mean: 47638.020471840486
+
