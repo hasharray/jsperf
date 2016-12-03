@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: es5 if not array array
+    mean: 3565980.8925434663
+
+  -
+    name: es6 if not array array
+    mean: 495317.73866497516
+
