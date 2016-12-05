@@ -1,0 +1,15 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: BenchOldSchool
+    mean: 44996.57086278512
+
+  -
+    name: BenchNewSchool
+    mean: 48763.829796579455
+
+  -
+    name: BenchNewCurriedSchool
+    mean: 42209.654334533894
+
