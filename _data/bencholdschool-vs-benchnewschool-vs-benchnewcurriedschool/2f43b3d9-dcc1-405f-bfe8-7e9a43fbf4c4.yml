@@ -1,0 +1,15 @@
+name: Chrome
+version: 54.0.2840.98
+results:
+  -
+    name: BenchOldSchool
+    mean: 88936.01174029776
+
+  -
+    name: BenchNewSchool
+    mean: 93659.78606950835
+
+  -
+    name: BenchNewCurriedSchool
+    mean: 87481.01010989651
+
