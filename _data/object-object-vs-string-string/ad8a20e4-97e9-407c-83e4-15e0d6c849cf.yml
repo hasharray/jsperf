@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: Object === Object
+    mean: 9796660.458554117
+
+  -
+    name: String === String
+    mean: 13838918.50637481
+
