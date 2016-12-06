@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Object === Object
+    mean: 2240646.5553135187
+
+  -
+    name: String === String
+    mean: 2545803.845033729
+
