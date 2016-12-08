@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: String.concat
+    mean: 9539156.841348037
+
+  -
+    name: jQuery $.extend
+    mean: 161253.52579766783
+
