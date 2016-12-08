@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.75
+results:
+  -
+    name: indexOf
+    mean: 398352.7553325175
+
+  -
+    name: binaryIndexOf
+    mean: 2240175.8752489407
+
