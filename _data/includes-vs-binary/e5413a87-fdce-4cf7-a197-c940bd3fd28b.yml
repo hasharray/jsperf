@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.75
+results:
+  -
+    name: includes
+    mean: 387200.7827539961
+
+  -
+    name: binary
+    mean: 2003074.7567092085
+
