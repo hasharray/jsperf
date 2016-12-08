@@ -1,0 +1,19 @@
+name: Firefox
+version: 49.0
+results:
+  -
+    name: dom1
+    mean: 454.17977619404564
+
+  -
+    name: qs1
+    mean: 13765.363452165262
+
+  -
+    name: dom2
+    mean: 626.2458772178204
+
+  -
+    name: qs2
+    mean: 13439.134416554187
+
