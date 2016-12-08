@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: indexOf
+    mean: 183138.80958341912
+
+  -
+    name: binaryIndexOf
+    mean: 7617523.640820099
+
