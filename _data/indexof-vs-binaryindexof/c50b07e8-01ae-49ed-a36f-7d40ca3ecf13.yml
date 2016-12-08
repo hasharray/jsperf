@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0.1
+results:
+  -
+    name: indexOf
+    mean: 89268.44009271724
+
+  -
+    name: binaryIndexOf
+    mean: 7017990.599302372
+
