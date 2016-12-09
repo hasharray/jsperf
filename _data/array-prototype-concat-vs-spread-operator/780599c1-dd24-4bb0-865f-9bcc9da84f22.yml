@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.98
+results:
+  -
+    name: Array.prototype.concat
+    mean: 70.70892529411356
+
+  -
+    name: spread operator
+    mean: 5.38975446565865
+
