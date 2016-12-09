@@ -1,0 +1,19 @@
+name: Chrome
+version: 55.0.2883.75
+results:
+  -
+    name: dom1
+    mean: 704.1121870955525
+
+  -
+    name: qs1
+    mean: 8933.326752110008
+
+  -
+    name: dom2
+    mean: 450.46209744694613
+
+  -
+    name: qs2
+    mean: 8274.784734165434
+
