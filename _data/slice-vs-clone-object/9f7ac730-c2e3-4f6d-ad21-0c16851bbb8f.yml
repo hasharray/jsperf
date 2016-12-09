@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0
+results:
+  -
+    name: Slice
+    mean: 976664.665512365
+
+  -
+    name: Clone object
+    mean: 1063905.7873821778
+
