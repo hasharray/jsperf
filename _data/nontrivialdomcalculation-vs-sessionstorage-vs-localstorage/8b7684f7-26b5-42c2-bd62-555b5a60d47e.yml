@@ -1,0 +1,15 @@
+name: Chrome
+version: 54.0.2840.99
+results:
+  -
+    name: nonTrivialDOMCalculation
+    mean: 2886.328152957502
+
+  -
+    name: sessionStorage
+    mean: 377986.9782127197
+
+  -
+    name: localStorage
+    mean: 308777.1082417378
+
