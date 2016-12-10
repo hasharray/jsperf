@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0
+results:
+  -
+    name: Arrow function
+    mean: 22593.143426802704
+
+  -
+    name: Anonymous function with bind
+    mean: 304.65399276396425
+
