@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 55.0.2883.91
+results:
+  -
+    name: String +
+    mean: 238423.71737905112
+
+  -
+    name: Array join
+    mean: 85817.68624412281
+
