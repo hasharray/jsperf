@@ -1,0 +1,19 @@
+name: Chrome Mobile
+version: 55.0.2883.91
+results:
+  -
+    name: for of
+    mean: 22624.251761563733
+
+  -
+    name: forEach
+    mean: 23619.95658209615
+
+  -
+    name: for
+    mean: 143418.1459276905
+
+  -
+    name: for cached
+    mean: 161912.4866457369
+
