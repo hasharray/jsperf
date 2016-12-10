@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0
+results:
+  -
+    name: Array.prototype.concat
+    mean: 193.77997313601668
+
+  -
+    name: spread operator
+    mean: 28.32839958627454
+
