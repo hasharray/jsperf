@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 55.0.2883.91
+results:
+  -
+    name: Array#forEach
+    mean: 239190.79824635357
+
+  -
+    name: Array#filter()
+    mean: 51585.238047525025
+
