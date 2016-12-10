@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 55.0.2883.91
+results:
+  -
+    name: array.length
+    mean: 231139.42810228968
+
+  -
+    name: let array.length
+    mean: 196252.43985865594
+
