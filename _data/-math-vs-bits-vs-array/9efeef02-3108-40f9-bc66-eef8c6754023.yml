@@ -1,0 +1,15 @@
+name: Safari
+version: 10.0
+results:
+  -
+    name: Math
+    mean: 693871.0583220392
+
+  -
+    name: Bits
+    mean: 848423.5430301162
+
+  -
+    name: Array
+    mean: 9012.938054829783
+
