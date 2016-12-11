@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2939.0
+results:
+  -
+    name: Greater Than
+    mean: 2633107.4413952366
+
+  -
+    name: Not Equal
+    mean: 2548360.9290488334
+
