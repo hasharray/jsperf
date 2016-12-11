@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: concat
+    mean: 110.69177569103323
+
+  -
+    name: push
+    mean: 1194.4140387656552
+
