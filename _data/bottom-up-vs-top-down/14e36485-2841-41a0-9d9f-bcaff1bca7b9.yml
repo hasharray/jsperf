@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.99
+results:
+  -
+    name: Bottom up
+    mean: 3069009.1030957373
+
+  -
+    name: Top Down
+    mean: 3137610.7843611385
+
