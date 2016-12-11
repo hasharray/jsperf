@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.98
+results:
+  -
+    name: numDigitsDumb
+    mean: 553.9698875423472
+
+  -
+    name: numDigits
+    mean: 136.03699947888126
+
