@@ -1,0 +1,11 @@
+name: Opera
+version: 41.0.2353.69
+results:
+  -
+    name: split
+    mean: 728085.0609421815
+
+  -
+    name: regex
+    mean: 435550.0993489051
+
