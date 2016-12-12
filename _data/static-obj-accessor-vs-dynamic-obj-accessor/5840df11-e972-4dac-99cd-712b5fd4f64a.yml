@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.98
+results:
+  -
+    name: static obj accessor
+    mean: 3225285.083811079
+
+  -
+    name: dynamic obj accessor
+    mean: 2197492.6634154166
+
