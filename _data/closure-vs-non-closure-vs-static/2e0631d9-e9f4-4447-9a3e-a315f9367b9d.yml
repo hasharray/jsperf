@@ -1,0 +1,15 @@
+name: Chrome
+version: 54.0.2840.99
+results:
+  -
+    name: closure
+    mean: 3832.4378557322407
+
+  -
+    name: non-closure
+    mean: 3739.6822590361685
+
+  -
+    name: static
+    mean: 3935.1000921705663
+
