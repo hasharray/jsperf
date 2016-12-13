@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: concat
+    mean: 194.07593480210073
+
+  -
+    name: push
+    mean: 3668.5871720892383
+
