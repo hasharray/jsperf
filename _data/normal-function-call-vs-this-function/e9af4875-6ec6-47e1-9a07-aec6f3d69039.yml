@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: Normal Function Call
+    mean: 1357296.4067119134
+
+  -
+    name: this function
+    mean: 64724.79422223364
+
