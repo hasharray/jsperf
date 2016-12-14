@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.98
+results:
+  -
+    name: Replace
+    mean: 1550828.9705192372
+
+  -
+    name: If Else
+    mean: 1761310.614715875
+
