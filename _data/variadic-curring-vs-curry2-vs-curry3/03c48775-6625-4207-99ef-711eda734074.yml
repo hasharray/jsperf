@@ -1,0 +1,15 @@
+name: Firefox
+version: 52.0
+results:
+  -
+    name: variadic curring
+    mean: 221285.5552800673
+
+  -
+    name: curry2
+    mean: 4325427.322359506
+
+  -
+    name: curry3
+    mean: 3012413.4807226956
+
