@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.75
+results:
+  -
+    name: Slice
+    mean: 3082385.273037276
+
+  -
+    name: Clone object
+    mean: 3642595.086312864
+
