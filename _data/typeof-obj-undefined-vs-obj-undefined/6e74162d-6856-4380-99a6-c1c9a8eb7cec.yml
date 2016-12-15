@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: typeof obj === 'undefined'
+    mean: 2422825.0339648537
+
+  -
+    name: obj === undefined
+    mean: 1676798.6335764304
+
