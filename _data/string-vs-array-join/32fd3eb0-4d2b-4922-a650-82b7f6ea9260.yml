@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0.2
+results:
+  -
+    name: String +
+    mean: 12442534.491417093
+
+  -
+    name: Array join
+    mean: 3644196.2901823903
+
