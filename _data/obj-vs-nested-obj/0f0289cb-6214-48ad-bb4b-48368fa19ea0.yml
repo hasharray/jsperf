@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: obj
+    mean: 9691316.844365217
+
+  -
+    name: nested obj
+    mean: 8426008.824776469
+
