@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: NestedFunction
+    mean: 4676770.349357393
+
+  -
+    name: NotNestedFunction
+    mean: 8298789.130138103
+
