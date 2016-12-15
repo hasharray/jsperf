@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: If
+    mean: 9678757.531652594
+
+  -
+    name: Logical and
+    mean: 9217190.645487899
+
