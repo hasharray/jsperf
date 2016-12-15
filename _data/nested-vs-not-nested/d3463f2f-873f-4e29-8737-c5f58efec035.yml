@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: Nested
+    mean: 6579469.366489218
+
+  -
+    name: Not nested
+    mean: 8340829.4095078865
+
