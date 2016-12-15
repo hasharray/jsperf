@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: NestedFunction
+    mean: 2453217.6998881535
+
+  -
+    name: NotNestedFunction
+    mean: 2572816.132311315
+
