@@ -1,0 +1,15 @@
+name: Safari
+version: 10.0.2
+results:
+  -
+    name: Array#push
+    mean: 41372.33608795782
+
+  -
+    name: Array[i++]
+    mean: 73122.27670553961
+
+  -
+    name: Array[array.length]
+    mean: 35252.92217398191
+
