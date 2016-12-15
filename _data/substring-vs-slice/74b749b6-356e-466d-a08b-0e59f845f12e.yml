@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0.2
+results:
+  -
+    name: substring
+    mean: 8451953.978559516
+
+  -
+    name: slice
+    mean: 6790306.3075581025
+
