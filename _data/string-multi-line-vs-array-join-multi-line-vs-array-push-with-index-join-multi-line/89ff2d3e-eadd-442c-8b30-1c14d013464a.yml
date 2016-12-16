@@ -1,0 +1,15 @@
+name: Safari
+version: 10.0.2
+results:
+  -
+    name: String + multi line
+    mean: 5115256.70524131
+
+  -
+    name: Array join multi line
+    mean: 3222963.764942123
+
+  -
+    name: Array push with index join multi line
+    mean: 3241973.822132072
+
