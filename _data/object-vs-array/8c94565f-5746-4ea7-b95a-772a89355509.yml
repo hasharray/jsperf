@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: object
+    mean: 2942386.8036272563
+
+  -
+    name: array
+    mean: 1791589.8489479572
+
