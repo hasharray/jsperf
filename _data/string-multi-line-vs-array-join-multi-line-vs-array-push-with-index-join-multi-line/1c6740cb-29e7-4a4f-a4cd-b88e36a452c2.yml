@@ -1,0 +1,15 @@
+name: Chrome
+version: 55.0.2883.95
+results:
+  -
+    name: String + multi line
+    mean: 2529788.6738923206
+
+  -
+    name: Array join multi line
+    mean: 1373074.2286839066
+
+  -
+    name: Array push with index join multi line
+    mean: 1609602.7198092456
+
