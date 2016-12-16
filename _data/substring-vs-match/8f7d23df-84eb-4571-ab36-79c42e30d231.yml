@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.98
+results:
+  -
+    name: substring
+    mean: 2708145.7741704066
+
+  -
+    name: match
+    mean: 1815005.6610436793
+
