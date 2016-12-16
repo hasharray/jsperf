@@ -7,17 +7,17 @@ tests:
     name: String + multi line
     code: |
       (function(){
-      var a;
-      if(true){
+      var a = "", i = 0;
+      if(++i){
       a += "abc";
       }
-      if(true){
+      if(++i){
       a += "123";
       }
-      if(true){
+      if(++i){
       a += "def";
       }
-      if(true){
+      if(++i){
       a += "456";
       }
       }());
@@ -25,17 +25,17 @@ tests:
     name: Array join multi line
     code: |
       (function(){
-      var a = [];
-      if(true){
+      var a = [], i = 0;
+      if(++i){
       a.push("abc");
       }
-      if(true){
+      if(++i){
       a.push("123");
       }
-      if(true){
+      if(++i){
       a.push("def");
       }
-      if(true){
+      if(++i){
       a.push("456");
       }
       a.join("");
@@ -44,18 +44,18 @@ tests:
     name: Array push with index join multi line
     code: |
       (function(){
-      var a = [];
-      if(true){
-      a[0] = "abc";
+      var a = [], i = 0;
+      if(++i){
+      a[i] = "abc";
       }
-      if(true){
-      a[1] = "123";
+      if(++i){
+      a[i] = "123";
       }
-      if(true){
-      a[2] = "def";
+      if(++i){
+      a[i] = "def";
       }
-      if(true){
-      a[3] = "456";
+      if(++i){
+      a[i] = "456";
       }
       a.join("");
       }());
