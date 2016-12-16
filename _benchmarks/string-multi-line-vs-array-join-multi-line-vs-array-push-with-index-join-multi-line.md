@@ -8,16 +8,19 @@ tests:
     code: |
       (function(){
       var a = "", i = 0;
-      if(++i){
+      if(i === 0){
       a += "abc";
       }
-      if(++i){
+      i++;
+      if(i === 1){
       a += "123";
       }
-      if(++i){
+      i++;
+      if(i === 2){
       a += "def";
       }
-      if(++i){
+      i++;
+      if(i === 3){
       a += "456";
       }
       }());
@@ -26,16 +29,19 @@ tests:
     code: |
       (function(){
       var a = [], i = 0;
-      if(++i){
+      if(i === 0){
       a.push("abc");
       }
-      if(++i){
+      i++;
+      if(i === 1){
       a.push("123");
       }
-      if(++i){
+      i++;
+      if(i === 2){
       a.push("def");
       }
-      if(++i){
+      i++;
+      if(i === 3){
       a.push("456");
       }
       a.join("");
@@ -45,18 +51,22 @@ tests:
     code: |
       (function(){
       var a = [], i = 0;
-      if(++i){
-      a[i] = "abc";
+      if(i === 0){
+      a[0] = "abc";
       }
-      if(++i){
-      a[i] = "123";
+      i++;
+      if(i === 1){
+      a[1] = "123";
       }
-      if(++i){
-      a[i] = "def";
+      i++;
+      if(i === 2){
+      a[2] = "def";
       }
-      if(++i){
-      a[i] = "456";
+      i++;
+      if(i === 3){
+      a[3] = "456";
       }
+      i++;
       a.join("");
       }());
 ---
