@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.75
+results:
+  -
+    name: Array
+    mean: 373.0072911255018
+
+  -
+    name: Float64 Typed Array
+    mean: 427.8512999982429
+
