@@ -1,0 +1,15 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: String + multi line
+    mean: 3119329.679878613
+
+  -
+    name: Array join multi line
+    mean: 1610632.6590015227
+
+  -
+    name: Array push with index join multi line
+    mean: 1710323.2327517828
+
