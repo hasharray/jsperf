@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: t1
+    mean: 854188.3312656668
+
+  -
+    name: t2
+    mean: 521572.7684604607
+
