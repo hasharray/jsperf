@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: Native
+    mean: 4323.5207362969095
+
+  -
+    name: Babel
+    mean: 335.44694693601946
+
