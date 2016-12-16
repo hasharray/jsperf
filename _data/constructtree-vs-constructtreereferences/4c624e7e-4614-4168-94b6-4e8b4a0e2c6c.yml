@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.75
+results:
+  -
+    name: constructTree
+    mean: 54.410994516576054
+
+  -
+    name: constructTreeReferences
+    mean: 77.13490545916869
+
