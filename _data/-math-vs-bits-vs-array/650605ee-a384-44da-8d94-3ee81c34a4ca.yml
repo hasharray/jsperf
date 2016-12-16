@@ -1,0 +1,15 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: Math
+    mean: 1259635.618503244
+
+  -
+    name: Bits
+    mean: 1534177.0214276996
+
+  -
+    name: Array
+    mean: 181019.99112366282
+
