@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: Nested
+    mean: 2093114.801155418
+
+  -
+    name: Not nested
+    mean: 2508236.625813041
+
