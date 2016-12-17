@@ -1,0 +1,11 @@
+name: Chrome
+version: 51.0.2704.106
+results:
+  -
+    name: minIndex
+    mean: 3055.332801674912
+
+  -
+    name: Math min index
+    mean: 3289.7264961488017
+
