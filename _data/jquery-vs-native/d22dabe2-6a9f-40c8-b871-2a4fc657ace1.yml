@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: jquery
+    mean: 8205.03823514061
+
+  -
+    name: native
+    mean: 45331.94096857883
+
