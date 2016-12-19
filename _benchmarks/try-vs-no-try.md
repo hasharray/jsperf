@@ -10,7 +10,7 @@ tests:
         for ( let i = 0; i < 10000; ++i ) {
           console.log(i);
         }
-      } catch() {
+      } catch(e) {
       }
   -
     name: No try
