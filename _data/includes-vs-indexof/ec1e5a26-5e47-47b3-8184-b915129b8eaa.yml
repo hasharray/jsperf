@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 55.0.2883.91
+results:
+  -
+    name: includes
+    mean: 255022.83313735438
+
+  -
+    name: indexOf
+    mean: 396159.5298775554
+
