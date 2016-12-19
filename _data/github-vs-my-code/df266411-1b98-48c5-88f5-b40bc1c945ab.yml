@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.95
+results:
+  -
+    name: github
+    mean: 1327759.6969909442
+
+  -
+    name: my-code
+    mean: 2406643.302668692
+
