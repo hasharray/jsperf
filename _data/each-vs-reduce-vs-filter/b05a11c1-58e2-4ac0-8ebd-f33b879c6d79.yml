@@ -1,0 +1,15 @@
+name: Chrome
+version: 53.0.2785.143
+results:
+  -
+    name: Each
+    mean: 806972.8130485861
+
+  -
+    name: Reduce
+    mean: 882575.624974972
+
+  -
+    name: Filter
+    mean: 293200.0438533798
+
