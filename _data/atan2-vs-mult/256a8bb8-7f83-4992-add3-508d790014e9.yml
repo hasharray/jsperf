@@ -1,0 +1,11 @@
+name: Chrome
+version: 49.0.2623.112
+results:
+  -
+    name: atan2
+    mean: 9302.518704782131
+
+  -
+    name: mult
+    mean: 86475.88422620144
+
