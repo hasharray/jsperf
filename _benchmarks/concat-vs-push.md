@@ -16,8 +16,6 @@ tests:
   -
     name: push
     code: |
-      anotherArray.forEach(function(item) {
-        someBigArray.push(anotherArray);
-      })
+      Array.prototype.push.apply(someBigArray, anotherArray);
 ---
 
