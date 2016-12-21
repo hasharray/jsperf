@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: test for each
+    mean: 3916.0582572854705
+
+  -
+    name: test for
+    mean: 3256122.7482636953
+
