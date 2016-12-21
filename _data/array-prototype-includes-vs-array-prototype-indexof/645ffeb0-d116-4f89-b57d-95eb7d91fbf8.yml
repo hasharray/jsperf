@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: Array.prototype.includes
+    mean: 1893839.371079837
+
+  -
+    name: Array.prototype.indexOf
+    mean: 791511.0510089907
+
