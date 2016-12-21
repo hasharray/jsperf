@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2957.0
+results:
+  -
+    name: regex
+    mean: 20447.181631314525
+
+  -
+    name: string operations
+    mean: 7050.649400002453
+
