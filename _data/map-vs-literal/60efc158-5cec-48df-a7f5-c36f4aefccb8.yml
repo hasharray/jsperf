@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.95
+results:
+  -
+    name: Map
+    mean: 2190100.20000544
+
+  -
+    name: Literal
+    mean: 3006954.9476276184
+
