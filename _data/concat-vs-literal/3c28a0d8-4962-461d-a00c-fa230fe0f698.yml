@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2957.0
+results:
+  -
+    name: Concat
+    mean: 33737.681631525105
+
+  -
+    name: Literal
+    mean: 25579.136476895117
+
