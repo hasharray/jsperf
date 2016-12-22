@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: elseif
+    mean: 1691933.467993632
+
+  -
+    name: else
+    mean: 811075.7968741065
+
