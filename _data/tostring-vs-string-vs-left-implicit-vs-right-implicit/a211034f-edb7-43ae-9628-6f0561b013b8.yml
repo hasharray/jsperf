@@ -1,0 +1,19 @@
+name: Chrome
+version: 57.0.2950.4
+results:
+  -
+    name: toString
+    mean: 30154.40915587804
+
+  -
+    name: String()
+    mean: 156963.96280876736
+
+  -
+    name: left implicit
+    mean: 190510.74868971496
+
+  -
+    name: right implicit
+    mean: 190211.02099795334
+
