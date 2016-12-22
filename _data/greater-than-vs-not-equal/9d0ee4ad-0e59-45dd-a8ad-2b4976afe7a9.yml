@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: Greater Than
+    mean: 2750456.107960163
+
+  -
+    name: Not Equal
+    mean: 2974465.692962648
+
