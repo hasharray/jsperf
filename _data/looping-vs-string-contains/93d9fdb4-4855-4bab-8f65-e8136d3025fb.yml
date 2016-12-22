@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: Looping
+    mean: 482981.9956330301
+
+  -
+    name: String contains
+    mean: 776726.9012783585
+
