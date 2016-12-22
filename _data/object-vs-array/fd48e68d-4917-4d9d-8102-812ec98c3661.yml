@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: object
+    mean: 2837137.2483224682
+
+  -
+    name: array
+    mean: 2871449.088618943
+
