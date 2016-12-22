@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: i + 1
+    mean: 2922961.6156119667
+
+  -
+    name: ++i
+    mean: 2963245.126082866
+
