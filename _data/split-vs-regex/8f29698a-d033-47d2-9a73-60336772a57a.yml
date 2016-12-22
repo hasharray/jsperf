@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: split
+    mean: 756247.4706707809
+
+  -
+    name: regex
+    mean: 1422259.6195312575
+
