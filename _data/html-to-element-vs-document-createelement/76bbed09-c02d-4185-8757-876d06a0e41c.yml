@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: html-to-element
+    mean: 6005.009895178621
+
+  -
+    name: document.createElement
+    mean: 12157.044546771871
+
