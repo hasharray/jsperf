@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: Proxy Pattern (for Geocoding)
+    mean: 119419.93728698751
+
+  -
+    name: Normal Object Instialization (for Geocoding)
+    mean: 180768.82186615348
+
