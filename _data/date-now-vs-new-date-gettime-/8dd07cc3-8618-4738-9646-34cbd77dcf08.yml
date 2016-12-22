@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: Date.now()
+    mean: 1947319.5974548417
+
+  -
+    name: (new Date).getTime()
+    mean: 657582.5525548619
+
