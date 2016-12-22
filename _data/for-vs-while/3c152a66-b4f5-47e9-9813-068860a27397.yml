@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: For
+    mean: 268.7367146446051
+
+  -
+    name: While
+    mean: 268.81920601621504
+
