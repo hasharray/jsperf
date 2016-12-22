@@ -1,0 +1,15 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: Each
+    mean: 7286279.338173206
+
+  -
+    name: Reduce
+    mean: 8193846.245061891
+
+  -
+    name: Filter
+    mean: 3330474.3439961816
+
