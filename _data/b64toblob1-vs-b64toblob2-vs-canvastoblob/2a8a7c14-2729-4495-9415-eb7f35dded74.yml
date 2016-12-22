@@ -1,0 +1,15 @@
+name: Chrome
+version: 57.0.2950.4
+results:
+  -
+    name: b64ToBlob1
+    mean: 1839.694322025298
+
+  -
+    name: b64ToBlob2
+    mean: 2108.6430413074427
+
+  -
+    name: canvasToBlob
+    mean: 15881.517192832509
+
