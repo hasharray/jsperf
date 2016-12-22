@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: typeof obj === 'undefined'
+    mean: 2692992.56961013
+
+  -
+    name: obj === undefined
+    mean: 2611256.9928119164
+
