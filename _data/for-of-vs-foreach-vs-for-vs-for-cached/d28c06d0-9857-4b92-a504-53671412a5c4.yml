@@ -1,0 +1,19 @@
+name: Opera
+version: 42.0.2393.94
+results:
+  -
+    name: for of
+    mean: 253026.43922520202
+
+  -
+    name: forEach
+    mean: 435179.8599585168
+
+  -
+    name: for
+    mean: 1347657.719971029
+
+  -
+    name: for cached
+    mean: 1365435.0890548201
+
