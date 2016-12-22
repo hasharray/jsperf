@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: Function()
+    mean: 38918.403452428305
+
+  -
+    name: new Function()
+    mean: 26692.200971610648
+
