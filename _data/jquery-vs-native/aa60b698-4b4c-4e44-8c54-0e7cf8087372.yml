@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: jquery
+    mean: 3609.5076384196477
+
+  -
+    name: native
+    mean: 21258.85047889825
+
