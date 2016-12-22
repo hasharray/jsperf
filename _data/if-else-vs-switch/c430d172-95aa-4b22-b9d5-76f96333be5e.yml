@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: if else
+    mean: 232.18304947785094
+
+  -
+    name: switch
+    mean: 262.5820671580005
+
