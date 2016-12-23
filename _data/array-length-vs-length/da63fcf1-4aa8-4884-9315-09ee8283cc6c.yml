@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: array.length
+    mean: 316988.9528757683
+
+  -
+    name: length
+    mean: 163964.3900009763
+
