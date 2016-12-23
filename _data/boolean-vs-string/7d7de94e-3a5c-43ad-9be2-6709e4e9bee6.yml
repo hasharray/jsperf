@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: Boolean
+    mean: 2406263.329580067
+
+  -
+    name: String
+    mean: 1284180.820372303
+
