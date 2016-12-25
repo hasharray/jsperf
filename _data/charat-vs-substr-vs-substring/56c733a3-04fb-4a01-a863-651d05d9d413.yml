@@ -1,0 +1,15 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: charAt
+    mean: 2388325.4884171514
+
+  -
+    name: substr
+    mean: 1619592.415117215
+
+  -
+    name: substring
+    mean: 1347562.2988911571
+
