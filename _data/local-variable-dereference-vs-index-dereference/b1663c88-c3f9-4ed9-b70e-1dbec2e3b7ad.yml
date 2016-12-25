@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: local variable dereference
+    mean: 5289311.216624815
+
+  -
+    name: index dereference
+    mean: 5371661.05478138
+
