@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: spread
+    mean: 208906.53986729804
+
+  -
+    name: split
+    mean: 1187919.5853180957
+
