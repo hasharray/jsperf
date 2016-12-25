@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0.2
+results:
+  -
+    name: Array#filter()
+    mean: 683037.3114197769
+
+  -
+    name: Array#splice(Array#indexOf())#slice()
+    mean: 2789675.994290812
+
