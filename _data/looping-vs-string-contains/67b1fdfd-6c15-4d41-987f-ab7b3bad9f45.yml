@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: Looping
+    mean: 1308293.4172357747
+
+  -
+    name: String contains
+    mean: 2624678.2579589537
+
