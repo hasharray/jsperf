@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: obj
+    mean: 2183977.979099387
+
+  -
+    name: nested obj
+    mean: 2338130.8367096074
+
