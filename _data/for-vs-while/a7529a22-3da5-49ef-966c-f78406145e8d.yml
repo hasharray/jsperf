@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: For
+    mean: 117.70631681529996
+
+  -
+    name: While
+    mean: 116.24349484888819
+
