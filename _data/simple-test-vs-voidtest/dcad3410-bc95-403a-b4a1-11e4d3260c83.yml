@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: simple test
+    mean: 8195225.631543091
+
+  -
+    name: voidtest
+    mean: 7872070.811202221
+
