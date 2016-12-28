@@ -1,0 +1,11 @@
+name: Firefox
+version: 52.0
+results:
+  -
+    name: Date.now()
+    mean: 3926056.9951472515
+
+  -
+    name: (new Date).getTime()
+    mean: 2150858.2654682253
+
