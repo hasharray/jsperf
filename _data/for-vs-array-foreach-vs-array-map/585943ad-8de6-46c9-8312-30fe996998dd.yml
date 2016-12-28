@@ -1,0 +1,15 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: for
+    mean: 401377.65916798107
+
+  -
+    name: Array#forEach
+    mean: 356340.94743602705
+
+  -
+    name: Array#map
+    mean: 62794.27124841008
+
