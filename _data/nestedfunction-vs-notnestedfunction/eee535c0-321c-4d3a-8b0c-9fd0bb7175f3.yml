@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: NestedFunction
+    mean: 2558177.728988698
+
+  -
+    name: NotNestedFunction
+    mean: 3671775.7763595646
+
