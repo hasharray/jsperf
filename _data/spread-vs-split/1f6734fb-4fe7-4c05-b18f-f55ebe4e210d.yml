@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: spread
+    mean: 156147.20481406985
+
+  -
+    name: split
+    mean: 378150.07946416497
+
