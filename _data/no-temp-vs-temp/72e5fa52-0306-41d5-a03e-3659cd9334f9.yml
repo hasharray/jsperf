@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: no temp
+    mean: 531.6717068115668
+
+  -
+    name: temp
+    mean: 522.6841284614152
+
