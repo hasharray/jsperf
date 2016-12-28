@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Obj
+    mean: 1223.527777609754
+
+  -
+    name: Map
+    mean: 167.19819186123524
+
