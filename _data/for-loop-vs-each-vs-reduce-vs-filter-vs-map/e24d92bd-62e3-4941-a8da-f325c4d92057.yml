@@ -1,0 +1,23 @@
+name: Microsoft Edge
+version: 13.10586
+results:
+  -
+    name: For loop
+    mean: 1645799.1420015748
+
+  -
+    name: Each
+    mean: 1073011.5654049478
+
+  -
+    name: Reduce
+    mean: 994277.3402227404
+
+  -
+    name: Filter
+    mean: 772375.2080702792
+
+  -
+    name: Map
+    mean: 806311.6136680677
+
