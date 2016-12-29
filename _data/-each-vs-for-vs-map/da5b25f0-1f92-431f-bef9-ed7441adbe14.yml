@@ -1,0 +1,15 @@
+name: Opera
+version: 42.0.2393.94
+results:
+  -
+    name: $.each
+    mean: 1636376.7427281437
+
+  -
+    name: for
+    mean: 1551368.3412498392
+
+  -
+    name: map
+    mean: 1543244.0303006484
+
