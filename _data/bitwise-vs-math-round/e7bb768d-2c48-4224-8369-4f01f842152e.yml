@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Bitwise
+    mean: 11589913.347956331
+
+  -
+    name: Math.round
+    mean: 11917118.793233521
+
