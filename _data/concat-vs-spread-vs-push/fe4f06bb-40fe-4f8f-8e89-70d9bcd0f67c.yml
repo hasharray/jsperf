@@ -1,0 +1,15 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Concat
+    mean: 307.1846254260979
+
+  -
+    name: Spread
+    mean: 12.61988846460082
+
+  -
+    name: Push
+    mean: 11153.767891418314
+
