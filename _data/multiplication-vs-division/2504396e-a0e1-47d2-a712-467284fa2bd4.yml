@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.95
+results:
+  -
+    name: Multiplication
+    mean: 2462766.9308938207
+
+  -
+    name: Division
+    mean: 2589518.001693094
+
