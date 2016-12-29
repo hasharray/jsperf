@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: Multiplication
+    mean: 13578132.818143904
+
+  -
+    name: Division
+    mean: 15453515.603177955
+
