@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.95
+results:
+  -
+    name: Direct assignment
+    mean: 1421234.0239021906
+
+  -
+    name: Set function
+    mean: 528091.2519533756
+
