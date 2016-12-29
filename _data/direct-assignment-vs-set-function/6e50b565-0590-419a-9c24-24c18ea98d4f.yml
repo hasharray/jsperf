@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: Direct assignment
+    mean: 6827579.359227899
+
+  -
+    name: Set function
+    mean: 1634606.612670361
+
