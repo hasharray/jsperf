@@ -1,0 +1,15 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: Concat
+    mean: 69.19756925832355
+
+  -
+    name: Spread
+    mean: 12.049399607174546
+
+  -
+    name: Push
+    mean: 22074.284645647404
+
