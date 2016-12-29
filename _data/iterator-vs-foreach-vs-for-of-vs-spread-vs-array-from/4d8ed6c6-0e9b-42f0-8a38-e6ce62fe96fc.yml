@@ -1,0 +1,23 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: Iterator
+    mean: 269.21083467149594
+
+  -
+    name: forEach
+    mean: 466.4275309827239
+
+  -
+    name: for..of
+    mean: 244.4686255270595
+
+  -
+    name: spread
+    mean: 124.48544011145576
+
+  -
+    name: Array.from
+    mean: 130.0737442814991
+
