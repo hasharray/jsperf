@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: With (obj) {}
+    mean: 1039.0668912918552
+
+  -
+    name: obj.____
+    mean: 1127.0459043619023
+
