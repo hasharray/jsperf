@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: With (obj) {}
+    mean: 285.17191445889034
+
+  -
+    name: obj.____
+    mean: 246.63979265286963
+
