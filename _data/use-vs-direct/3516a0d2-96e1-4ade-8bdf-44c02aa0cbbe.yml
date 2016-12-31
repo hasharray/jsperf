@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.95
+results:
+  -
+    name: Use
+    mean: 89619.90003557148
+
+  -
+    name: Direct
+    mean: 90728.24032235103
+
