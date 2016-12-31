@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: Direct
+    mean: 31253.29695679525
+
+  -
+    name: Use()
+    mean: 31152.286868185707
+
