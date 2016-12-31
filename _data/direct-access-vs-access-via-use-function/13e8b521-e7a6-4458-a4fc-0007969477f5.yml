@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Direct access
+    mean: 4031.9870399523475
+
+  -
+    name: Access via use function
+    mean: 4043.0456344669856
+
