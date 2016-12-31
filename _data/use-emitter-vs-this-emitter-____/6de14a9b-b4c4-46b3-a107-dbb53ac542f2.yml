@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Use emitter
+    mean: 33431.607927038705
+
+  -
+    name: this.emitter.____
+    mean: 38952.368360874185
+
