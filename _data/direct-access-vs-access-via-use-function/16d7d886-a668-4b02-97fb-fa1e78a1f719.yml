@@ -1,0 +1,11 @@
+name: Safari
+version: 8+
+results:
+  -
+    name: Direct access
+    mean: 225530.8955325991
+
+  -
+    name: Access via use function
+    mean: 149216.52700548223
+
