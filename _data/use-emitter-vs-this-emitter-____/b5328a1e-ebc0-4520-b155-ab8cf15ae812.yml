@@ -1,0 +1,11 @@
+name: Safari
+version: 8+
+results:
+  -
+    name: Use emitter
+    mean: 113677.5733331444
+
+  -
+    name: this.emitter.____
+    mean: 51387.34809909811
+
