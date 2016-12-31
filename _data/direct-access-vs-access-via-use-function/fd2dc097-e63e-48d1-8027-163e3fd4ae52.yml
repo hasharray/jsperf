@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 55.0.2883.91
+results:
+  -
+    name: Direct access
+    mean: 12567.551701780467
+
+  -
+    name: Access via use function
+    mean: 7698.924651188943
+
