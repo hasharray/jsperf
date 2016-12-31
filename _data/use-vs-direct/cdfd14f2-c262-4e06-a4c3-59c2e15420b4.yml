@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Use
+    mean: 133981.42003924228
+
+  -
+    name: Direct
+    mean: 149997.99086211412
+
