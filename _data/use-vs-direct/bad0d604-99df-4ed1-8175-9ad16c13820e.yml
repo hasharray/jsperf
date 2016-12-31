@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0.2
+results:
+  -
+    name: Use
+    mean: 283778.5544795122
+
+  -
+    name: Direct
+    mean: 235336.36462624362
+
