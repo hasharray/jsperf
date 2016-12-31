@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Direct access
+    mean: 11594.877795721057
+
+  -
+    name: Access via use function
+    mean: 9248.065905033627
+
