@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.100
+results:
+  -
+    name: simple compare
+    mean: 4076444.7530075763
+
+  -
+    name: object cast
+    mean: 3807609.4805369247
+
