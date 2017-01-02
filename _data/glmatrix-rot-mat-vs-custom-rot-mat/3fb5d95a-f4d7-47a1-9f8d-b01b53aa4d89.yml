@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: glmatrix rot mat
+    mean: 1945.8127079701744
+
+  -
+    name: custom rot mat
+    mean: 1748.4654095488136
+
