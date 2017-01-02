@@ -1,0 +1,15 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: Map
+    mean: 12029.44614471377
+
+  -
+    name: Array
+    mean: 9888.831323876215
+
+  -
+    name: Object
+    mean: 9997.70942753256
+
