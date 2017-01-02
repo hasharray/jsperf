@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: glmatrix rot mat
+    mean: 3669.2284351814424
+
+  -
+    name: custom rot mat
+    mean: 4195.702397405705
+
