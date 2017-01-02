@@ -1,0 +1,15 @@
+name: Chrome
+version: 54.0.2840.98
+results:
+  -
+    name: Map
+    mean: 9181.66164775936
+
+  -
+    name: Array
+    mean: 7115.066529688239
+
+  -
+    name: Object
+    mean: 7272.030954208275
+
