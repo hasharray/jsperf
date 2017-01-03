@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: STR
+    mean: 3579428.7134585655
+
+  -
+    name: BIG_STR
+    mean: 3491837.861514936
+
