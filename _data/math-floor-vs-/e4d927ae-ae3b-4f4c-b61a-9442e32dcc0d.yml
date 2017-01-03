@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: Math.floor
+    mean: 3732096.1964170192
+
+  -
+    name: ~~
+    mean: 3693122.368946941
+
