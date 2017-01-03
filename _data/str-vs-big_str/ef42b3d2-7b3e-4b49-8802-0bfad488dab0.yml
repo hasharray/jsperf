@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: STR
+    mean: 12887715.0284267
+
+  -
+    name: BIG_STR
+    mean: 15107099.675908914
+
