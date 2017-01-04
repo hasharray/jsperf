@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: cstm quat2mat
+    mean: 8353.88603223404
+
+  -
+    name: glm quat2mat
+    mean: 10889.961911932829
+
