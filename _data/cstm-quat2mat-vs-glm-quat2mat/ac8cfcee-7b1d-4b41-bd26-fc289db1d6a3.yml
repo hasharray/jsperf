@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: cstm quat2mat
+    mean: 2061.9261142085006
+
+  -
+    name: glm quat2mat
+    mean: 3799.0649801139225
+
