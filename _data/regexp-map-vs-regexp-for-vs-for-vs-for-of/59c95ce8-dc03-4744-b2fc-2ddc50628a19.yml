@@ -1,0 +1,19 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: RegExp Map
+    mean: 136440.74083669568
+
+  -
+    name: RegExp for
+    mean: 371123.92736377014
+
+  -
+    name: For
+    mean: 1159739.0434176095
+
+  -
+    name: for of
+    mean: 363198.9708559191
+
