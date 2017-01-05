@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: push unallocated
+    mean: 53642.18957665339
+
+  -
+    name: push preallocated
+    mean: 54101.15076931761
+
