@@ -1,0 +1,23 @@
+name: Android Browser
+version: 49.0
+results:
+  -
+    name: for...of loop
+    mean: 4303.59337543161
+
+  -
+    name: for loop over ascending index
+    mean: 50724.92228173786
+
+  -
+    name: for loop over descending index
+    mean: 39316.61846744182
+
+  -
+    name: Array#forEach iteration with function
+    mean: 32525.20177663433
+
+  -
+    name: Array#forEach iteration with arrow function
+    mean: 41974.15742604541
+
