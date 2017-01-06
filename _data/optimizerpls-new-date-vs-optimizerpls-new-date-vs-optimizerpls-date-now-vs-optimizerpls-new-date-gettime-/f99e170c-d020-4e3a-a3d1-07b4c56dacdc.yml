@@ -1,0 +1,19 @@
+name: Chrome
+version: 55.0.2883.95
+results:
+  -
+    name: optimizerPls = new Date();
+    mean: 2302087.7084521786
+
+  -
+    name: optimizerPls = +new Date();
+    mean: 1616583.6163836988
+
+  -
+    name: optimizerPls = Date.now();
+    mean: 2871361.7559015774
+
+  -
+    name: optimizerPls = (new Date).getTime();
+    mean: 2311777.354322517
+
