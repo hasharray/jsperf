@@ -1,0 +1,15 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Manual fill
+    mean: 2423.676116171754
+
+  -
+    name: new Buffer
+    mean: 8061.750238129782
+
+  -
+    name: Native fill
+    mean: 1151.6508682016267
+
