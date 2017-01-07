@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.95
+results:
+  -
+    name: prototype
+    mean: 1681661.2039463005
+
+  -
+    name: typeof
+    mean: 2115410.5775441085
+
