@@ -1,0 +1,15 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: document.getelementbyid
+    mean: 4327328.6442576405
+
+  -
+    name: document.querySelector
+    mean: 3693684.207448445
+
+  -
+    name: jquery select
+    mean: 444906.9281140672
+
