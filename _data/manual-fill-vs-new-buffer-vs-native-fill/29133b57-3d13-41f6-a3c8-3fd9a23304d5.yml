@@ -1,0 +1,15 @@
+name: Chrome Mobile
+version: 55.0.2883.91
+results:
+  -
+    name: Manual fill
+    mean: 573.287597307506
+
+  -
+    name: new Buffer
+    mean: 1953.8148110724612
+
+  -
+    name: Native fill
+    mean: 658.6893848781392
+
