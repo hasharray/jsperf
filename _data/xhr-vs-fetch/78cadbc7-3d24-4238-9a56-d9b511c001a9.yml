@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: XHR
+    mean: 6308.820683341206
+
+  -
+    name: fetch
+    mean: 6488.281685384947
+
