@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: prototype
+    mean: 2713925.884640768
+
+  -
+    name: typeof
+    mean: 13175482.007604657
+
