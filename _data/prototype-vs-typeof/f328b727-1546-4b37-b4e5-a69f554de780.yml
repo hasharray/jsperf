@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: prototype
+    mean: 3784773.7805912616
+
+  -
+    name: typeof
+    mean: 17814269.93058635
+
