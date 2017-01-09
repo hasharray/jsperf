@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: Array.from
+    mean: 1064737.8360015661
+
+  -
+    name: Filter
+    mean: 1341451.1929887626
+
