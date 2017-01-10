@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: String properties
+    mean: 77781.79171263354
+
+  -
+    name: Number properties
+    mean: 679630.461275107
+
