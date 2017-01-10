@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: typeof undefined
+    mean: 533893.7314583978
+
+  -
+    name: if object && object.property
+    mean: 533675.3342724056
+
