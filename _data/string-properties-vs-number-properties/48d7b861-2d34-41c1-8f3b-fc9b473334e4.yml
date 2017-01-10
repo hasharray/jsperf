@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: String properties
+    mean: 7812.767686075765
+
+  -
+    name: Number properties
+    mean: 759751.9073211302
+
