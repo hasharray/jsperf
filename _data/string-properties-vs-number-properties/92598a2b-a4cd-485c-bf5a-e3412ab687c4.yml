@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: String properties
+    mean: 92574.898281481
+
+  -
+    name: Number properties
+    mean: 759443.3928825516
+
