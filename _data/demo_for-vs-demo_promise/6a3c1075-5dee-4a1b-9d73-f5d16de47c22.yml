@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: demo_for
+    mean: 1639394.8600490189
+
+  -
+    name: demo_promise
+    mean: 242402.94736204777
+
