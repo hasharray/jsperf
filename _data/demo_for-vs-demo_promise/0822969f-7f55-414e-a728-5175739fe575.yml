@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: demo_for
+    mean: 10223635.012376694
+
+  -
+    name: demo_promise
+    mean: 71815.63553822393
+
