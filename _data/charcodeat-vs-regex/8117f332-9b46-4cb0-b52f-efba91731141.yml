@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: charCodeAt
+    mean: 435038.57051953557
+
+  -
+    name: Regex
+    mean: 337120.0593022459
+
