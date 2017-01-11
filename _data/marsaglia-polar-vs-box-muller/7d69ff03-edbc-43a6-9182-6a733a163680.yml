@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: marsaglia polar
+    mean: 12678.002901211114
+
+  -
+    name: box-muller
+    mean: 13004182.068640972
+
