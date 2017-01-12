@@ -1,0 +1,15 @@
+name: Chrome
+version: 55.0.2883.95
+results:
+  -
+    name: $.each
+    mean: 1781023.0422744104
+
+  -
+    name: for
+    mean: 1778824.5487229193
+
+  -
+    name: map
+    mean: 1655216.8927941676
+
