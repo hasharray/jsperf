@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: matrix init for loop
+    mean: 3823.5851037401635
+
+  -
+    name: matrix init constructor
+    mean: 4685.74517284523
+
