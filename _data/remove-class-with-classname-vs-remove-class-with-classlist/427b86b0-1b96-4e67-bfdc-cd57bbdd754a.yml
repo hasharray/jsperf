@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: Remove class with className
+    mean: 726754.2775068427
+
+  -
+    name: Remove class with classList
+    mean: 531234.54261543
+
