@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: matrix init for loop
+    mean: 7476.189295206823
+
+  -
+    name: matrix init constructor
+    mean: 13671.382354731697
+
