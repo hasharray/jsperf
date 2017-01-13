@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Prop traversal
+    mean: 2652881.40476299
+
+  -
+    name: Locally cached variable
+    mean: 2011027.5219111794
+
