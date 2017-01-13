@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: matrix init for loop
+    mean: 1426.8255136926645
+
+  -
+    name: matrix init constructor
+    mean: 1449.5730214167267
+
