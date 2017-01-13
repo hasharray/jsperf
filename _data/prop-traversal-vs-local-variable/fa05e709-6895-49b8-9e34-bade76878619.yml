@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Prop traversal
+    mean: 271783.2213708438
+
+  -
+    name: local variable
+    mean: 262431.37238916307
+
