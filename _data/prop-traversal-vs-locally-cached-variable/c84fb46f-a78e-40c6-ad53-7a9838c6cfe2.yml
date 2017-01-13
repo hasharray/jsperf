@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0.2
+results:
+  -
+    name: Prop traversal
+    mean: 8788437.811450249
+
+  -
+    name: Locally cached variable
+    mean: 11146751.57156159
+
