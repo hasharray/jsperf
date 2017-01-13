@@ -1,0 +1,15 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: Manual fill
+    mean: 3165.259412772823
+
+  -
+    name: new Buffer
+    mean: 11376.114531627197
+
+  -
+    name: Native fill
+    mean: 856.1331447310652
+
