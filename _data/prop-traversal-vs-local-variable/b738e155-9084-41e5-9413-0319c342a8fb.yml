@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.95
+results:
+  -
+    name: Prop traversal
+    mean: 481182.7981489319
+
+  -
+    name: local variable
+    mean: 506280.2695170886
+
