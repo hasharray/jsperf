@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: includes
+    mean: 804273.6515727043
+
+  -
+    name: indexOf
+    mean: 775344.9538503673
+
