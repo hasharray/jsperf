@@ -1,0 +1,11 @@
+name: Opera
+version: 44.0.2463.0
+results:
+  -
+    name: Prop traversal
+    mean: 442005.9200333467
+
+  -
+    name: local variable
+    mean: 451543.02236707276
+
