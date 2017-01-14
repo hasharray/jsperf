@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: Prop traversal
+    mean: 6821567.200505342
+
+  -
+    name: Locally cached variable
+    mean: 5872188.136314957
+
