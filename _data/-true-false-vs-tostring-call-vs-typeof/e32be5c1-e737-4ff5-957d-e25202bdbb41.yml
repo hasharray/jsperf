@@ -1,0 +1,15 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: === true || false
+    mean: 678593.4876827255
+
+  -
+    name: toString.call
+    mean: 639107.3796420777
+
+  -
+    name: typeof
+    mean: 682637.8620836667
+
