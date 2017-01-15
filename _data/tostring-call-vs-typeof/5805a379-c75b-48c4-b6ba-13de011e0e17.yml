@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: toString.call
+    mean: 1109757.407138018
+
+  -
+    name: typeof
+    mean: 13361102.884159546
+
