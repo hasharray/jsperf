@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: RegExp split
+    mean: 871868.242356507
+
+  -
+    name: String split
+    mean: 1460186.1411384053
+
