@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2982.0
+results:
+  -
+    name: pojo
+    mean: 4319.044404024912
+
+  -
+    name: function
+    mean: 9005.51156298514
+
