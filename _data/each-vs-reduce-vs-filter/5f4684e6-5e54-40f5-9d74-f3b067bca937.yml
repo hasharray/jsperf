@@ -1,0 +1,15 @@
+name: Chrome
+version: 57.0.2982.0
+results:
+  -
+    name: Each
+    mean: 1575037.8377224586
+
+  -
+    name: Reduce
+    mean: 1515688.1731419326
+
+  -
+    name: Filter
+    mean: 549240.9501267527
+
