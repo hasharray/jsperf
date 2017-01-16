@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2982.0
+results:
+  -
+    name: Obj
+    mean: 685.3352451439163
+
+  -
+    name: Map
+    mean: 162.04370412453775
+
