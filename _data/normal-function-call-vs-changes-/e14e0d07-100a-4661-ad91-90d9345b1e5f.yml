@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2982.0
+results:
+  -
+    name: Normal Function Call
+    mean: 756918.6484296627
+
+  -
+    name: changes
+    mean: 783194.5199024439
+
