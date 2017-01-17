@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: Number
+    mean: 3233859.3345127804
+
+  -
+    name: Number.parseFloat
+    mean: 3472716.113408977
+
