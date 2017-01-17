@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Assign-object
+    mean: 1186339.749412557
+
+  -
+    name: JSON Stringify
+    mean: 298651.06807558937
+
