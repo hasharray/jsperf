@@ -1,0 +1,19 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Bubble Sort (in place)
+    mean: 30081.82441389646
+
+  -
+    name: Bubble Sort
+    mean: 25990.705642311605
+
+  -
+    name: Bubble Sort (optimized) (in place)
+    mean: 156422.0200058557
+
+  -
+    name: Bubble Sort (optimized)
+    mean: 59429.75087320095
+
