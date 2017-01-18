@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: Bitwise
+    mean: 3262349.12288365
+
+  -
+    name: Math API
+    mean: 2917827.4188613044
+
