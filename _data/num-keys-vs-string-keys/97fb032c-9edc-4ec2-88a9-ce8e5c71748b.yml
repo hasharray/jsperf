@@ -1,0 +1,11 @@
+name: Safari
+version: 10.2
+results:
+  -
+    name: num keys
+    mean: 557806.3927941752
+
+  -
+    name: string keys
+    mean: 417748.6733819531
+
