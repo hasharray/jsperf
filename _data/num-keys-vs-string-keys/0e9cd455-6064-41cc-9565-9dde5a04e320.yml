@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2977.0
+results:
+  -
+    name: num keys
+    mean: 190559.53811580458
+
+  -
+    name: string keys
+    mean: 281721.19140776596
+
