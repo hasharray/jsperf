@@ -1,0 +1,11 @@
+name: Safari
+version: 10.2
+results:
+  -
+    name: Convert to String
+    mean: 743710.1104331403
+
+  -
+    name: Math.log()
+    mean: 732883.1484900366
+
