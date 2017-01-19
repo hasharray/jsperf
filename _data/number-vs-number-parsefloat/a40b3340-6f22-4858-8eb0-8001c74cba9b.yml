@@ -1,0 +1,11 @@
+name: Safari
+version: 10.2
+results:
+  -
+    name: Number
+    mean: 9124104.275045766
+
+  -
+    name: Number.parseFloat
+    mean: 9224462.08880751
+
