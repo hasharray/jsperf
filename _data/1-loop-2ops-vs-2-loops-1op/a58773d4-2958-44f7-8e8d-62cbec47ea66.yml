@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: 1 loop 2ops
+    mean: 12173410.57897865
+
+  -
+    name: 2 loops 1op
+    mean: 8799745.942597862
+
