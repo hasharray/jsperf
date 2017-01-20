@@ -1,0 +1,15 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: loop
+    mean: 1949076.9176709382
+
+  -
+    name: Math.min.apply
+    mean: 522537.9518816428
+
+  -
+    name: binded Math.min.apply
+    mean: 617546.4693842735
+
