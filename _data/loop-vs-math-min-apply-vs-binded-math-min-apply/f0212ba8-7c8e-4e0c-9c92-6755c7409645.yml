@@ -1,0 +1,15 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: loop
+    mean: 10107804.633846946
+
+  -
+    name: Math.min.apply
+    mean: 2154843.618958034
+
+  -
+    name: binded Math.min.apply
+    mean: 2014225.6926101502
+
