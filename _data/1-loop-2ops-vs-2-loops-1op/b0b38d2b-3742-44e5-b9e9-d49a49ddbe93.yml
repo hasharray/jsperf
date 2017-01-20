@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: 1 loop 2ops
+    mean: 707372.6719174524
+
+  -
+    name: 2 loops 1op
+    mean: 595356.5842214559
+
