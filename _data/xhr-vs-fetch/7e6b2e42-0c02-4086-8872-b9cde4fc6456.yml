@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 55.0.2883.91
+results:
+  -
+    name: XHR
+    mean: 478.26048795295225
+
+  -
+    name: fetch
+    mean: 342.0385808522912
+
