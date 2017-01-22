@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Using intersection
+    mean: 30226.074912355514
+
+  -
+    name: Using difference
+    mean: 37951.00531652084
+
