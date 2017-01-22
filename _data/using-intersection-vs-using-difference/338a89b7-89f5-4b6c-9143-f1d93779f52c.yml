@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: Using intersection
+    mean: 15972.978396576229
+
+  -
+    name: Using difference
+    mean: 26246.702708529923
+
