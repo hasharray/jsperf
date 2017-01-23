@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: String Indexing
+    mean: 10102426.506525572
+
+  -
+    name: Symbol Indexing
+    mean: 9608778.51714494
+
