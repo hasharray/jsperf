@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.100
+results:
+  -
+    name: Date string
+    mean: 410506.7777521807
+
+  -
+    name: Date number
+    mean: 890908.6879673353
+
