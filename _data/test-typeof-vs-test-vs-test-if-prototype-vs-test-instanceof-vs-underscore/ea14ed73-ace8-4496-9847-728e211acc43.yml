@@ -1,0 +1,23 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: Test typeof
+    mean: 2295734.5850754217
+
+  -
+    name: Test !
+    mean: 2350052.022179548
+
+  -
+    name: Test if prototype
+    mean: 2751348.268195236
+
+  -
+    name: Test instanceof
+    mean: 2429811.262706517
+
+  -
+    name: Underscore
+    mean: 2033712.5194978637
+
