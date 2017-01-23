@@ -1,0 +1,23 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Test typeof
+    mean: 14632979.068662725
+
+  -
+    name: Test !
+    mean: 17252895.30783584
+
+  -
+    name: Test if prototype
+    mean: 16706085.313717805
+
+  -
+    name: Test instanceof
+    mean: 16944648.216825906
+
+  -
+    name: Underscore
+    mean: 13531464.447103534
+
