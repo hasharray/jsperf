@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: split().splice().join()
+    mean: 635613.1707569158
+
+  -
+    name: substring
+    mean: 5321545.80683908
+
