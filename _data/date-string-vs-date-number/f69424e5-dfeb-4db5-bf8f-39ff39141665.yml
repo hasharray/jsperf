@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Date string
+    mean: 1316002.909700182
+
+  -
+    name: Date number
+    mean: 2145604.6857678234
+
