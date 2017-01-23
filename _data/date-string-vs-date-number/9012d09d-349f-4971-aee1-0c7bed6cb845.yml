@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: Date string
+    mean: 2099324.789383158
+
+  -
+    name: Date number
+    mean: 4237911.846886037
+
