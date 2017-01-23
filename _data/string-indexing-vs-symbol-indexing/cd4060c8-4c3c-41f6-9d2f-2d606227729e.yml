@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: String Indexing
+    mean: 3289706.184556142
+
+  -
+    name: Symbol Indexing
+    mean: 2884020.220578064
+
