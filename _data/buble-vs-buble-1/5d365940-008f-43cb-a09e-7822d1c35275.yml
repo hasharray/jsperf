@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: buble++
+    mean: 12197440.872987697
+
+  -
+    name: buble+1
+    mean: 12829786.10839592
+
