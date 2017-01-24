@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: innerHTML = str
+    mean: 708959.4418579915
+
+  -
+    name: innerHTML = array
+    mean: 1500578.7307828225
+
