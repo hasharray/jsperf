@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: innerHTML = str
+    mean: 1817256.3673032287
+
+  -
+    name: innerHTML = array
+    mean: 2233076.410653994
+
