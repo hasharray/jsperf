@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: Binding
+    mean: 4969.068710560934
+
+  -
+    name: Non-Binding
+    mean: 5670.45369660755
+
