@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: direct
+    mean: 4357.123551653311
+
+  -
+    name: call
+    mean: 4922.098254815973
+
