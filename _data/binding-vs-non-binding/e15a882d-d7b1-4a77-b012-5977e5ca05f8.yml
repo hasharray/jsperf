@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Binding
+    mean: 2784.7204872811326
+
+  -
+    name: Non-Binding
+    mean: 4550.273976395663
+
