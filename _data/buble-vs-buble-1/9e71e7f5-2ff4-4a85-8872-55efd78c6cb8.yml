@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: buble++
+    mean: 2960434.4849036676
+
+  -
+    name: buble+1
+    mean: 2794681.1143528954
+
