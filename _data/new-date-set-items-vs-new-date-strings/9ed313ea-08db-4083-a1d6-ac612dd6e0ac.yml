@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: new Date() set items
+    mean: 321625.11185451224
+
+  -
+    name: new Date() strings
+    mean: 385423.2408176247
+
