@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: new Date() set items
+    mean: 298479.5818864354
+
+  -
+    name: new Date() strings
+    mean: 1297417.262742967
+
