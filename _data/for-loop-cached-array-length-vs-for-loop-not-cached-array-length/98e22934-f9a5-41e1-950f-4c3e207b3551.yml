@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: for loop cached array length
+    mean: 1763.577440013206
+
+  -
+    name: for loop not cached array length
+    mean: 2231.293617606214
+
