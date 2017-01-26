@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 55.0.2883.91
+results:
+  -
+    name: Date.now()
+    mean: 208076.09076055244
+
+  -
+    name: (new Date).getTime()
+    mean: 167575.2233597947
+
