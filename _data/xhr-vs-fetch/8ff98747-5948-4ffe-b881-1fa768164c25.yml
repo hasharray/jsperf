@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: XHR
+    mean: 3700.9248353782064
+
+  -
+    name: fetch
+    mean: 2124.142732932544
+
