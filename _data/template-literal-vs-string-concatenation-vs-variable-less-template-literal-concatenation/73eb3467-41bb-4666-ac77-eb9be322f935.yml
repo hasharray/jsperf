@@ -1,0 +1,15 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: Template literal
+    mean: 5791975.053214097
+
+  -
+    name: String concatenation
+    mean: 5170396.333852153
+
+  -
+    name: Variable less template literal concatenation
+    mean: 6157132.658756452
+
