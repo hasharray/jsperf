@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0.2
+results:
+  -
+    name: includes
+    mean: 6529231.591168182
+
+  -
+    name: indexOf
+    mean: 5554085.118788335
+
