@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: Self sorting function
+    mean: 7885.139373967072
+
+  -
+    name: With arr.sort
+    mean: 1418.4052580125517
+
