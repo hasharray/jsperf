@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: Using createElement('option')
+    mean: 2.506472502540325
+
+  -
+    name: Using new Option()
+    mean: 2.6138364207369142
+
