@@ -1,0 +1,11 @@
+name: Firefox
+version: 52.0
+results:
+  -
+    name: Array.prototype.includes
+    mean: 8307991.205544433
+
+  -
+    name: Array.prototype.indexOf
+    mean: 7856325.432884041
+
