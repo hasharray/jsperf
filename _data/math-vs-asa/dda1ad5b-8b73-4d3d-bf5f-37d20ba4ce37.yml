@@ -1,0 +1,11 @@
+name: Chrome
+version: 56.0.2924.76
+results:
+  -
+    name: Math
+    mean: 3283.289159577862
+
+  -
+    name: asa
+    mean: 6466.281582097462
+
