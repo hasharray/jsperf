@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.95
+results:
+  -
+    name: If True
+    mean: 3013762.3280265657
+
+  -
+    name: If Not False
+    mean: 2907926.366123392
+
