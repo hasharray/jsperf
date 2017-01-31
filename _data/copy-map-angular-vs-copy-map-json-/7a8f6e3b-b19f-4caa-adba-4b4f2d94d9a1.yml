@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.95
+results:
+  -
+    name: Copy Map (angular)
+    mean: 1.6270003545256977
+
+  -
+    name: Copy map (JSON)
+    mean: 1.1364213800687213
+
