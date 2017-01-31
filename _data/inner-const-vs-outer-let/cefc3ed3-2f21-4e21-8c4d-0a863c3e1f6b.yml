@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: inner const
+    mean: 200.83380268943765
+
+  -
+    name: outer let
+    mean: 191.99011850397255
+
