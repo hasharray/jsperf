@@ -1,0 +1,15 @@
+name: Chrome
+version: 56.0.2924.76
+results:
+  -
+    name: for
+    mean: 2063948.0957093101
+
+  -
+    name: forEach
+    mean: 1078044.1120884405
+
+  -
+    name: for-of
+    mean: 1254813.8614690008
+
