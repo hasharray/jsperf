@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: String.slice
+    mean: 172962.13015943655
+
+  -
+    name: string to array and join
+    mean: 727989.8395145166
+
