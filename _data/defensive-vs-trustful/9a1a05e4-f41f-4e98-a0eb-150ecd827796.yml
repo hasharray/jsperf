@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: Defensive
+    mean: 4015.5846684951803
+
+  -
+    name: Trustful
+    mean: 4173.734957749468
+
