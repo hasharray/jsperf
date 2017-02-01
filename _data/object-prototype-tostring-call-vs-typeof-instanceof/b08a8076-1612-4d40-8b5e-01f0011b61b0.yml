@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: Object.prototype.toString.call
+    mean: 1007255.2142152053
+
+  -
+    name: typeof/instanceof
+    mean: 1732760.202484313
+
