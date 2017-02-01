@@ -1,0 +1,11 @@
+name: Firefox
+version: 50.0
+results:
+  -
+    name: Object.prototype.toString.call
+    mean: 4766610.296377939
+
+  -
+    name: typeof/instanceof
+    mean: 11910623.391884208
+
