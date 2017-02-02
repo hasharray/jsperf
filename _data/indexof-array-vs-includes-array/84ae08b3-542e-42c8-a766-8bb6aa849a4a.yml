@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: indexOf array
+    mean: 2434673.206639635
+
+  -
+    name: includes array
+    mean: 2424911.2948582782
+
