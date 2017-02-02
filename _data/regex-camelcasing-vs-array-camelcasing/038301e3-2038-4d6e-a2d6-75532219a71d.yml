@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.95
+results:
+  -
+    name: Regex camelCasing
+    mean: 282072.8971894809
+
+  -
+    name: Array camelCasing
+    mean: 399017.10960684856
+
