@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Index Of
+    mean: 8757334.869620511
+
+  -
+    name: Include
+    mean: 10720828.084013192
+
