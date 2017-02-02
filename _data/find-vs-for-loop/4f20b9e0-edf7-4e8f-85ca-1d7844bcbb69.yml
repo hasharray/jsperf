@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: Find
+    mean: 665913.691789805
+
+  -
+    name: For loop
+    mean: 39690.436979006765
+
