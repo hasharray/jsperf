@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: Find
+    mean: 2425708.912949508
+
+  -
+    name: For loop
+    mean: 29517.378371736002
+
