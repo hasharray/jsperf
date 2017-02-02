@@ -1,0 +1,11 @@
+name: Firefox
+version: 47.0
+results:
+  -
+    name: indexOf array
+    mean: 9042417.391308587
+
+  -
+    name: includes array
+    mean: 9702289.01193521
+
