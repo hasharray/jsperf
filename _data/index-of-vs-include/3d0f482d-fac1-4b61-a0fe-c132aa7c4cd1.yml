@@ -1,0 +1,11 @@
+name: Chrome
+version: 52.0.2743.82
+results:
+  -
+    name: Index Of
+    mean: 3107065.3546607513
+
+  -
+    name: Include
+    mean: 2543845.0325914756
+
