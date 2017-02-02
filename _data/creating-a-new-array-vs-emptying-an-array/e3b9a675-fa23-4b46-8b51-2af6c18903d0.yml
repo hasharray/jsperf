@@ -1,0 +1,11 @@
+name: Firefox
+version: 48.0
+results:
+  -
+    name: Creating a new array
+    mean: 63.488903674977934
+
+  -
+    name: Emptying an array
+    mean: 79.58137187308536
+
