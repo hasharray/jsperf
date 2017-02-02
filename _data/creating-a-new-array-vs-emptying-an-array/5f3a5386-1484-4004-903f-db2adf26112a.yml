@@ -1,0 +1,11 @@
+name: Chrome
+version: 56.0.2924.87
+results:
+  -
+    name: Creating a new array
+    mean: 140.2073880616185
+
+  -
+    name: Emptying an array
+    mean: 142.880131015777
+
