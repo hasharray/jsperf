@@ -1,0 +1,11 @@
+name: Chrome
+version: 53.0.2785.89
+results:
+  -
+    name: Index Of
+    mean: 2426409.424270809
+
+  -
+    name: Include
+    mean: 930204.7556563738
+
