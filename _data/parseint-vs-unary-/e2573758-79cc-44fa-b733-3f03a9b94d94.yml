@@ -1,0 +1,11 @@
+name: Chrome
+version: 55.0.2883.95
+results:
+  -
+    name: parseint
+    mean: 2469952.4271415668
+
+  -
+    name: unary +
+    mean: 2428348.82210928
+
