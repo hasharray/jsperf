@@ -1,0 +1,11 @@
+name: Chrome
+version: 56.0.2924.76
+results:
+  -
+    name: includes
+    mean: 2063410.1357136015
+
+  -
+    name: indexOf
+    mean: 2314647.6864144998
+
