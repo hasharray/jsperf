@@ -1,0 +1,11 @@
+name: Opera
+version: 42.0.2393.517
+results:
+  -
+    name: Array.from
+    mean: 1053503.025486311
+
+  -
+    name: Filter
+    mean: 1334123.605157225
+
