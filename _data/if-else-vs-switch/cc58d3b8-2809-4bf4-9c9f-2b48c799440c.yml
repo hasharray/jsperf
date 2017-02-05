@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2987.21
+results:
+  -
+    name: if else
+    mean: 9438.013467279285
+
+  -
+    name: switch
+    mean: 9420.334795518078
+
