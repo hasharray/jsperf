@@ -1,0 +1,15 @@
+name: Chrome
+version: 55.0.2883.87
+results:
+  -
+    name: substrToUpperCase
+    mean: 661171.6417624053
+
+  -
+    name: regExpMatch
+    mean: 532056.5002814416
+
+  -
+    name: regExpMatch2 (case insensitive)
+    mean: 645928.4444653244
+
