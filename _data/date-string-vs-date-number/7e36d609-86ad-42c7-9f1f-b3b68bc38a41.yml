@@ -1,0 +1,11 @@
+name: Chrome
+version: 56.0.2924.87
+results:
+  -
+    name: Date string
+    mean: 1005965.6595649763
+
+  -
+    name: Date number
+    mean: 2078262.1481309999
+
