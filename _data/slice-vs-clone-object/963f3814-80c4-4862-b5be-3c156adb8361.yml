@@ -1,0 +1,11 @@
+name: Android Browser
+version: 51.0
+results:
+  -
+    name: Slice
+    mean: 518388.42108910764
+
+  -
+    name: Clone object
+    mean: 955477.0290066547
+
