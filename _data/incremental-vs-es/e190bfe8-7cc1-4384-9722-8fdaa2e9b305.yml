@@ -1,0 +1,11 @@
+name: Chrome
+version: 56.0.2924.87
+results:
+  -
+    name: Incremental
+    mean: 252.7431582890696
+
+  -
+    name: ES
+    mean: 66.19840479503196
+
