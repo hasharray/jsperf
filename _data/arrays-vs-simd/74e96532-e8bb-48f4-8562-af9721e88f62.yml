@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3009.0
+results:
+  -
+    name: Arrays
+    mean: 1929492.9946060693
+
+  -
+    name: Simd
+    mean: 1076130.3613470467
+
