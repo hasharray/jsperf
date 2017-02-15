@@ -148,6 +148,10 @@ layout: default
                 {% endfor %}
               {% endfor %}
 
+              {% if max == 0 %}
+                {% continue %}
+              {% endif %}
+
               {% assign width = value | divided_by: max | times: 100 %}
 
               <dd data-width="{{ width }}" data-value="{{ mean }}" style="width: {{ width }}%;">
