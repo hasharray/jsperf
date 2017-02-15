@@ -33,7 +33,7 @@ contents:
   benchmarks:
     path: '_benchmarks/:slug.md'
     template: '_templates/benchmark.liquid'
-    commit: true
+    commit: false
 
   data:
     path: '_data/:slug/:uuid.yml'
