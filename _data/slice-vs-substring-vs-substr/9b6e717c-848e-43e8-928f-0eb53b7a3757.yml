@@ -1,0 +1,15 @@
+name: Chrome
+version: 55.0.2883.95
+results:
+  -
+    name: slice
+    mean: 2323093.718714105
+
+  -
+    name: substring
+    mean: 2434369.1956076324
+
+  -
+    name: substr
+    mean: 2558297.54106107
+
