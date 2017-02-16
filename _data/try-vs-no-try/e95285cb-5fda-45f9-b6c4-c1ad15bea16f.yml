@@ -1,0 +1,11 @@
+name: Chrome
+version: 56.0.2924.87
+results:
+  -
+    name: Try
+    mean: 10.651312702399986
+
+  -
+    name: No try
+    mean: 10.820736303708154
+
