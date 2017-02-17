@@ -1,0 +1,11 @@
+name: Firefox
+version: 51.0
+results:
+  -
+    name: For loop
+    mean: 7000.034058589402
+
+  -
+    name: forEach Loop
+    mean: 10408.467662553816
+
