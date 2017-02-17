@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: Array
+    mean: 167083.78714709106
+
+  -
+    name: Uint16Array
+    mean: 34653.67221496917
+
