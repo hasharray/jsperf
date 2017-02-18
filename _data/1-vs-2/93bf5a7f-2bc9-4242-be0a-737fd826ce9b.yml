@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3014.0
+results:
+  -
+    name: 1
+    mean: 3155510.221039584
+
+  -
+    name: 2
+    mean: 3108359.9852931476
+
