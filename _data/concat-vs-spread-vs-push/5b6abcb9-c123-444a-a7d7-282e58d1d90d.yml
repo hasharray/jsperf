@@ -1,0 +1,15 @@
+name: Chrome Mobile
+version: 56.0.2924.87
+results:
+  -
+    name: Concat
+    mean: 22.327817397986806
+
+  -
+    name: Spread
+    mean: 4.076020310540209
+
+  -
+    name: Push
+    mean: 1408.9704726056393
+
