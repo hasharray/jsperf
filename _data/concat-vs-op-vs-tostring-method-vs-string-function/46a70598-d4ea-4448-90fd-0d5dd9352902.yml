@@ -1,0 +1,19 @@
+name: Chrome
+version: 53.0.2785.116
+results:
+  -
+    name: concat
+    mean: 2615315.3557929783
+
+  -
+    name: op
+    mean: 2758276.6654859805
+
+  -
+    name: toString Method
+    mean: 2720083.3330662535
+
+  -
+    name: String Function
+    mean: 2747119.7869434543
+
