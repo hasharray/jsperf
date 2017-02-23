@@ -1,0 +1,11 @@
+name: Chrome
+version: 56.0.2924.87
+results:
+  -
+    name: CommonLookup
+    mean: 2206770.1321186824
+
+  -
+    name: Object.getOwnPropertyDescriptor
+    mean: 1314483.252382279
+
