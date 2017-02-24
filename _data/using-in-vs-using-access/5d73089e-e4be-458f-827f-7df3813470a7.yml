@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3004.3
+results:
+  -
+    name: using in
+    mean: 2933435.747222169
+
+  -
+    name: using access
+    mean: 3055265.9409392728
+
