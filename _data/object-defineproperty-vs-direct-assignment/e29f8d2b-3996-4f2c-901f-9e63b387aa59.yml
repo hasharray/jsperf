@@ -1,0 +1,11 @@
+name: Chrome
+version: 56.0.2924.87
+results:
+  -
+    name: Object.defineProperty
+    mean: 1866.9815722980115
+
+  -
+    name: Direct assignment
+    mean: 5058.454054668149
+
