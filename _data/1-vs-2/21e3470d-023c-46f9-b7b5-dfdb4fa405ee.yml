@@ -1,0 +1,11 @@
+name: Opera
+version: 44.0.2505.0
+results:
+  -
+    name: 1
+    mean: 3020589.8430980723
+
+  -
+    name: 2
+    mean: 3006542.821485809
+
