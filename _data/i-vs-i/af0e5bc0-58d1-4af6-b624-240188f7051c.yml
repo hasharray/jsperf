@@ -1,0 +1,11 @@
+name: Chrome
+version: 56.0.2924.87
+results:
+  -
+    name: i++
+    mean: 106.11377983658596
+
+  -
+    name: ++i
+    mean: 109.95035776991752
+
