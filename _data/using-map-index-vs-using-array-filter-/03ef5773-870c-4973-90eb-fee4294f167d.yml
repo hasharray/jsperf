@@ -1,0 +1,11 @@
+name: Firefox
+version: 51.0
+results:
+  -
+    name: Using Map[index]
+    mean: 10337725.896736002
+
+  -
+    name: Using array.filter()
+    mean: 4778112.115080779
+
