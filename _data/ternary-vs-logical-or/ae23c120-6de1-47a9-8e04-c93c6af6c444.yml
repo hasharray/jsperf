@@ -1,0 +1,11 @@
+name: Chrome
+version: 56.0.2924.87
+results:
+  -
+    name: Ternary
+    mean: 2783750.0943433093
+
+  -
+    name: Logical OR
+    mean: 2499867.5714021926
+
