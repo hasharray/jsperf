@@ -1,0 +1,11 @@
+name: Chrome
+version: 54.0.2840.100
+results:
+  -
+    name: Multiplication
+    mean: 2163688.7740403027
+
+  -
+    name: Division
+    mean: 2215501.2608025977
+
