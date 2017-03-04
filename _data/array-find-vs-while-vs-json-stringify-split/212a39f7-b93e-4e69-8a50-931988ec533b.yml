@@ -1,0 +1,15 @@
+name: Firefox
+version: 51.0
+results:
+  -
+    name: Array#find()
+    mean: 2444674.9798461343
+
+  -
+    name: While
+    mean: 1881997.3947208258
+
+  -
+    name: json.stringify().split
+    mean: 5246.8955984739905
+
