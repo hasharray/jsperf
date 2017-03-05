@@ -1,0 +1,15 @@
+name: Chrome
+version: 56.0.2924.87
+results:
+  -
+    name: Raw
+    mean: 773571.5580937947
+
+  -
+    name: Immutable no Edit
+    mean: 13189.255291749834
+
+  -
+    name: Immutable with Edit
+    mean: 9688.678293814617
+
