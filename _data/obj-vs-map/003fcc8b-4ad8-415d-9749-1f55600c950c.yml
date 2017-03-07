@@ -1,0 +1,11 @@
+name: Safari
+version: 10.2
+results:
+  -
+    name: Obj
+    mean: 1269.6088388735952
+
+  -
+    name: Map
+    mean: 1464.3113096125035
+
