@@ -1,0 +1,11 @@
+name: Opera
+version: 43.0.2442.1144
+results:
+  -
+    name: includes
+    mean: 1027753.67628172
+
+  -
+    name: indexOf
+    mean: 1031637.5447029489
+
