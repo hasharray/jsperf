@@ -1,0 +1,15 @@
+name: Chrome
+version: 56.0.2924.87
+results:
+  -
+    name: lowercase
+    mean: 1523495.602649937
+
+  -
+    name: regex
+    mean: 1072955.160373601
+
+  -
+    name: eqi
+    mean: 1756993.507937742
+
