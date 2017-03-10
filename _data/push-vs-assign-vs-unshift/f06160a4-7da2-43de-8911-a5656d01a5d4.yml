@@ -1,0 +1,15 @@
+name: Chrome
+version: 56.0.2924.87
+results:
+  -
+    name: Push
+    mean: 1260062.3636532524
+
+  -
+    name: Assign
+    mean: 1577259.599812182
+
+  -
+    name: Unshift
+    mean: 686.7403952488706
+
