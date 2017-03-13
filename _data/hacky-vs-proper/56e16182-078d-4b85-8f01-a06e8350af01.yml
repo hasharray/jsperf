@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2987.98
+results:
+  -
+    name: hacky
+    mean: 1823418.3671535607
+
+  -
+    name: proper
+    mean: 2170127.6524442956
+
