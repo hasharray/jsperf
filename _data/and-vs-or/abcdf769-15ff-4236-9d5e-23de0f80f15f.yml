@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2987.98
+results:
+  -
+    name: and
+    mean: 311176.79051002354
+
+  -
+    name: or
+    mean: 289719.32253583916
+
