@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2987.98
+results:
+  -
+    name: Greater
+    mean: 1228222.278258195
+
+  -
+    name: Unequal
+    mean: 1094813.1276773808
+
