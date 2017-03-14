@@ -1,0 +1,11 @@
+name: Firefox
+version: 45.0
+results:
+  -
+    name: Compile regexp and assign to var
+    mean: 10799260.726146024
+
+  -
+    name: Assign to var
+    mean: 12942032.033534577
+
