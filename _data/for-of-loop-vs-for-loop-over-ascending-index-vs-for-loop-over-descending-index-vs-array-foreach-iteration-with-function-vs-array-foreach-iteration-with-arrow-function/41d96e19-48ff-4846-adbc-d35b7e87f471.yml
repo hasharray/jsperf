@@ -1,0 +1,23 @@
+name: Safari
+version: 10.0.3
+results:
+  -
+    name: for...of loop
+    mean: 216493.3029931032
+
+  -
+    name: for loop over ascending index
+    mean: 700796.0355208403
+
+  -
+    name: for loop over descending index
+    mean: 608962.5787104649
+
+  -
+    name: Array#forEach iteration with function
+    mean: 22615.32135389185
+
+  -
+    name: Array#forEach iteration with arrow function
+    mean: 20771.279102743512
+
