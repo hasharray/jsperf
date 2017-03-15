@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0.3
+results:
+  -
+    name: Curry Function Call
+    mean: 244412.04222658268
+
+  -
+    name: Normal Function Call
+    mean: 254688.3325514124
+
