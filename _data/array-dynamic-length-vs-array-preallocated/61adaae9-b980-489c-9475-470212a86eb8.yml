@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0.3
+results:
+  -
+    name: array dynamic length
+    mean: 74.44538429172935
+
+  -
+    name: array preallocated
+    mean: 415.25179011358506
+
