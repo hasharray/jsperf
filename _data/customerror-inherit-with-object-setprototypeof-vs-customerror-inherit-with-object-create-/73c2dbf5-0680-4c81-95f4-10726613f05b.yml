@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2987.110
+results:
+  -
+    name: CustomError Inherit with Object.setPrototypeOf()
+    mean: 28554.52521870473
+
+  -
+    name: CustomError Inherit with Object.create()
+    mean: 27865.383298036282
+
