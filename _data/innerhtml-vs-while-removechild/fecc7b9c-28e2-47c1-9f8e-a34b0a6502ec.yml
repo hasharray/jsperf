@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: innerHTML = ""
+    mean: 502142.6019598419
+
+  -
+    name: while removeChild
+    mean: 518566.151563175
+
