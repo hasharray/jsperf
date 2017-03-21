@@ -1,0 +1,11 @@
+name: Firefox
+version: 52.0
+results:
+  -
+    name: 1
+    mean: 12797510.492944838
+
+  -
+    name: 2
+    mean: 12343432.688361833
+
