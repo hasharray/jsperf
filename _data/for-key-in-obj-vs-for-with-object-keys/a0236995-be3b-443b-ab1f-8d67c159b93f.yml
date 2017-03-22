@@ -1,0 +1,11 @@
+name: Firefox
+version: 52.0
+results:
+  -
+    name: for(key in obj)
+    mean: 1211442.6374388149
+
+  -
+    name: for with Object.keys
+    mean: 392485.1373801325
+
