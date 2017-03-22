@@ -1,0 +1,11 @@
+name: Firefox
+version: 52.0
+results:
+  -
+    name: for vs map
+    mean: 13244415.385914085
+
+  -
+    name: map
+    mean: 12663.486772766842
+
