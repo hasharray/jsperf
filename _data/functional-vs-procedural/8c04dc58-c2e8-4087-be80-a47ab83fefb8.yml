@@ -1,0 +1,11 @@
+name: Chrome
+version: 51.0.2704.84
+results:
+  -
+    name: functional
+    mean: 38612.64993580805
+
+  -
+    name: procedural
+    mean: 1105787.9733783833
+
