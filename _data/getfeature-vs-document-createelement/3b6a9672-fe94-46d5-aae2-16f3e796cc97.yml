@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 56.0.2924.87
+results:
+  -
+    name: getFeature
+    mean: 12737.536917353305
+
+  -
+    name: document.createElement
+    mean: 12566.80200250075
+
