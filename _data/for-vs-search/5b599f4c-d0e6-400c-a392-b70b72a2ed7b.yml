@@ -1,0 +1,11 @@
+name: Chrome
+version: 51.0.2704.84
+results:
+  -
+    name: for
+    mean: 1877737.3354416185
+
+  -
+    name: search
+    mean: 1238866.771400271
+
