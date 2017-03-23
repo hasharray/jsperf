@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 4.0
+results:
+  -
+    name: 1
+    mean: 171054.33633934494
+
+  -
+    name: 1
+    mean: 229597.68733062074
+
