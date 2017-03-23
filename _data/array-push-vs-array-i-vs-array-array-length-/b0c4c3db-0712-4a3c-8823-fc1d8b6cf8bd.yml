@@ -1,0 +1,15 @@
+name: Chrome Mobile
+version: 56.0.2924.87
+results:
+  -
+    name: Array#push
+    mean: 4895.60232221794
+
+  -
+    name: Array[i++]
+    mean: 3855.7871975666376
+
+  -
+    name: Array[array.length]
+    mean: 3305.62222201917
+
