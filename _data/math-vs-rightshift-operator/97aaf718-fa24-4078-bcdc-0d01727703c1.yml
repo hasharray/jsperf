@@ -1,0 +1,11 @@
+name: Chrome
+version: 56.0.2924.87
+results:
+  -
+    name: Math
+    mean: 2399976.5826681154
+
+  -
+    name: RightShift Operator
+    mean: 2222694.492538703
+
