@@ -1,0 +1,11 @@
+name: Firefox
+version: 52.0
+results:
+  -
+    name: Simple if
+    mean: 4758164.130805228
+
+  -
+    name: Not undefined
+    mean: 5186461.306837166
+
