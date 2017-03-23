@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 56.0.2924.87
+results:
+  -
+    name: Global
+    mean: 918.2467713381957
+
+  -
+    name: Local
+    mean: 377.3831133539795
+
