@@ -1,0 +1,11 @@
+name: Chrome
+version: 59.0.3047.4
+results:
+  -
+    name: For
+    mean: 726.676878457713
+
+  -
+    name: For-Of
+    mean: 286.0209759888065
+
