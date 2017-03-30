@@ -1,0 +1,11 @@
+name: Chrome
+version: 56.0.2924.87
+results:
+  -
+    name: String.slice
+    mean: 451690.61465038493
+
+  -
+    name: string to array and join
+    mean: 492492.65282635024
+
