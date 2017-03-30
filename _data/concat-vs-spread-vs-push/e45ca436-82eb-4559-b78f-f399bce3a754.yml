@@ -1,0 +1,15 @@
+name: Safari
+version: 8+
+results:
+  -
+    name: Concat
+    mean: 214.24323527798896
+
+  -
+    name: Spread
+    mean: 7.129169101837595
+
+  -
+    name: Push
+    mean: 1504.0538268582675
+
