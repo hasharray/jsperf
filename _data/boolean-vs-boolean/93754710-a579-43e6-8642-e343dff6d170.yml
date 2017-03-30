@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2987.133
+results:
+  -
+    name: boolean
+    mean: 5767056.0019251965
+
+  -
+    name: boolean
+    mean: 5406480.837054691
+
