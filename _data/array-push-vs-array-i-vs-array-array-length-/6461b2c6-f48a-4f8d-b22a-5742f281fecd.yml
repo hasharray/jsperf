@@ -1,0 +1,15 @@
+name: Chrome
+version: 57.0.2987.133
+results:
+  -
+    name: Array#push
+    mean: 42869.73013245288
+
+  -
+    name: Array[i++]
+    mean: 88774.15114928549
+
+  -
+    name: Array[array.length]
+    mean: 43805.96890463204
+
