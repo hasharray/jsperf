@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2987.110
+results:
+  -
+    name: Array#from
+    mean: 790.1647783512465
+
+  -
+    name: Spread array
+    mean: 1610.830107952474
+
