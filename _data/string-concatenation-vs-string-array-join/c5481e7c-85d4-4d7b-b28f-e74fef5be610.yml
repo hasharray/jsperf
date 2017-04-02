@@ -1,0 +1,11 @@
+name: Chrome
+version: 56.0.2924.87
+results:
+  -
+    name: string concatenation
+    mean: 1632313.590155394
+
+  -
+    name: string array join
+    mean: 931655.5570980208
+
