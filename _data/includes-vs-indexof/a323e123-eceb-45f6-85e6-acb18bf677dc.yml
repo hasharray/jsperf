@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 57.0.2987.137
+results:
+  -
+    name: includes
+    mean: 1306068.7541177503
+
+  -
+    name: indexOf
+    mean: 1639646.7515561655
+
