@@ -1,0 +1,11 @@
+name: Firefox
+version: 52.0
+results:
+  -
+    name: Array#from
+    mean: 627.4580552237123
+
+  -
+    name: Spread array
+    mean: 943.6276556215474
+
