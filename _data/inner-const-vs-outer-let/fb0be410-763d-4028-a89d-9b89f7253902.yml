@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2987.133
+results:
+  -
+    name: inner const
+    mean: 18.985287862321027
+
+  -
+    name: outer let
+    mean: 18.87964022586978
+
