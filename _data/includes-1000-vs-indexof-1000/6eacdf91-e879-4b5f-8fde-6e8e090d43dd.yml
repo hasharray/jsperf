@@ -1,0 +1,11 @@
+name: Firefox
+version: 52.0
+results:
+  -
+    name: includes 1000
+    mean: 12080.815567897156
+
+  -
+    name: IndexOf 1000
+    mean: 7310.759682295203
+
