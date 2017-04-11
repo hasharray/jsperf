@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0
+results:
+  -
+    name: marsaglia polar
+    mean: 55420.101874262364
+
+  -
+    name: box-muller
+    mean: 963210.8990323964
+
