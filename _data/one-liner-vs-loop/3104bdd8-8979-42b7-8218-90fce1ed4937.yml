@@ -1,0 +1,11 @@
+name: Chrome
+version: 56.0.2924.76
+results:
+  -
+    name: One liner
+    mean: 13564.136535731392
+
+  -
+    name: Loop
+    mean: 18153.16348291505
+
