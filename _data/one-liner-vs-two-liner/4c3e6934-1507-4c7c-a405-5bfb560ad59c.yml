@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2987.133
+results:
+  -
+    name: One liner
+    mean: 82792.41497943552
+
+  -
+    name: Two liner
+    mean: 83309.05337286185
+
