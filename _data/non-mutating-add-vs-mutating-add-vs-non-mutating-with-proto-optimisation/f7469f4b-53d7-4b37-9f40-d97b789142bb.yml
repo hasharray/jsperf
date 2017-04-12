@@ -1,0 +1,15 @@
+name: Chrome
+version: 57.0.2987.133
+results:
+  -
+    name: non mutating add
+    mean: 2577298.688573769
+
+  -
+    name: mutating add
+    mean: 2967653.9289391274
+
+  -
+    name: non mutating with proto optimisation
+    mean: 2604630.0083905486
+
