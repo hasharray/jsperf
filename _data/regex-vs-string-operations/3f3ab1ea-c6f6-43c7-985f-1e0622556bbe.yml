@@ -1,0 +1,11 @@
+name: Opera
+version: 43.0.2442.1144
+results:
+  -
+    name: regex
+    mean: 4706.979285971462
+
+  -
+    name: string operations
+    mean: 4054.946848731841
+
