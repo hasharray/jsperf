@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2987.133
+results:
+  -
+    name: Assign-object
+    mean: 205412.63103307184
+
+  -
+    name: JSON Stringify
+    mean: 85082.45934868565
+
