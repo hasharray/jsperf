@@ -1,0 +1,11 @@
+name: Firefox
+version: 54.0
+results:
+  -
+    name: Set
+    mean: 1823.2999406024371
+
+  -
+    name: array-unique
+    mean: 2896159.804649096
+
