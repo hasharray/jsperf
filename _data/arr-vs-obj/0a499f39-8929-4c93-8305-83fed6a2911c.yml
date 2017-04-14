@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2987.133
+results:
+  -
+    name: arr
+    mean: 86605.815008413
+
+  -
+    name: obj
+    mean: 91984.70366196195
+
