@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2987.133
+results:
+  -
+    name: for
+    mean: 1038092.8394443692
+
+  -
+    name: search
+    mean: 1528149.9710347578
+
