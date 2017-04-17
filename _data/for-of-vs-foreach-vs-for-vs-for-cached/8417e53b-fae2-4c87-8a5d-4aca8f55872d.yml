@@ -1,0 +1,19 @@
+name: Chrome
+version: 57.0.2987.133
+results:
+  -
+    name: for of
+    mean: 340965.5420573335
+
+  -
+    name: forEach
+    mean: 300818.0086512607
+
+  -
+    name: for
+    mean: 907446.1963277787
+
+  -
+    name: for cached
+    mean: 729039.1633070253
+
