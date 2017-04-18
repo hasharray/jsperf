@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2987.133
+results:
+  -
+    name: Math
+    mean: 2044125.9232647086
+
+  -
+    name: Math
+    mean: 1993004.567362237
+
