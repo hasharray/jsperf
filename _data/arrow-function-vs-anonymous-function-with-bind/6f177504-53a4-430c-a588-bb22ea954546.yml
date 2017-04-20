@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: Arrow function
+    mean: 10493.607514796485
+
+  -
+    name: Anonymous function with bind
+    mean: 1523.5693112126127
+
