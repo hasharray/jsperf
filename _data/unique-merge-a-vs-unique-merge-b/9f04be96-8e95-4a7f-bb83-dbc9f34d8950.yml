@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.81
+results:
+  -
+    name: Unique merge A
+    mean: 337709.69393867604
+
+  -
+    name: Unique merge B
+    mean: 320511.30011560523
+
