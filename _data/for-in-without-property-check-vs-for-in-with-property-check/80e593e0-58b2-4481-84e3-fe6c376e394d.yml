@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2987.133
+results:
+  -
+    name: for-in without property check
+    mean: 1203988.017213069
+
+  -
+    name: for-in with property check
+    mean: 917313.4494180165
+
