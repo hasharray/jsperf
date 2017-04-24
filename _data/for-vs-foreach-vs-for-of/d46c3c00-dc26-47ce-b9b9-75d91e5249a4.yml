@@ -1,0 +1,15 @@
+name: Safari
+version: 10.1
+results:
+  -
+    name: for
+    mean: 5104035.27807432
+
+  -
+    name: forEach
+    mean: 1288736.1451723499
+
+  -
+    name: for-of
+    mean: 3948336.036734921
+
