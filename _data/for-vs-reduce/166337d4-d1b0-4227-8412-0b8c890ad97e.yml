@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2987.133
+results:
+  -
+    name: for
+    mean: 1682809.8730209759
+
+  -
+    name: reduce
+    mean: 962123.8244428993
+
