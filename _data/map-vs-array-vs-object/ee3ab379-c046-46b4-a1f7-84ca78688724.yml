@@ -1,0 +1,15 @@
+name: Safari
+version: 10.1
+results:
+  -
+    name: Map
+    mean: 1298880.885729749
+
+  -
+    name: Array
+    mean: 9729.362909715372
+
+  -
+    name: Object
+    mean: 11924.976427081956
+
