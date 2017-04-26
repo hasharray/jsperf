@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.81
+results:
+  -
+    name: Using Map[index]
+    mean: 1302400.5035217032
+
+  -
+    name: Using array.filter()
+    mean: 1074504.1474435932
+
