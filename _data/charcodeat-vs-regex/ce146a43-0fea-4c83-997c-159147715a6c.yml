@@ -1,0 +1,11 @@
+name: Chrome
+version: 50.0.2661.102
+results:
+  -
+    name: charCodeAt
+    mean: 52561.4008374958
+
+  -
+    name: Regex
+    mean: 69578.13655629168
+
