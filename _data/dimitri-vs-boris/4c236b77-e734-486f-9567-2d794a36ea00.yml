@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2987.133
+results:
+  -
+    name: Dimitri
+    mean: 72914.34624534978
+
+  -
+    name: Boris
+    mean: 166582.83260553918
+
