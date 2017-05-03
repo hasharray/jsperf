@@ -1,0 +1,11 @@
+name: Opera
+version: 46.0.2573.0
+results:
+  -
+    name: Object.prototype.toString.call
+    mean: 1294098.4107807078
+
+  -
+    name: typeof/instanceof
+    mean: 1645552.134849116
+
