@@ -1,0 +1,11 @@
+name: Safari
+version: 10.1
+results:
+  -
+    name: if else
+    mean: 32104.566676648654
+
+  -
+    name: switch
+    mean: 32569.268692150865
+
