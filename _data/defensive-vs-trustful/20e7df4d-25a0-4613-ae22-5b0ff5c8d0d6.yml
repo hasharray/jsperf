@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.81
+results:
+  -
+    name: Defensive
+    mean: 800.0053819688942
+
+  -
+    name: Trustful
+    mean: 623.521255379769
+
