@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.81
+results:
+  -
+    name: Bitwise
+    mean: 2704394.476261082
+
+  -
+    name: Math.round
+    mean: 2690932.1911018747
+
