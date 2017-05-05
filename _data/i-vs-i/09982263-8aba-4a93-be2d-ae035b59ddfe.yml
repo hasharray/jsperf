@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.81
+results:
+  -
+    name: i++
+    mean: 71.77407875586609
+
+  -
+    name: ++i
+    mean: 73.11723622801155
+
