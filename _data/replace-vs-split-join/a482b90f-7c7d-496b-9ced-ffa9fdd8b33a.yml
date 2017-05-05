@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.81
+results:
+  -
+    name: replace
+    mean: 1275374.0418305264
+
+  -
+    name: split join
+    mean: 906151.8189830319
+
