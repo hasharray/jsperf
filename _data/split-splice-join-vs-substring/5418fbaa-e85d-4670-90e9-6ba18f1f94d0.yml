@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.81
+results:
+  -
+    name: split().splice().join()
+    mean: 1088145.0242388658
+
+  -
+    name: substring
+    mean: 2426636.9353515296
+
