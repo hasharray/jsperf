@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.81
+results:
+  -
+    name: push unallocated
+    mean: 58410.20359961764
+
+  -
+    name: push preallocated
+    mean: 92107.97677502048
+
