@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 57.0.2987.132
+results:
+  -
+    name: using if
+    mean: 127630.01997591686
+
+  -
+    name: using ||
+    mean: 121803.53275514163
+
