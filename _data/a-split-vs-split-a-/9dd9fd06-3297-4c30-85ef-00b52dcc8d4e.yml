@@ -1,0 +1,11 @@
+name: Chrome
+version: 57.0.2987.133
+results:
+  -
+    name: a.split()
+    mean: 1806337.3192103566
+
+  -
+    name: Split(a)
+    mean: 822747.9302664835
+
