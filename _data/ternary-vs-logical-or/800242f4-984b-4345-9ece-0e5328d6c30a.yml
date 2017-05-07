@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 57.0.2987.132
+results:
+  -
+    name: Ternary
+    mean: 112426.67653949774
+
+  -
+    name: Logical OR
+    mean: 150127.77046969958
+
