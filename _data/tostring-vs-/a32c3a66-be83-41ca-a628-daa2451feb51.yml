@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 57.0.2987.132
+results:
+  -
+    name: toString
+    mean: 107856.17033931108
+
+  -
+    name: + ''
+    mean: 115558.0514290017
+
