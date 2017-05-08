@@ -1,0 +1,23 @@
+name: Firefox
+version: 53.0
+results:
+  -
+    name: Iterator
+    mean: 502.48155541789157
+
+  -
+    name: forEach
+    mean: 372.775820608293
+
+  -
+    name: for..of
+    mean: 436.5573864506207
+
+  -
+    name: spread
+    mean: 244.73825113231644
+
+  -
+    name: Array.from
+    mean: 110.37679678318293
+
