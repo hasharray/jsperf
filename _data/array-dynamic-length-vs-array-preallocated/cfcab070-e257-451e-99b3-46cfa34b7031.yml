@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.96
+results:
+  -
+    name: array dynamic length
+    mean: 55.80070307192925
+
+  -
+    name: array preallocated
+    mean: 172.0790826738195
+
