@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.96
+results:
+  -
+    name: with bracket
+    mean: 27358.69891951042
+
+  -
+    name: without bracket
+    mean: 23006.781072996026
+
