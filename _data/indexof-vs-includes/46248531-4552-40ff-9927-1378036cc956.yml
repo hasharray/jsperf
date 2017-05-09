@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.96
+results:
+  -
+    name: indexOf
+    mean: 2582523.4056066307
+
+  -
+    name: includes
+    mean: 2136347.645067041
+
