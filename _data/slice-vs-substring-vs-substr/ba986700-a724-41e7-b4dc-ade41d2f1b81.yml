@@ -1,0 +1,15 @@
+name: Firefox
+version: 53.0
+results:
+  -
+    name: slice
+    mean: 9055906.657001596
+
+  -
+    name: substring
+    mean: 9427702.530756949
+
+  -
+    name: substr
+    mean: 14315758.081824834
+
