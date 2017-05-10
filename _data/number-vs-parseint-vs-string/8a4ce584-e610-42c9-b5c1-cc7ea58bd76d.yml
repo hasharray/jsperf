@@ -1,0 +1,15 @@
+name: Chrome
+version: 58.0.3029.96
+results:
+  -
+    name: Number
+    mean: 2682752.297989266
+
+  -
+    name: parseInt
+    mean: 2718433.799784196
+
+  -
+    name: String
+    mean: 2781640.93464924
+
