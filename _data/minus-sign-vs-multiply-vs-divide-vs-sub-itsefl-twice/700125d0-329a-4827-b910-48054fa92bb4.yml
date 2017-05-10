@@ -1,0 +1,19 @@
+name: Chrome
+version: 58.0.3029.96
+results:
+  -
+    name: Minus sign
+    mean: 3502.683343758139
+
+  -
+    name: Multiply
+    mean: 3288.2608687136044
+
+  -
+    name: Divide
+    mean: 3340.0786295740354
+
+  -
+    name: sub itsefl twice
+    mean: 3273.7824867688028
+
