@@ -1,0 +1,11 @@
+name: Firefox
+version: 53.0
+results:
+  -
+    name: REGEX
+    mean: 5265.122538875439
+
+  -
+    name: ARRAY LOOP
+    mean: 774.4529724016144
+
