@@ -1,0 +1,15 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: Concat
+    mean: 164.02786328548729
+
+  -
+    name: Spread
+    mean: 37.9460647809738
+
+  -
+    name: Push
+    mean: 31008.734683696264
+
