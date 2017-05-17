@@ -1,0 +1,11 @@
+name: Safari
+version: 10.1
+results:
+  -
+    name: for(key in obj)
+    mean: 2442662.3569035972
+
+  -
+    name: for with Object.keys
+    mean: 664689.6928177086
+
