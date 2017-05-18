@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 15.15063
+results:
+  -
+    name: Split
+    mean: 380145.9377203371
+
+  -
+    name: SubString
+    mean: 554044.4743365545
+
