@@ -1,0 +1,11 @@
+name: Firefox
+version: 53.0
+results:
+  -
+    name: and
+    mean: 1084054.248183487
+
+  -
+    name: or
+    mean: 970623.2514045662
+
