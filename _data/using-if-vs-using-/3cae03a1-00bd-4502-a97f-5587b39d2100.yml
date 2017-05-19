@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0
+results:
+  -
+    name: using if
+    mean: 13723727.23975899
+
+  -
+    name: using ||
+    mean: 13435301.374484383
+
