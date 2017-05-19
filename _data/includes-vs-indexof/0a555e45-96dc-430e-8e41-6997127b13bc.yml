@@ -1,0 +1,11 @@
+name: Safari
+version: 8+
+results:
+  -
+    name: includes
+    mean: 349654.6774726219
+
+  -
+    name: indexOf
+    mean: 1065329.0537147885
+
