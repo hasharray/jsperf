@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0
+results:
+  -
+    name: Set
+    mean: 503.49777483394263
+
+  -
+    name: array-unique
+    mean: 6051385.20184489
+
