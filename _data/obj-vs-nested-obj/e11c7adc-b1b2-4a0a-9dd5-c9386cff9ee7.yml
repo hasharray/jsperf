@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0
+results:
+  -
+    name: obj
+    mean: 13738480.7819209
+
+  -
+    name: nested obj
+    mean: 13265059.169599082
+
