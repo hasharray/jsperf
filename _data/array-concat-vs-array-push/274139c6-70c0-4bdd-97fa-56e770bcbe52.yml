@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: Array#concat
+    mean: 82746.02127058503
+
+  -
+    name: Array#push
+    mean: 80571.73385338779
+
