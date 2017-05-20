@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: Literal
+    mean: 3177311.9973950987
+
+  -
+    name: Slice
+    mean: 2193407.3550780164
+
