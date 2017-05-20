@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: join
+    mean: 1681583.106073782
+
+  -
+    name: template
+    mean: 3099034.4215595676
+
