@@ -1,0 +1,23 @@
+name: Firefox
+version: 53.0
+results:
+  -
+    name: For loop
+    mean: 11725266.519542258
+
+  -
+    name: Each
+    mean: 2735795.5782796647
+
+  -
+    name: Reduce
+    mean: 13136616.723081378
+
+  -
+    name: Filter
+    mean: 4715346.369380001
+
+  -
+    name: Map
+    mean: 2015581.1772360378
+
