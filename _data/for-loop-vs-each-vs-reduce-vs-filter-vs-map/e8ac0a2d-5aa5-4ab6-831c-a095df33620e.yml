@@ -1,0 +1,23 @@
+name: Safari
+version: 10.1.1
+results:
+  -
+    name: For loop
+    mean: 10443095.93894704
+
+  -
+    name: Each
+    mean: 2882688.8563411636
+
+  -
+    name: Reduce
+    mean: 3016531.8403725354
+
+  -
+    name: Filter
+    mean: 2342457.399564092
+
+  -
+    name: Map
+    mean: 2431698.280663294
+
