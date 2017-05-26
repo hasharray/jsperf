@@ -1,0 +1,23 @@
+name: Chrome
+version: 59.0.3071.61
+results:
+  -
+    name: For loop
+    mean: 2492852.7016933574
+
+  -
+    name: Each
+    mean: 1657018.2668843092
+
+  -
+    name: Reduce
+    mean: 1748629.0142189139
+
+  -
+    name: Filter
+    mean: 555739.6631457978
+
+  -
+    name: Map
+    mean: 578131.0409213417
+
