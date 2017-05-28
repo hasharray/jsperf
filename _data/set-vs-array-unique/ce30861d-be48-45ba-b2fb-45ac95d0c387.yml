@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: Set
+    mean: 929.4121271760965
+
+  -
+    name: array-unique
+    mean: 2897228.0822861004
+
