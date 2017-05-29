@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 58.0.3029.83
+results:
+  -
+    name: for
+    mean: 198751.546563556
+
+  -
+    name: map
+    mean: 42035.26843451455
+
