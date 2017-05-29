@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: setting a flag
+    mean: 1936537.8214632084
+
+  -
+    name: adding to stack
+    mean: 978602.7363709637
+
