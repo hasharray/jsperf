@@ -1,0 +1,11 @@
+name: Firefox
+version: 54.0
+results:
+  -
+    name: substring
+    mean: 2695420.222321326
+
+  -
+    name: slice
+    mean: 2106481.7471622457
+
