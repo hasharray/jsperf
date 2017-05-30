@@ -1,0 +1,11 @@
+name: Firefox
+version: 54.0
+results:
+  -
+    name: asdda
+    mean: 8099481.996227947
+
+  -
+    name: fasda
+    mean: 7270902.431638412
+
