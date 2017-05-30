@@ -1,0 +1,15 @@
+name: Chrome
+version: 59.0.3071.71
+results:
+  -
+    name: Template literal
+    mean: 2630676.3127009124
+
+  -
+    name: String concatenation
+    mean: 2030291.469240902
+
+  -
+    name: Variable less template literal concatenation
+    mean: 1937307.5844666604
+
