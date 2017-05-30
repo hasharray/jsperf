@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.114
+results:
+  -
+    name: Using createElement('option')
+    mean: 21.61380641245924
+
+  -
+    name: Using new Option()
+    mean: 22.36156891426011
+
