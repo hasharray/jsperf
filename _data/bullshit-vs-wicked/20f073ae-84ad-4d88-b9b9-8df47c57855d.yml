@@ -1,0 +1,11 @@
+name: Firefox
+version: 54.0
+results:
+  -
+    name: bullshit
+    mean: 10355493.142244997
+
+  -
+    name: wicked
+    mean: 654862.9406838693
+
