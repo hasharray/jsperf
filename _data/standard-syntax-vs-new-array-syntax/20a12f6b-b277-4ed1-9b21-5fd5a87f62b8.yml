@@ -1,0 +1,11 @@
+name: Firefox
+version: 53.0
+results:
+  -
+    name: Standard Syntax
+    mean: 3.6650803259351092
+
+  -
+    name: new Array() Syntax
+    mean: 3.6444641216450835
+
