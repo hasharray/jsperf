@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: Greater Than
+    mean: 2305696.2317518783
+
+  -
+    name: Not Equal
+    mean: 2355009.712811538
+
