@@ -1,0 +1,11 @@
+name: Chrome
+version: 60.0.3111.0
+results:
+  -
+    name: Array#filter()
+    mean: 932825.2554160714
+
+  -
+    name: Array#splice(Array#indexOf())#slice()
+    mean: 1048615.0677698047
+
