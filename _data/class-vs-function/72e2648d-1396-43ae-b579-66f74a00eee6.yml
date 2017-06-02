@@ -1,0 +1,11 @@
+name: Firefox
+version: 52.0
+results:
+  -
+    name: class
+    mean: 13559830.94518228
+
+  -
+    name: function
+    mean: 12893969.036698366
+
