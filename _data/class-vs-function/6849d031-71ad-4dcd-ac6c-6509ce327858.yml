@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: class
+    mean: 2367512.4196247337
+
+  -
+    name: function
+    mean: 2468183.5350747094
+
