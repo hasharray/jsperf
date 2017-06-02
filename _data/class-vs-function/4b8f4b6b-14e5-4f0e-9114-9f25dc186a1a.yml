@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 58.0.3029.83
+results:
+  -
+    name: class
+    mean: 142591.9431840591
+
+  -
+    name: function
+    mean: 118807.72512376323
+
