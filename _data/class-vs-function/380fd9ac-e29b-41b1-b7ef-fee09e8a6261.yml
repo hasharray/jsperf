@@ -1,0 +1,11 @@
+name: Chrome
+version: 56.0.2924.87
+results:
+  -
+    name: class
+    mean: 1069039.4976528147
+
+  -
+    name: function
+    mean: 1107356.1132088834
+
