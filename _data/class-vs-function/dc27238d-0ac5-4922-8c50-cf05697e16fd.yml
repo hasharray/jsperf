@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0
+results:
+  -
+    name: class
+    mean: 1532318.209194436
+
+  -
+    name: function
+    mean: 989778.8168058236
+
