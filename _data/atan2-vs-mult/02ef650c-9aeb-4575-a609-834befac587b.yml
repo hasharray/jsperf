@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: atan2
+    mean: 9200.654795514243
+
+  -
+    name: mult
+    mean: 51331.56699376318
+
