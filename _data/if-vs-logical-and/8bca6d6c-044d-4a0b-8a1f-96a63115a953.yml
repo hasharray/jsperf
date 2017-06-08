@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: If
+    mean: 1576410.1630048149
+
+  -
+    name: Logical and
+    mean: 1634800.7769080286
+
