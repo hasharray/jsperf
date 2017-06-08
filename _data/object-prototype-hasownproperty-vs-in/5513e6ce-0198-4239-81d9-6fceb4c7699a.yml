@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: Object.prototype.hasOwnProperty
+    mean: 1333026.0800179369
+
+  -
+    name: In
+    mean: 1430966.9029653776
+
