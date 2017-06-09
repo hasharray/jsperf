@@ -1,0 +1,27 @@
+name: Chrome Mobile
+version: 57.0.2987.132
+results:
+  -
+    name: OOP
+    mean: 105873.20973679856
+
+  -
+    name: OOP (protected)
+    mean: 103926.67432251637
+
+  -
+    name: functional (array)
+    mean: 92498.68906489728
+
+  -
+    name: functional (object)
+    mean: 97565.8475285534
+
+  -
+    name: plain array
+    mean: 93579.58333893264
+
+  -
+    name: plain object
+    mean: 94842.09179938283
+
