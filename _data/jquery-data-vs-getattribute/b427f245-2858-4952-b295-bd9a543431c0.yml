@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 58.0.3029.83
+results:
+  -
+    name: jQuery.data
+    mean: 45962.53720556232
+
+  -
+    name: getAttribute
+    mean: 187210.18331504124
+
