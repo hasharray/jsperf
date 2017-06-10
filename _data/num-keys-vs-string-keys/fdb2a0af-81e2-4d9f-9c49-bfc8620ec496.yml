@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: num keys
+    mean: 41337.54507096568
+
+  -
+    name: string keys
+    mean: 104152.73957932812
+
