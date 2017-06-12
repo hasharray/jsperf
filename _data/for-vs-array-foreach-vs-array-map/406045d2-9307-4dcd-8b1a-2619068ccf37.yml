@@ -1,0 +1,15 @@
+name: Firefox
+version: 53.0
+results:
+  -
+    name: for
+    mean: 3281580.548033338
+
+  -
+    name: Array#forEach
+    mean: 2806520.2218458657
+
+  -
+    name: Array#map
+    mean: 552753.6518315946
+
