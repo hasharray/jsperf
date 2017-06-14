@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: demo_for
+    mean: 1683086.4719102245
+
+  -
+    name: demo_promise
+    mean: 999010.9292983449
+
