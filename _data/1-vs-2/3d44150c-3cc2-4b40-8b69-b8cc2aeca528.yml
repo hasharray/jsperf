@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 15.15063
+results:
+  -
+    name: 1
+    mean: 2685217.569320526
+
+  -
+    name: 2
+    mean: 2476319.5489334357
+
