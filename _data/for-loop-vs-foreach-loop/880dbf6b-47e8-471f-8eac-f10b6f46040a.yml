@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 14.14393
+results:
+  -
+    name: For loop
+    mean: 24848.665199348332
+
+  -
+    name: forEach Loop
+    mean: 15912.421529359526
+
