@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: String includes
+    mean: 2249604.236995834
+
+  -
+    name: RegExp.prototype.test
+    mean: 1753587.2352561653
+
