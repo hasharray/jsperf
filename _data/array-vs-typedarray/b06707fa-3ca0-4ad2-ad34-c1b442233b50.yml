@@ -1,0 +1,11 @@
+name: Firefox
+version: 53.0
+results:
+  -
+    name: Array
+    mean: 107562.22624577662
+
+  -
+    name: TypedArray
+    mean: 701964.0185007558
+
