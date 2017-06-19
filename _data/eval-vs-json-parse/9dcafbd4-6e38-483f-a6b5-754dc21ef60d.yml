@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: eval
+    mean: 603708.0680117583
+
+  -
+    name: JSON.parse
+    mean: 669364.4725654329
+
