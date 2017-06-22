@@ -1,0 +1,11 @@
+name: Chrome
+version: 59.0.3071.109
+results:
+  -
+    name: for(key in obj)
+    mean: 1204838.2740691553
+
+  -
+    name: for with Object.keys
+    mean: 1026807.0177517502
+
