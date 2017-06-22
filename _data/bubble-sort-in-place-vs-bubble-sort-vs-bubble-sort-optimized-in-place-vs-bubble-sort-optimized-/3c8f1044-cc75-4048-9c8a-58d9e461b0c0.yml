@@ -1,0 +1,19 @@
+name: Firefox
+version: 53.0
+results:
+  -
+    name: Bubble Sort (in place)
+    mean: 19706.60834215203
+
+  -
+    name: Bubble Sort
+    mean: 29014.43014180374
+
+  -
+    name: Bubble Sort (optimized) (in place)
+    mean: 187263.23478421225
+
+  -
+    name: Bubble Sort (optimized)
+    mean: 43420.86118289825
+
