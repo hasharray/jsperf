@@ -1,0 +1,15 @@
+name: Chrome
+version: 57.0.2987.133
+results:
+  -
+    name: a
+    mean: 2994366.819931332
+
+  -
+    name: b
+    mean: 3038159.6521423073
+
+  -
+    name: c
+    mean: 3055650.847698592
+
