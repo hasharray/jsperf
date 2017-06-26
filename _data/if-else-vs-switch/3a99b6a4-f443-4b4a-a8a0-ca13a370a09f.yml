@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: if else
+    mean: 9529.159407293555
+
+  -
+    name: switch
+    mean: 9658.991301306316
+
