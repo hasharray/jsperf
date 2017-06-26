@@ -1,0 +1,11 @@
+name: Opera
+version: 45.0.2552.898
+results:
+  -
+    name: if else
+    mean: 9617.165727096479
+
+  -
+    name: switch
+    mean: 9807.398730422075
+
