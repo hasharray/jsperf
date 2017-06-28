@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: Create a plain Object
+    mean: 3315452.6195649058
+
+  -
+    name: Create an Area instance
+    mean: 3071256.409763241
+
