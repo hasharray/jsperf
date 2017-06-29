@@ -1,0 +1,15 @@
+name: Firefox
+version: 54.0
+results:
+  -
+    name: for
+    mean: 3395687.492362369
+
+  -
+    name: forEach
+    mean: 1392992.7848530281
+
+  -
+    name: for-of
+    mean: 2240178.1055712085
+
