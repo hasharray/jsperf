@@ -1,0 +1,11 @@
+name: Opera
+version: 46.0.2597.26
+results:
+  -
+    name: Array#from
+    mean: 464.14695779113777
+
+  -
+    name: Spread array
+    mean: 1191.8030331108832
+
