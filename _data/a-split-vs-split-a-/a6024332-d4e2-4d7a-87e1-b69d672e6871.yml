@@ -1,0 +1,11 @@
+name: Firefox
+version: 54.0
+results:
+  -
+    name: a.split()
+    mean: 3530191.1718510482
+
+  -
+    name: Split(a)
+    mean: 1784197.8729621186
+
