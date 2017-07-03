@@ -1,0 +1,15 @@
+name: Chrome
+version: 59.0.3071.115
+results:
+  -
+    name: console.log
+    mean: 9218.664526355435
+
+  -
+    name: console.error
+    mean: 7921.746346341935
+
+  -
+    name: console.warn
+    mean: 8113.325588537737
+
