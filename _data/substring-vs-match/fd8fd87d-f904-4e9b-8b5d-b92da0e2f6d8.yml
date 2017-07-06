@@ -1,0 +1,11 @@
+name: Firefox
+version: 54.0
+results:
+  -
+    name: substring
+    mean: 1698145.0410865324
+
+  -
+    name: match
+    mean: 434608.0466459909
+
