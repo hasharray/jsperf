@@ -1,0 +1,11 @@
+name: Firefox
+version: 54.0
+results:
+  -
+    name: Arrow function
+    mean: 1969.157027008044
+
+  -
+    name: Anonymous function with bind
+    mean: 1094.6951161316663
+
