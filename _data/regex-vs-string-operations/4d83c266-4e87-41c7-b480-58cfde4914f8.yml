@@ -1,0 +1,11 @@
+name: Firefox
+version: 54.0
+results:
+  -
+    name: regex
+    mean: 4578.353591552949
+
+  -
+    name: string operations
+    mean: 1601.5902051222358
+
