@@ -1,0 +1,11 @@
+name: Firefox
+version: 54.0
+results:
+  -
+    name: replace
+    mean: 434285.3753531231
+
+  -
+    name: split join
+    mean: 1757562.6990528423
+
