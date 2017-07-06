@@ -1,0 +1,11 @@
+name: Firefox
+version: 54.0
+results:
+  -
+    name: Array#map
+    mean: 120.87239149069954
+
+  -
+    name: Array#forEach
+    mean: 495.5367345844274
+
