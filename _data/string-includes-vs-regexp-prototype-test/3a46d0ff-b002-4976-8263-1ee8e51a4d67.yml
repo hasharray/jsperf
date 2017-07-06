@@ -1,0 +1,11 @@
+name: Firefox
+version: 54.0
+results:
+  -
+    name: String includes
+    mean: 5163501.153994774
+
+  -
+    name: RegExp.prototype.test
+    mean: 379835.34649009333
+
