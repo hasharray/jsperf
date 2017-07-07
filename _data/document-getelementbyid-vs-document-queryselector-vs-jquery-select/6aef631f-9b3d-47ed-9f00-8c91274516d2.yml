@@ -1,0 +1,15 @@
+name: Chrome Mobile
+version: 59.0.3071.125
+results:
+  -
+    name: document.getelementbyid
+    mean: 116906.09402254903
+
+  -
+    name: document.querySelector
+    mean: 70785.21883885039
+
+  -
+    name: jquery select
+    mean: 10635.742838992697
+
