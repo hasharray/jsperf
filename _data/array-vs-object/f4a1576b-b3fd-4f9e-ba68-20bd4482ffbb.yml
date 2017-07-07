@@ -1,0 +1,11 @@
+name: Chrome
+version: 56.0.2924.87
+results:
+  -
+    name: Array
+    mean: 1637.7288569748291
+
+  -
+    name: Object
+    mean: 1516.7170127136574
+
