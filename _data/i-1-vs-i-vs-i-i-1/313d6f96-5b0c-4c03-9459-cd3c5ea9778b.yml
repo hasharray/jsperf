@@ -1,0 +1,15 @@
+name: Firefox
+version: 54.0
+results:
+  -
+    name: i += 1
+    mean: 5228412.862330867
+
+  -
+    name: i ++
+    mean: 5087810.409774853
+
+  -
+    name: i = i + 1
+    mean: 7594932.675664891
+
