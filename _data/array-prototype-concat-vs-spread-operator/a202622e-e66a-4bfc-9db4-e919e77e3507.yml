@@ -1,0 +1,11 @@
+name: Firefox
+version: 54.0
+results:
+  -
+    name: Array.prototype.concat
+    mean: 37.29921462903386
+
+  -
+    name: spread operator
+    mean: 8.453997505236856
+
