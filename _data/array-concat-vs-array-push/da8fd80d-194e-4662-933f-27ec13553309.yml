@@ -1,0 +1,11 @@
+name: Firefox
+version: 54.0
+results:
+  -
+    name: Array#concat
+    mean: 35869.168145958974
+
+  -
+    name: Array#push
+    mean: 31694.263889679132
+
