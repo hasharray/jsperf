@@ -1,0 +1,15 @@
+name: Chrome
+version: 59.0.3071.115
+results:
+  -
+    name: Includes
+    mean: 1362696.8617070655
+
+  -
+    name: IndexOf
+    mean: 1221510.285367617
+
+  -
+    name: typeof
+    mean: 1056749.7483285055
+
