@@ -1,0 +1,11 @@
+name: Safari
+version: 10.1.1
+results:
+  -
+    name: Array#from
+    mean: 1777.7978823828475
+
+  -
+    name: Spread array
+    mean: 1494.2528421707275
+
