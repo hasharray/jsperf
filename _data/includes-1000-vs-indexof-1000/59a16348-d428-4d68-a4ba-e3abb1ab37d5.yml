@@ -1,0 +1,11 @@
+name: Chrome
+version: 59.0.3071.115
+results:
+  -
+    name: includes 1000
+    mean: 6541.025598036534
+
+  -
+    name: IndexOf 1000
+    mean: 6386.941482692216
+
