@@ -1,0 +1,11 @@
+name: Chrome
+version: 59.0.3071.115
+results:
+  -
+    name: 1
+    mean: 1821142.9478694692
+
+  -
+    name: 2
+    mean: 1940561.2251547147
+
