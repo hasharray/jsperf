@@ -1,0 +1,11 @@
+name: Chrome
+version: 58.0.3029.110
+results:
+  -
+    name: String.prototype.match
+    mean: 1462597.2112782488
+
+  -
+    name: String.prototype.indexOf
+    mean: 2665309.927233538
+
