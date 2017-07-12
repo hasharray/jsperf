@@ -1,0 +1,15 @@
+name: Chrome Mobile
+version: 59.0.3071.125
+results:
+  -
+    name: ES6 Arrow function
+    mean: 4078.4328456287662
+
+  -
+    name: Anonymous function with bind
+    mean: 2919.758908383764
+
+  -
+    name: Anonymous with saved context
+    mean: 4412.003371607146
+
