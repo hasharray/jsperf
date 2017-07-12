@@ -1,0 +1,15 @@
+name: Chrome
+version: 59.0.3071.115
+results:
+  -
+    name: ES6 Arrow function
+    mean: 34148.94839636427
+
+  -
+    name: Anonymous function with bind
+    mean: 22963.82866691547
+
+  -
+    name: Anonymous with saved context
+    mean: 34760.83402401084
+
