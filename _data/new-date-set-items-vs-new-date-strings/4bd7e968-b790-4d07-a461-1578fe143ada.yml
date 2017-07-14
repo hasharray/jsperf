@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 59.0.3071.125
+results:
+  -
+    name: new Date() set items
+    mean: 35438.47901033499
+
+  -
+    name: new Date() strings
+    mean: 69207.55801589027
+
