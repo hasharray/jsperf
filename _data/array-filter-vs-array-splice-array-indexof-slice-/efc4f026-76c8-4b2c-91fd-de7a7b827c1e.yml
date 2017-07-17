@@ -1,0 +1,11 @@
+name: Firefox
+version: 53.0
+results:
+  -
+    name: Array#filter()
+    mean: 1380239.5985299253
+
+  -
+    name: Array#splice(Array#indexOf())#slice()
+    mean: 1264729.8305770708
+
