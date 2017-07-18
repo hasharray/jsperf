@@ -1,0 +1,11 @@
+name: Chrome
+version: 59.0.3071.115
+results:
+  -
+    name: obj destructuring
+    mean: 1403068.414465817
+
+  -
+    name: variable assignment
+    mean: 1310277.1759765192
+
