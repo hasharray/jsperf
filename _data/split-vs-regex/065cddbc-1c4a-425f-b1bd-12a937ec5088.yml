@@ -1,0 +1,11 @@
+name: Safari
+version: 10.0
+results:
+  -
+    name: split
+    mean: 155443.37009469164
+
+  -
+    name: regex
+    mean: 352484.6104785674
+
