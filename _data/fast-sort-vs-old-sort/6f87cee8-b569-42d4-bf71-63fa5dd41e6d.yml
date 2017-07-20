@@ -1,0 +1,11 @@
+name: Chrome
+version: 59.0.3071.115
+results:
+  -
+    name: Fast Sort
+    mean: 2972891.455874699
+
+  -
+    name: Old Sort
+    mean: 3237180.6795095163
+
