@@ -1,0 +1,11 @@
+name: Chrome
+version: 59.0.3071.115
+results:
+  -
+    name: Greater Than
+    mean: 3260561.6699986123
+
+  -
+    name: Not Equal
+    mean: 3271402.8270705356
+
