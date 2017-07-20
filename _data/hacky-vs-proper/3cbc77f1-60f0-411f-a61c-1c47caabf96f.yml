@@ -1,0 +1,11 @@
+name: Chrome
+version: 59.0.3071.115
+results:
+  -
+    name: hacky
+    mean: 3124090.3357511885
+
+  -
+    name: proper
+    mean: 3200871.182721198
+
