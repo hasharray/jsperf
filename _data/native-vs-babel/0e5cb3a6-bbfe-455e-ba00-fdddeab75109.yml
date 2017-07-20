@@ -1,0 +1,11 @@
+name: Chrome
+version: 59.0.3071.115
+results:
+  -
+    name: Native
+    mean: 81980.09575599965
+
+  -
+    name: Babel
+    mean: 449.3469063875732
+
