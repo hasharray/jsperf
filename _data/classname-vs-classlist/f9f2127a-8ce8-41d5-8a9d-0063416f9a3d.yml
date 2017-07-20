@@ -1,0 +1,11 @@
+name: Chrome
+version: 59.0.3071.115
+results:
+  -
+    name: className
+    mean: 395521.86804044875
+
+  -
+    name: classList
+    mean: 320423.1129734682
+
