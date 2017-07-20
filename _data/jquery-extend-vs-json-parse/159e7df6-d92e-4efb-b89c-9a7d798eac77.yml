@@ -1,0 +1,11 @@
+name: Chrome
+version: 59.0.3071.115
+results:
+  -
+    name: jQuery extend
+    mean: 1927570.9025381934
+
+  -
+    name: JSON parse
+    mean: 796201.2615129765
+
