@@ -1,0 +1,11 @@
+name: Firefox
+version: 54.0
+results:
+  -
+    name: string concatenation
+    mean: 1924027.6383926028
+
+  -
+    name: string array join
+    mean: 752009.0472648448
+
