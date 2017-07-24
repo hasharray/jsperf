@@ -1,0 +1,11 @@
+name: Chrome
+version: 59.0.3071.115
+results:
+  -
+    name: toString.call
+    mean: 963481.7481505604
+
+  -
+    name: typeof / instanceof
+    mean: 864675.3846739931
+
