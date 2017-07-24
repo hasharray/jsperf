@@ -1,0 +1,11 @@
+name: Chrome
+version: 59.0.3071.115
+results:
+  -
+    name: for loop with with array length cached
+    mean: 927512.8384702583
+
+  -
+    name: for loop that reads array length every time
+    mean: 434123.0810343256
+
