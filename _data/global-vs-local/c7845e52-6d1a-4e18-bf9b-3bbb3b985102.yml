@@ -1,0 +1,11 @@
+name: Chrome
+version: 59.0.3071.115
+results:
+  -
+    name: Global
+    mean: 8041.6898986889255
+
+  -
+    name: Local
+    mean: 1720.407087901416
+
