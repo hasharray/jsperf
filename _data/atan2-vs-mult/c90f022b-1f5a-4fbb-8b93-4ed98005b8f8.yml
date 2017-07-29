@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 59.0.3071.125
+results:
+  -
+    name: atan2
+    mean: 5461.872995381211
+
+  -
+    name: mult
+    mean: 39422.07969783945
+
