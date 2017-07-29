@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 59.0.3071.125
+results:
+  -
+    name: Hax Map
+    mean: 15542.184406587565
+
+  -
+    name: toString 16
+    mean: 1991.076731002621
+
