@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 59.0.3071.125
+results:
+  -
+    name: atan2
+    mean: 39287.409369985566
+
+  -
+    name: arithmetic
+    mean: 109943.66524967652
+
