@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 59.0.3071.125
+results:
+  -
+    name: eval
+    mean: 81315.61550907759
+
+  -
+    name: JSON.parse
+    mean: 92978.14761582922
+
