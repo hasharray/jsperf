@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 59.0.3071.125
+results:
+  -
+    name: implicit zero
+    mean: 180356.52947674255
+
+  -
+    name: explicit zero
+    mean: 152572.48841609585
+
