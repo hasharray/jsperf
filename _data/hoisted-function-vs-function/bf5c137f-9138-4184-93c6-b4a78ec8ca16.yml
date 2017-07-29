@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 59.0.3071.125
+results:
+  -
+    name: hoisted function
+    mean: 182419.4765259359
+
+  -
+    name: function
+    mean: 157539.41359046253
+
