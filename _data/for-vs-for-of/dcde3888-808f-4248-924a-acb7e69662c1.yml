@@ -1,0 +1,11 @@
+name: Chrome
+version: 61.0.3163.13
+results:
+  -
+    name: For
+    mean: 626.4105752213219
+
+  -
+    name: For-Of
+    mean: 183.9423988329549
+
