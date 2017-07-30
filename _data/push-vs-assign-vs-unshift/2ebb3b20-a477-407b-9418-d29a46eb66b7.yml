@@ -1,0 +1,15 @@
+name: Microsoft Edge
+version: 15.15063
+results:
+  -
+    name: Push
+    mean: 24839.86736053891
+
+  -
+    name: Assign
+    mean: 143299.45883017592
+
+  -
+    name: Unshift
+    mean: 241.8483648662133
+
