@@ -1,0 +1,23 @@
+name: Safari
+version: 10.1.2
+results:
+  -
+    name: Iterator
+    mean: 301.143759558525
+
+  -
+    name: forEach
+    mean: 558.5696183400502
+
+  -
+    name: for..of
+    mean: 328.59732591667927
+
+  -
+    name: spread
+    mean: 261.092257530135
+
+  -
+    name: Array.from
+    mean: 281.3456650967305
+
