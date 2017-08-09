@@ -1,0 +1,11 @@
+name: Chrome Mobile
+version: 59.0.3071.125
+results:
+  -
+    name: Function()
+    mean: 30574.75448663318
+
+  -
+    name: new Function()
+    mean: 26327.327004810224
+
