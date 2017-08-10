@@ -1,0 +1,15 @@
+name: Chrome
+version: 60.0.3112.78
+results:
+  -
+    name: a
+    mean: 390857.4613380235
+
+  -
+    name: b
+    mean: 364610.43814995955
+
+  -
+    name: c
+    mean: 350923.39441428415
+
