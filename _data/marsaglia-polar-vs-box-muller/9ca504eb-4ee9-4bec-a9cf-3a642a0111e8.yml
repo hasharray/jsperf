@@ -1,0 +1,11 @@
+name: Chrome
+version: 60.0.3112.90
+results:
+  -
+    name: marsaglia polar
+    mean: 30518.718943672942
+
+  -
+    name: box-muller
+    mean: 2200788.116558663
+
