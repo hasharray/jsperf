@@ -1,0 +1,27 @@
+name: Chrome
+version: 60.0.3112.90
+results:
+  -
+    name: OOP
+    mean: 2098116.074594891
+
+  -
+    name: OOP (protected)
+    mean: 2246892.335565832
+
+  -
+    name: functional (array)
+    mean: 2162399.321830314
+
+  -
+    name: functional (object)
+    mean: 2083205.5732013902
+
+  -
+    name: plain array
+    mean: 2135169.9091940746
+
+  -
+    name: plain object
+    mean: 2271400.2849763017
+
