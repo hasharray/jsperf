@@ -1,0 +1,11 @@
+name: Chrome
+version: 60.0.3112.90
+results:
+  -
+    name: Curry Function Call
+    mean: 50411.998606080866
+
+  -
+    name: Normal Function Call
+    mean: 51671.571714068865
+
