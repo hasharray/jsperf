@@ -1,0 +1,19 @@
+name: Chrome
+version: 60.0.3112.101
+results:
+  -
+    name: braces
+    mean: 731608.0208886671
+
+  -
+    name: charAt
+    mean: 475936.73604816897
+
+  -
+    name: charCodeAt
+    mean: 580322.6497455847
+
+  -
+    name: codePointAt
+    mean: 208864.01680298735
+
