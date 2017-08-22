@@ -1,0 +1,11 @@
+name: Chrome
+version: 60.0.3112.101
+results:
+  -
+    name: clear + addObject
+    mean: 1312408.9528376593
+
+  -
+    name: addObject
+    mean: 972.1579516473538
+
