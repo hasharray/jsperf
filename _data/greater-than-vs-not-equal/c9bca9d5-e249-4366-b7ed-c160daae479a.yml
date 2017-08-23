@@ -1,0 +1,11 @@
+name: Chrome
+version: 60.0.3112.90
+results:
+  -
+    name: Greater Than
+    mean: 3034081.6359375496
+
+  -
+    name: Not Equal
+    mean: 3056615.7177622323
+
