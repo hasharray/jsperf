@@ -1,0 +1,11 @@
+name: Chrome
+version: 60.0.3112.101
+results:
+  -
+    name: className
+    mean: 263265.3286630694
+
+  -
+    name: classList
+    mean: 233165.76534631487
+
