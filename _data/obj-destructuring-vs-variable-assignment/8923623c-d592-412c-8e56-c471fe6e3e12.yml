@@ -1,0 +1,11 @@
+name: Firefox
+version: 55.0
+results:
+  -
+    name: obj destructuring
+    mean: 17527422.35396583
+
+  -
+    name: variable assignment
+    mean: 16987320.23691756
+
