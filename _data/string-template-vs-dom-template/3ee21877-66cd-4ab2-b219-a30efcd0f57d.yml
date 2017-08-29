@@ -1,0 +1,11 @@
+name: Chrome
+version: 59.0.3071.115
+results:
+  -
+    name: String Template
+    mean: 1595885.7024381994
+
+  -
+    name: Dom Template
+    mean: 1910619.9295905896
+
