@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 15.15063
+results:
+  -
+    name: Find
+    mean: 310419.4407722458
+
+  -
+    name: For loop
+    mean: 34074.16889424085
+
