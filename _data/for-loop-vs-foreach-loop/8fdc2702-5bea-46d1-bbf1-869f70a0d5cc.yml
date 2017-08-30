@@ -1,0 +1,11 @@
+name: Chrome
+version: 60.0.3112.113
+results:
+  -
+    name: For loop
+    mean: 20114.673871521336
+
+  -
+    name: forEach Loop
+    mean: 15885.816601308878
+
