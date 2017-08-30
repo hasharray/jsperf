@@ -1,0 +1,23 @@
+name: Chrome
+version: 60.0.3112.113
+results:
+  -
+    name: for...of loop
+    mean: 438452.5196527567
+
+  -
+    name: for loop over ascending index
+    mean: 706871.4639827812
+
+  -
+    name: for loop over descending index
+    mean: 635987.593204802
+
+  -
+    name: Array#forEach iteration with function
+    mean: 67376.49214530752
+
+  -
+    name: Array#forEach iteration with arrow function
+    mean: 66964.77676933045
+
