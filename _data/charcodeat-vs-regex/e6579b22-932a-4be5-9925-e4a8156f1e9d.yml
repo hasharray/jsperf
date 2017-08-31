@@ -1,0 +1,11 @@
+name: Opera
+version: 48.0.2685.7β
+results:
+  -
+    name: charCodeAt
+    mean: 230672.59335169452
+
+  -
+    name: Regex
+    mean: 241536.0734732766
+
