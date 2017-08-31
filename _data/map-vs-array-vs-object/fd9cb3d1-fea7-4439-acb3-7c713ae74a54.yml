@@ -1,0 +1,15 @@
+name: Microsoft Edge
+version: 15.15063
+results:
+  -
+    name: Map
+    mean: 2380.0023415062574
+
+  -
+    name: Array
+    mean: 1344.850308903711
+
+  -
+    name: Object
+    mean: 2823.048303413614
+
