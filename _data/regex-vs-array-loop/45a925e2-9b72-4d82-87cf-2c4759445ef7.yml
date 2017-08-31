@@ -1,0 +1,11 @@
+name: Chrome
+version: 62.0.3197.0
+results:
+  -
+    name: REGEX
+    mean: 1648.3336924687835
+
+  -
+    name: ARRAY LOOP
+    mean: 22144.167786948216
+
