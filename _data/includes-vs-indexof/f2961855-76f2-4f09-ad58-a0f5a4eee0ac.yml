@@ -1,0 +1,11 @@
+name: Chrome
+version: 60.0.3112.113
+results:
+  -
+    name: includes
+    mean: 2741965.5006798226
+
+  -
+    name: indexOf
+    mean: 2827903.883129084
+
