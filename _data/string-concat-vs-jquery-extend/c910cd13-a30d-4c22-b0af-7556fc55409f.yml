@@ -1,0 +1,11 @@
+name: Chrome
+version: 60.0.3112.113
+results:
+  -
+    name: String.concat
+    mean: 815599.3746383027
+
+  -
+    name: jQuery $.extend
+    mean: 248169.80519948283
+
