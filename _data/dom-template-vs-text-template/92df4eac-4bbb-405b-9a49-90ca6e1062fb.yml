@@ -1,0 +1,11 @@
+name: Microsoft Edge
+version: 15.15063
+results:
+  -
+    name: DOM Template
+    mean: 3354.9425058389256
+
+  -
+    name: Text Template
+    mean: 3016.506106051146
+
