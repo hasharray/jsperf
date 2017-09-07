@@ -1,0 +1,11 @@
+name: Firefox
+version: 55.0
+results:
+  -
+    name: Array
+    mean: 20981.105408584728
+
+  -
+    name: Uint16Array
+    mean: 202007.71394404917
+
