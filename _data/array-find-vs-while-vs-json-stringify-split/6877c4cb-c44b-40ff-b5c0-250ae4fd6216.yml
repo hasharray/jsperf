@@ -1,0 +1,15 @@
+name: Chrome
+version: 60.0.3112.113
+results:
+  -
+    name: Array#find()
+    mean: 871386.3562380705
+
+  -
+    name: While
+    mean: 2604326.6116994037
+
+  -
+    name: json.stringify().split
+    mean: 9931.499835682665
+
