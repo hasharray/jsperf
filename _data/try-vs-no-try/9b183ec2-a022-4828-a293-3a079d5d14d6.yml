@@ -1,0 +1,11 @@
+name: Chrome
+version: 60.0.3112.113
+results:
+  -
+    name: Try
+    mean: 7.484840588453352
+
+  -
+    name: No try
+    mean: 7.540238201191787
+
