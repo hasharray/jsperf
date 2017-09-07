@@ -1,0 +1,11 @@
+name: Firefox
+version: 55.0
+results:
+  -
+    name: array dynamic length
+    mean: 85.87058385428263
+
+  -
+    name: array preallocated
+    mean: 76.64338810405098
+
