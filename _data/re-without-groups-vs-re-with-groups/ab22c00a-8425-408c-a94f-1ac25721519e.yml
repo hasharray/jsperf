@@ -1,0 +1,11 @@
+name: Chrome
+version: 60.0.3112.113
+results:
+  -
+    name: RE without groups
+    mean: 182405.78328977022
+
+  -
+    name: RE with groups
+    mean: 189224.92994974917
+
