@@ -1,0 +1,11 @@
+name: null
+version: null
+results:
+  -
+    name: String Template
+    mean: 22540787.643456925
+
+  -
+    name: Dom Template
+    mean: 22998984.983424492
+
