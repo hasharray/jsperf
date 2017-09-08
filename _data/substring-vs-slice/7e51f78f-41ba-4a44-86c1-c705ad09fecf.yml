@@ -1,0 +1,11 @@
+name: Chrome
+version: 60.0.3112.113
+results:
+  -
+    name: substring
+    mean: 1873199.1542879387
+
+  -
+    name: slice
+    mean: 1823758.182033107
+
