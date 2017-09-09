@@ -9,7 +9,7 @@ tests:
   -
     name: document.getelementbyid
     code: |
-      document.getElementById('#mido')
+      document.getElementById('mido')
   -
     name: document.querySelector
     code: |
@@ -17,6 +17,6 @@ tests:
   -
     name: jquery select
     code: |
-      $('mido');
+      $('#mido');
 ---
 getelementByid vs $('') vs document.queryselector
